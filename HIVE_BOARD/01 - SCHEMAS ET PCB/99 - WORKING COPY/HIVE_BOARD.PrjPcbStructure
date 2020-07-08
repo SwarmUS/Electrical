@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=HIVE_BOARD_TITLE.SchDoc
+Record=SheetSymbol|SourceDocument=HIVE_BOARD_TITLE.SchDoc|Designator=TOP|SchDesignator=TOP|FileName=HIVE_BOARD_TOP.SchDoc|SymbolType=Normal|RawFileName=HIVE_BOARD_TOP.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=HIVE_BOARD_TOP.SchDoc|Designator=MCU|SchDesignator=MCU|FileName=HIVE_BOARD_MCU.SchDoc|SymbolType=Normal|RawFileName=HIVE_BOARD_MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=HIVE_BOARD_TOP.SchDoc|Designator=POWER|SchDesignator=POWER|FileName=HIVE_BOARD_POWER.SchDoc|SymbolType=Normal|RawFileName=HIVE_BOARD_POWER.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
