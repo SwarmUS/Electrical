@@ -9,10 +9,16 @@ ProjectPath=..\SWARMUS_LIB\LIBRAIRE_A_VALIDER\a_Valider_HD.LibPkg
 [Project4]
 ProjectPath=..\SWARMUS_LIB\LIBRAIRE_A_VALIDER\a_Valider_LDG.LibPkg
 [Project5]
-ProjectPath=..\..\LOCAL\GRAMS_MASTER_LIB\GRAMS_MASTER_LIB.LibPkg
+ProjectPath=..\SWARMUS_LIB\SWARMUS_LIB.LibPkg
 [Project6]
-ProjectPath=..\NUCLEO_144_TEMPLATE\ALTIUM\NUCLEO_144.PrjPCB
+ProjectPath=..\..\LOCAL\GRAMS_MASTER_LIB\GRAMS_MASTER_LIB.LibPkg
 [Project7]
-ProjectPath=..\ARDUINO_UNO_TEMPLATE\ArduinoUnoSheild.PrjPcb
+ProjectPath=..\..\..\TEMP_FILES\VALID_LIB\VALID_NOW_LD.LibPkg
 [Project8]
+ProjectPath=..\NUCLEO_144_TEMPLATE\ALTIUM\NUCLEO_144.PrjPCB
+[Project9]
+ProjectPath=..\ARDUINO_UNO_TEMPLATE\ArduinoUnoSheild.PrjPcb
+[Project10]
 ProjectPath=..\HIVE_SIGHT\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_SIGHT.PrjPcb
+[Project11]
+ProjectPath=..\..\..\GRAMS\GRAMS-PCB\LabPETII\Scanner Commercial\Scanner Cerveau\10 - UHR_GB\01 - SCHEMAS ET PCB\99 - WORKING COPY\UHR_GB.PrjPcb
