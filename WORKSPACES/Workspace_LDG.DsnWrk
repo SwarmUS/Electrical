@@ -22,3 +22,5 @@ ProjectPath=..\ARDUINO_UNO_TEMPLATE\ArduinoUnoSheild.PrjPcb
 ProjectPath=..\HIVE_SIGHT\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_SIGHT.PrjPcb
 [Project11]
 ProjectPath=..\..\..\GRAMS\GRAMS-PCB\LabPETII\Scanner Commercial\Scanner Cerveau\10 - UHR_GB\01 - SCHEMAS ET PCB\99 - WORKING COPY\UHR_GB.PrjPcb
+[Project12]
+ProjectPath=..\..\..\GRAMS\GRAMS-PCB\LabPETII\Scanner Commercial\Scanner Cerveau\05 - UHR DISTRIBUTION UNIT BOARD\01 - SCHEMAS ET PCB\99 - WORKING COPY\UHR_DUB.PrjPcb
