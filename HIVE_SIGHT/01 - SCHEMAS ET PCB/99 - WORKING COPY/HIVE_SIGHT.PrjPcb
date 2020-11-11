@@ -78,11 +78,11 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -95,11 +95,11 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -112,7 +112,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -129,7 +129,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -146,7 +146,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -163,11 +163,11 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -180,11 +180,11 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -197,11 +197,11 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -214,7 +214,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=8
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -222,55 +222,55 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=FAPMBNMV
+DocumentUniqueId=BICJWYDB
 
 [Parameter1]
-Name=Project_Date
-Value=2020-07-13
+Name=Project_Stencil_Top_Thickness
+Value=0.1 MM
 
 [Parameter2]
-Name=Project_DateCode
-Value=
-
-[Parameter3]
-Name=Project_Designer1
-Value=Philippe Arsenault
-
-[Parameter4]
-Name=Project_Designer2
-Value=Hubert Dube
-
-[Parameter5]
-Name=Project_Designer3
-Value=Louis-Daniel Gaulin
-
-[Parameter6]
-Name=Project_Designer4
-Value=
-
-[Parameter7]
-Name=Project_Global
-Value=PMC
-
-[Parameter8]
-Name=Project_Group
-Value=SwarmUS
-
-[Parameter9]
-Name=Project_Name
-Value=HiveSight
-
-[Parameter10]
-Name=Project_Revision
-Value=1.000
-
-[Parameter11]
 Name=Project_Stencil_Bot_Thickness
 Value=0.1 MM
 
+[Parameter3]
+Name=Project_Revision
+Value=1.000
+
+[Parameter4]
+Name=Project_Name
+Value=HiveSight
+
+[Parameter5]
+Name=Project_Group
+Value=SwarmUS
+
+[Parameter6]
+Name=Project_Global
+Value=PMC
+
+[Parameter7]
+Name=Project_Designer4
+Value=
+
+[Parameter8]
+Name=Project_Designer3
+Value=Louis-Daniel Gaulin
+
+[Parameter9]
+Name=Project_Designer2
+Value=Hubert Dube
+
+[Parameter10]
+Name=Project_Designer1
+Value=Philippe Arsenault
+
+[Parameter11]
+Name=Project_DateCode
+Value=
+
 [Parameter12]
-Name=Project_Stencil_Top_Thickness
-Value=0.1 MM
+Name=Project_Date
+Value=2020-07-13
 
 [Configuration1]
 Name=Sources
