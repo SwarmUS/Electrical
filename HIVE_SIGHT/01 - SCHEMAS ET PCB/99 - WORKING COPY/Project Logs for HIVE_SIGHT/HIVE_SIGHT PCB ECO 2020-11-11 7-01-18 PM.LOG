@@ -1,0 +1,104 @@
+Removed Pin From Net: NetName=VDDCLK_B Pin=C?-1
+Removed Pin From Net: NetName=VDDVCO_B Pin=C?-2
+Removed Pin From Net: NetName=GND Pin=J?-1
+Removed Pin From Net: NetName=JTAG_TMS Pin=J?-2
+Removed Pin From Net: NetName=GND Pin=J?-3
+Removed Pin From Net: NetName=JTAG_TDI Pin=J?-4
+Removed Pin From Net: NetName=JTAG_TCK Pin=J?-6
+Removed Pin From Net: NetName=GND Pin=J?-7
+Removed Pin From Net: NetName=JTAG_TDO Pin=J?-8
+Removed Pin From Net: NetName=3V3 Pin=R?-1
+Removed Pin From Net: NetName=SPI_CS0 Pin=U?-1
+Removed Pin From Net: NetName=SPI_Q Pin=U?-2
+Removed Pin From Net: NetName=SPI_WP Pin=U?-3
+Removed Pin From Net: NetName=GND Pin=U?-4
+Removed Pin From Net: NetName=SPI_D Pin=U?-5
+Removed Pin From Net: NetName=SPI_CLK Pin=U?-6
+Removed Pin From Net: NetName=SPI_HD Pin=U?-7
+Removed Pin From Net: NetName=3V3_SDIO Pin=U?-8
+Removed Member From Class: ClassName=DECAWAVE Member=C?
+Removed Member From Class: ClassName=DECAWAVE Member=R?
+Removed Member From Class: ClassName=WIRELESS Member=R?
+Removed Member From Class: ClassName=DECAWAVE Member=U?
+Removed Member From Class: ClassName=WIRELESS Member=U?
+Change Component Designator: OldDesignator=C? NewDesignator=C55
+Change Component Designator: OldDesignator=C? NewDesignator=C56
+Change Component Designator: OldDesignator=C? NewDesignator=C57
+Change Component Designator: OldDesignator=C? NewDesignator=C58
+Change Component Designator: OldDesignator=J? NewDesignator=J15
+Change Component Designator: OldDesignator=J? NewDesignator=J16
+Change Component Designator: OldDesignator=L? NewDesignator=L1
+Change Component Designator: OldDesignator=L? NewDesignator=L3
+Change Component Designator: OldDesignator=R? NewDesignator=R17
+Change Component Designator: OldDesignator=R? NewDesignator=R25
+Change Component Designator: OldDesignator=U? NewDesignator=U5
+Change Component Designator: OldDesignator=U? NewDesignator=U12
+Change Component Designator: OldDesignator=X? NewDesignator=X1
+Change Component Designator: OldDesignator=X? NewDesignator=X2
+Added Pin To Net: NetName=GND Pin=C58-1
+Added Pin To Net: NetName=LNA_IN Pin=C58-2
+Added Pin To Net: NetName=VSPI_CS0 Pin=J15-1
+Added Pin To Net: NetName=VSPI_Q Pin=J15-2
+Added Pin To Net: NetName=VSPI_D Pin=J15-3
+Added Pin To Net: NetName=VSPI_WP Pin=J15-4
+Added Pin To Net: NetName=GND Pin=J15-6
+Added Pin To Net: NetName=VSPI_CLK Pin=J15-7
+Added Pin To Net: NetName=VSPI_HD Pin=J15-8
+Added Pin To Net: NetName=NetC36_1 Pin=U5-3
+Added Pin To Net: NetName=NetR5A_2 Pin=U5-5
+Added Pin To Net: NetName=NetC6A_1 Pin=U5-6
+Added Pin To Net: NetName=NetC7A_1 Pin=U5-7
+Change Net Name : Old Net Name=NetU?_21 New Net Name=NetU5_21
+Change Net Name : Old Net Name=NetU?_23 New Net Name=NetU5_23
+Change Net Name : Old Net Name=NetU?_24 New Net Name=NetU5_24
+Change Net Name : Old Net Name=NetU?_30 New Net Name=NetU5_30
+Change Net Name : Old Net Name=NetU?_33 New Net Name=NetU5_33
+Change Net Name : Old Net Name=NetU?_34 New Net Name=NetU5_34
+Change Net Name : Old Net Name=NetU?_39 New Net Name=NetU5_39
+Change Net Name : Old Net Name=NetU?_40 New Net Name=NetU5_40
+Change Net Name : Old Net Name=NetU?_41 New Net Name=NetU5_41
+Change Net Name : Old Net Name=NetU?_45 New Net Name=NetU5_45
+Added Pin To Net: NetName=NetC12_2 Pin=C18A1-2
+Added Pin To Net: NetName=NetC12_2 Pin=U5-18
+Added Net: Name=NetC12_2
+Added Net: Name=NetC14_2
+Added Pin To Net: NetName=NetC19_1 Pin=U5-8
+Added Net: Name=NetC19_1
+Added Pin To Net: NetName=NetC24_1 Pin=R17-1
+Added Net: Name=NetC24_1
+Added Pin To Net: NetName=NetC28_2 Pin=U5-4
+Added Net: Name=NetC28_2
+Added Net: Name=NetC43_1
+Added Net: Name=NetC44_1
+Added Net: Name=NetC46_2
+Added Pin To Net: NetName=NetC47_1 Pin=U12-8
+Added Net: Name=NetC47_1
+Added Pin To Net: NetName=NetC49_1 Pin=R25-1
+Added Net: Name=NetC49_1
+Added Pin To Net: NetName=NetC50_2 Pin=U12-4
+Added Net: Name=NetC50_2
+Added Net: Name=NetC51_1
+Added Net: Name=NetC52_1
+Added Pin To Net: NetName=NetU12_21 Pin=U12-21
+Added Net: Name=NetU12_21
+Added Pin To Net: NetName=NetU12_23 Pin=U12-23
+Added Net: Name=NetU12_23
+Added Pin To Net: NetName=NetU12_24 Pin=U12-24
+Added Net: Name=NetU12_24
+Added Pin To Net: NetName=NetU12_30 Pin=U12-30
+Added Net: Name=NetU12_30
+Added Pin To Net: NetName=NetU12_33 Pin=U12-33
+Added Net: Name=NetU12_33
+Added Pin To Net: NetName=NetU12_34 Pin=U12-34
+Added Net: Name=NetU12_34
+Added Pin To Net: NetName=NetU12_45 Pin=U12-45
+Added Net: Name=NetU12_45
+Added Member To Class: ClassName=WIRELESS Member=Component C56 CC0402DRNPO9BN8R0
+Added Member To Class: ClassName=WIRELESS Member=Component C57 CC0402CRNPO9BN1R8
+Added Member To Class: ClassName=WIRELESS Member=Component C58 CC0402BRNPO9BN2R4
+Added Member To Class: ClassName=WIRELESS Member=Component J16 M20-7810445
+Added Member To Class: ClassName=WIRELESS Member=Component L3 LQG15WZ2N8S02D
+Added Member To Class: ClassName=DECAWAVE Member=Component R25 RC0402FR-07270RL
+Added Member To Class: ClassName=DECAWAVE Member=Component U12 DW1000-I-TR13
+Added Member To Class: ClassName=WIRELESS Member=Component X1 CM7V-T1A-32KHZ
+Change Room Name: Old Name=DECAWAVE_1 New Name=DECAWAVE

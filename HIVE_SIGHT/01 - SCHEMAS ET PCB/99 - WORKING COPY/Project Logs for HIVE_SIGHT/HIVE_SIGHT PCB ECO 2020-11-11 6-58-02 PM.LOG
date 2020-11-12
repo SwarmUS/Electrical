@@ -1,0 +1,477 @@
+Removed Pin From Net: NetName=5V_OV_G2 Pin=Q1-1
+Removed Pin From Net: NetName=5V_PROT Pin=Q1-3
+Removed Pin From Net: NetName=5V_POL_G Pin=Q2-1
+Removed Pin From Net: NetName=5V_POL Pin=Q2-2
+Removed Pin From Net: NetName=5V_IN Pin=Q2-3
+Removed Pin From Net: NetName=5V_POL Pin=Q3-2
+Removed Pin From Net: NetName=5V_OV_G2 Pin=Q3-3
+Removed Pin From Net: NetName=NetC12A_1 Pin=R12A-2
+Removed Pin From Net: NetName=NetC12B_1 Pin=R12B-2
+Removed Pin From Net: NetName=5V_PROT Pin=U6-1
+Removed Pin From Net: NetName=3V3_INT Pin=U6-4
+Removed Pin From Net: NetName=GND Pin=U6-7
+Removed Pin From Net: NetName=3V3_INT Pin=U6-9
+Removed Pin From Net: NetName=1V8 Pin=U7-3
+Removed Pin From Net: NetName=3V3 Pin=U7-4
+Removed Pin From Net: NetName=1V8 Pin=U7-8
+Removed Pin From Net: NetName=GND Pin=U7-9
+Removed Member From Class: ClassName=DECAWAVE Member=R12B
+Change Component Comment : Designator=TP10 Old Comment=5020 New Comment=5011
+Change Component Comment : Designator=TP11 Old Comment=5020 New Comment=5011
+Change Component Comment : Designator=TP12 Old Comment=5020 New Comment=5011
+Change Component Comment : Designator=TP13 Old Comment=5020 New Comment=5011
+Change Component Comment : Designator=TP14 Old Comment=5020 New Comment=5011
+Change Component Comment : Designator=TP15 Old Comment=5020 New Comment=5011
+Change Component Comment : Designator=U7 Old Comment=MYRGP180100W21RA New Comment=XCL214B333DR
+Change Component Comment : Designator=U6 Old Comment=XCL214B333DR New Comment=MYRGP180100W21RA
+Change component parameters: Designator = "D3" ("D3"); Footprint = "DIO_ZENER_BZX84-B3V6,215"; UniqueID = "\EZGOIPCZ\HSHMRXAS\IFIFSULM" ("\EZGOIPCZ\HSHMRXAS\IFIFSULM")
+Change component parameters (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Assembly Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreatedBy/Date"; Value = "Louis-Daniel Gaulin / 30-07-2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cryo"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "70mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Magnetic Material"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #1"; Value = "Nexperia USA Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #2"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SOT-23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #1"; Value = "BZX84-B3V6,215"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #2"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarized"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Max"; Value = "250mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1727-6252-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = "-65°C ~ 150°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "2%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "3.6V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VerifiedBy"; Value = "Philippe Arsenault/2020-11-06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "3.6V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D4" ("D4"); Footprint = "DIO_ZENER_BZX84-B3V6,215"; UniqueID = "\EZGOIPCZ\HSHMRXAS\TZDLIJOJ" ("\EZGOIPCZ\HSHMRXAS\TZDLIJOJ")
+Change component parameters (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Assembly Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreatedBy/Date"; Value = "Louis-Daniel Gaulin / 30-07-2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cryo"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "70mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Magnetic Material"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #1"; Value = "Nexperia USA Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #2"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SOT-23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #1"; Value = "BZX84-B3V6,215"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #2"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarized"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Max"; Value = "250mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1727-6252-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = "-65°C ~ 150°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "2%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "3.6V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VerifiedBy"; Value = "Philippe Arsenault/2020-11-06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "3.6V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q1" ("Q1"); Footprint = "TRX_PMOS_SI2369DS-T1-GE3"; UniqueID = "\EZGOIPCZ\HSHMRXAS\OGXCCMWZ" ("\EZGOIPCZ\HSHMRXAS\OGXCCMWZ")
+Change component parameters (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Assembly Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreatedBy/Date"; Value = "Louis-Daniel Gaulin / 30-07-2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cryo"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "7.6A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.vishay.com/docs/62865/si2369d.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Magnetic Material"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #1"; Value = "Vishay Siliconix"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SOT-23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #1"; Value = "SI2369DS-T1-GE3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarized"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Max"; Value = "1.25W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "SI2369DS-T1-GE3CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = "-55°C ~ 150°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VerifiedBy"; Value = "Philippe Arsenault/2020-11-06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "30V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q2" ("Q2"); Footprint = "TRX_PMOS_SI2369DS-T1-GE3"; UniqueID = "\EZGOIPCZ\HSHMRXAS\NDRKZPFF" ("\EZGOIPCZ\HSHMRXAS\NDRKZPFF")
+Change component parameters (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Assembly Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreatedBy/Date"; Value = "Louis-Daniel Gaulin / 30-07-2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cryo"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "7.6A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.vishay.com/docs/62865/si2369d.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Magnetic Material"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #1"; Value = "Vishay Siliconix"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SOT-23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #1"; Value = "SI2369DS-T1-GE3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarized"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Max"; Value = "1.25W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "SI2369DS-T1-GE3CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = "-55°C ~ 150°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VerifiedBy"; Value = "Philippe Arsenault/2020-11-06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "30V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q3" ("Q3"); Footprint = "TRX_PMOS_SI2369DS-T1-GE3"; UniqueID = "\EZGOIPCZ\HSHMRXAS\MALJXTAR" ("\EZGOIPCZ\HSHMRXAS\MALJXTAR")
+Change component parameters (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Assembly Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreatedBy/Date"; Value = "Louis-Daniel Gaulin / 30-07-2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cryo"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "7.6A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.vishay.com/docs/62865/si2369d.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Magnetic Material"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #1"; Value = "Vishay Siliconix"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SOT-23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #1"; Value = "SI2369DS-T1-GE3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarized"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Max"; Value = "1.25W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "SI2369DS-T1-GE3CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = "-55°C ~ 150°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VerifiedBy"; Value = "Philippe Arsenault/2020-11-06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "30V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U4" ("U4"); Footprint = "SEN_IMU_LSM6DSMTR"; UniqueID = "\EZGOIPCZ\VTFVWKXO\VZVHETSD" ("\EZGOIPCZ\VTFVWKXO\VZVHETSD")
+Change component parameters (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Assembly Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreatedBy/Date"; Value = "Louis-Daniel Gaulin / 06-10-2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "0.65mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7c"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.st.com/content/ccc/resource/technical/document/datasheet/76/27/cf/88/c5/03/42/6b/DM00218116.pdf/files/DM00218116.pdf/jcr:content/translations/en.DM00218116.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Magnetic Material"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #1"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #2"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "14-VFLGA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #1"; Value = "LSM6DSMTR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #2"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarized"; Value = "YES"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Max"; Value = "3mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "497-16696-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = "-40°C ~ 85°C (TA)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VerifiedBy"; Value = "Philippe Arsenault/2020-11-06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "1.71V ~ 3.6V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1" ("U1"); Footprint = "COM_BUF_LMK1C1102PWR"; UniqueID = "\EZGOIPCZ\VTFVWKXO\LTNSVJDV" ("\EZGOIPCZ\VTFVWKXO\LTNSVJDV")
+Change component parameters (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Assembly Type"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreatedBy/Date"; Value = "Philippe Arsenault/20-07-2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cryo"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "Input +-20mA ; Output +- 50mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.ti.com/lit/ds/symlink/lmk1c1102.pdf?ts=1595262014854&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMK1C1102%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-wwe%2526utm_content%253DLMK1C1102%2526ds_k%253DLMK1C1102%2526DCM%253Dyes%2526gclid%253DCjwKCAjwgdX4BRB_EiwAg8O8HUIvo-ksMfq8YInqTklLXWuMoCGXxsnhq04Fqr4kdDFQPSc0fYG9iRoCPvAQAvD_BwE%2526gclsrc%253Daw.ds"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Magnetic Material"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #1"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "TSSOP 8 pin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #1"; Value = "LMK1C1102PWR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarized"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Max"; Value = "132mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = "–40°C to 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VerifiedBy"; Value = "Louis-Daniel Gaulin / 23-07-2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "1.71V ~ 1.89V, 2.375V ~ 2.625V, 3.135V ~ 3.465V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP10" ("TP10"); Footprint = "TPO_5020"; UniqueID = "\EZGOIPCZ\VTFVWKXO\ACCBPKKT" ("\EZGOIPCZ\VTFVWKXO\ACCBPKKT")
+Change component parameters (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Assembly Type"; Value = "TH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreatedBy/Date"; Value = "Louis-Daniel Gauli / 02-11-2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cryo"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Magnetic Material"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #1"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #1"; Value = "5011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarized"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VerifiedBy"; Value = "Philippe Arsenault/2020-11-06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP11" ("TP11"); Footprint = "TPO_5020"; UniqueID = "\EZGOIPCZ\VTFVWKXO\JAALGPYX" ("\EZGOIPCZ\VTFVWKXO\JAALGPYX")
+Change component parameters (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Assembly Type"; Value = "TH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreatedBy/Date"; Value = "Louis-Daniel Gauli / 02-11-2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cryo"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Magnetic Material"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #1"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #1"; Value = "5011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarized"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VerifiedBy"; Value = "Philippe Arsenault/2020-11-06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP12" ("TP12"); Footprint = "TPO_5020"; UniqueID = "\EZGOIPCZ\QDPYSLRL" ("\EZGOIPCZ\QDPYSLRL")
+Change component parameters (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Assembly Type"; Value = "TH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreatedBy/Date"; Value = "Louis-Daniel Gauli / 02-11-2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cryo"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Magnetic Material"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #1"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #1"; Value = "5011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarized"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VerifiedBy"; Value = "Philippe Arsenault/2020-11-06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP13" ("TP13"); Footprint = "TPO_5020"; UniqueID = "\EZGOIPCZ\UTVCIVNL" ("\EZGOIPCZ\UTVCIVNL")
+Change component parameters (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Assembly Type"; Value = "TH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreatedBy/Date"; Value = "Louis-Daniel Gauli / 02-11-2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cryo"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Magnetic Material"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #1"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #1"; Value = "5011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarized"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VerifiedBy"; Value = "Philippe Arsenault/2020-11-06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP14" ("TP14"); Footprint = "TPO_5020"; UniqueID = "\EZGOIPCZ\ORBWHWYP" ("\EZGOIPCZ\ORBWHWYP")
+Change component parameters (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Assembly Type"; Value = "TH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreatedBy/Date"; Value = "Louis-Daniel Gauli / 02-11-2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cryo"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Magnetic Material"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #1"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #1"; Value = "5011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarized"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VerifiedBy"; Value = "Philippe Arsenault/2020-11-06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP15" ("TP15"); Footprint = "TPO_5020"; UniqueID = "\EZGOIPCZ\IALRAUOZ" ("\EZGOIPCZ\IALRAUOZ")
+Change component parameters (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Assembly Type"; Value = "TH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreatedBy/Date"; Value = "Louis-Daniel Gauli / 02-11-2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cryo"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.keyelco.com/userAssets/file/M65p56.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Magnetic Material"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #1"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #1"; Value = "5011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarized"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VerifiedBy"; Value = "Philippe Arsenault/2020-11-06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "U6" ("U6"); Footprint = "REG_SWR_XCL214B333DR"; UniqueID = "\EZGOIPCZ\HSHMRXAS\AGUOHZUU" ("\EZGOIPCZ\HSHMRXAS\AGUOHZUU")
+Change component parameters (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Assembly Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreatedBy/Date"; Value = "Louis-Daniel Gaulin / 21-07-2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cryo"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.murata.com/products/productdata/8807036026910/MYRGP-b-w.pdf?1583754814000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Magnetic Material"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #1"; Value = "Murata Power Solutions Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "8-PowerTDFN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #1"; Value = "MYRGP180100W21RA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarized"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "811-MYRGP180100W21RACT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = "-40°C~105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1.8V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VerifiedBy"; Value = "Philippe Arsenault/2020-11-06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "2.5V to 5.5V IN"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U7" ("U7"); Footprint = "REG_SWR_MYRGP180100W21RA"; UniqueID = "\EZGOIPCZ\HSHMRXAS\CFIHBPDV" ("\EZGOIPCZ\HSHMRXAS\CFIHBPDV")
+Change component parameters (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Assembly Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreatedBy/Date"; Value = "Louis-Daniel Gaulin / 21-07-2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cryo"; Value = "UNKNOWN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "1.5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.torexsemi.com/file/xcl213/XCL213-XCL214.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Magnetic Material"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #1"; Value = "Torex Semiconductor Ltd"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "9-PowerTFQFN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #1"; Value = "XCL214B333DR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarized"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "893-1218-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = "-40°C ~ 105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "3.3V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VerifiedBy"; Value = "Philippe Arsenault/2020-11-06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "2.7V to 5.5V IN"; VariantName = "[No Variations]"
+Added Component: Designator=R?(FER_0402)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = "Philippe Arsenault 2020-07-24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8c"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = "RC0402FR-07270RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = "1/16W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-270LRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "270"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = "Louis-Daniel Gaulin / 03-10-2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(FER_0402)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = "Philippe Arsenault 2020-07-24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8c"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = "RC0402FR-07270RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = "1/16W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-270LRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "270"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = "Louis-Daniel Gaulin / 03-10-2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V_POL_G Pin=Q1-1
+Added Pin To Net: NetName=5V_IN Pin=Q1-3
+Added Pin To Net: NetName=5V_OV_G2 Pin=Q2-1
+Added Pin To Net: NetName=5V_PROT Pin=Q2-2
+Added Pin To Net: NetName=5V_POL Pin=Q2-3
+Added Pin To Net: NetName=5V_OV_G2 Pin=Q3-2
+Added Pin To Net: NetName=5V_POL Pin=Q3-3
+Added Pin To Net: NetName=3V3 Pin=R?-1
+Added Pin To Net: NetName=3V3_SDIO Pin=R?-2
+Added Pin To Net: NetName=NetC12A_1 Pin=R?-2
+Added Pin To Net: NetName=NetC12B_1 Pin=R?-2
+Added Pin To Net: NetName=GND Pin=U6-2
+Added Pin To Net: NetName=3V3_INT Pin=U6-3
+Added Pin To Net: NetName=5V_PROT Pin=U6-4
+Added Pin To Net: NetName=3V3_INT Pin=U6-8
+Added Pin To Net: NetName=3V3 Pin=U7-1
+Added Pin To Net: NetName=1V8 Pin=U7-4
+Added Pin To Net: NetName=GND Pin=U7-7
+Added Pin To Net: NetName=1V8 Pin=U7-9
+Added Net: Name=NetC?_1
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=NetR24_1 Pin=U1-2
+Added Net: Name=NetR24_1
+Added Net: Name=NetU2_2
+Added Net: Name=NetU3_3
+Added Net: Name=NetU3_4
+Added Net: Name=NetU3_6
+Added Pin To Net: NetName=NetU6_1 Pin=U6-1
+Added Pin To Net: NetName=NetU6_1 Pin=U6-7
+Added Net: Name=NetU6_1
+Added Pin To Net: NetName=NetU7_3 Pin=U7-3
+Added Pin To Net: NetName=NetU7_3 Pin=U7-8
+Added Net: Name=NetU7_3
+Added Net: Name=NetU?_21
+Added Net: Name=NetU?_23
+Added Net: Name=NetU?_24
+Added Net: Name=NetU?_30
+Added Net: Name=NetU?_33
+Added Net: Name=NetU?_34
+Added Net: Name=NetU?_39
+Added Net: Name=NetU?_40
+Added Net: Name=NetU?_41
+Added Net: Name=NetU?_45
+Added Member To Class: ClassName=DECAWAVE Member=Component R? RC0402FR-07270RL
+Added Member To Class: ClassName=WIRELESS Member=Component R? RC0402JR-076R2L
+Added Member To Class: ClassName=NUCLEO Member=Component U10 NUCLEO_F429ZI
+Added Room: Name=DECAWAVE
+Added Room: Name=DECAWAVE
+Added Room: Name=MISC
+Added Room: Name=NUCLEO
+Added Room: Name=POWER
+Added Room: Name=TOP
+Added Room: Name=USB
+Added Room: Name=WIRELESS
