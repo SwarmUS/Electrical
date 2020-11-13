@@ -1,0 +1,58 @@
+Removed Pin From Net: NetName=GND Pin=U9-2
+Removed Pin From Net: NetName=USB_D_N Pin=U9-3
+Removed Pin From Net: NetName=USB_D_P Pin=U9-4
+Removed Pin From Net: NetName=3V3 Pin=U9-5
+Removed Pin From Net: NetName=3V3 Pin=U9-6
+Removed Pin From Net: NetName=3V3 Pin=U9-7
+Removed Pin From Net: NetName=NetR20_1 Pin=U9-8
+Removed Pin From Net: NetName=NetR19_2 Pin=U9-9
+Removed Pin From Net: NetName=GND Pin=U9-11
+Removed Pin From Net: NetName=NetTP27_1 Pin=U9-12
+Removed Pin From Net: NetName=RXT_USB Pin=U9-13
+Removed Pin From Net: NetName=TXT_USB Pin=U9-14
+Removed Pin From Net: NetName=GND Pin=U9-18
+Removed Pin From Net: NetName=UART_USB_RX Pin=U9-20
+Removed Pin From Net: NetName=UART_USB_TX Pin=U9-21
+Removed Pin From Net: NetName=GND Pin=U9-25
+Removed Member From Class: ClassName=USB Member=U9
+Added Component: Designator=U?(COM_XCV_CP2102N-A02-GQFN24R)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = "Louis-Daniel Gaulin / 06-10-2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "9.5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.8c"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = "Silicon Labs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "24-QFN (4x4)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = "CP2102N-A02-GQFN24R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = "YES"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = "35mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "336-5888-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-40°C ~ 85°C (TA)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = "Philippe Arsenault/2020-11-06"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "3V ~ 3.6V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Pin To Net: NetName=USB_D_N Pin=U?-3
+Added Pin To Net: NetName=USB_D_P Pin=U?-4
+Added Pin To Net: NetName=3V3 Pin=U?-5
+Added Pin To Net: NetName=3V3 Pin=U?-6
+Added Pin To Net: NetName=3V3 Pin=U?-7
+Added Pin To Net: NetName=NetR20_1 Pin=U?-8
+Added Pin To Net: NetName=NetR19_2 Pin=U?-9
+Added Pin To Net: NetName=GND Pin=U?-11
+Added Pin To Net: NetName=NetTP27_1 Pin=U?-12
+Added Pin To Net: NetName=RXT_USB Pin=U?-13
+Added Pin To Net: NetName=TXT_USB Pin=U?-14
+Added Pin To Net: NetName=GND Pin=U?-18
+Added Pin To Net: NetName=UART_USB_RX Pin=U?-20
+Added Pin To Net: NetName=UART_USB_TX Pin=U?-21
+Added Pin To Net: NetName=GND Pin=U?-25
+Added Member To Class: ClassName=USB Member=Component U? CP2102N-A02-GQFN24R
+Change Room Name: Old Name=DECAWAVE_1 New Name=DECAWAVE
