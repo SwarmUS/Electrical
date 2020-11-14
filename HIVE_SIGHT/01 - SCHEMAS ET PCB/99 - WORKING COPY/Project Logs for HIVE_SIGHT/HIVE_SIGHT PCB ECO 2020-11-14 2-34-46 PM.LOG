@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=UART_USB_RX Pin=TP17-1
+Removed Pin From Net: NetName=UART_USB_TX Pin=TP19-1
+Removed Pin From Net: NetName=NetR16_2 Pin=TP21-1
+Removed Pin From Net: NetName=UART_USB_RX Pin=U11-2
+Removed Pin From Net: NetName=NetR16_2 Pin=U11-4
+Removed Pin From Net: NetName=UART_USB_TX Pin=U11-8
+Added Pin To Net: NetName=UART_USB_TX Pin=TP17-1
+Added Pin To Net: NetName=UART_USB_RX Pin=TP19-1
+Added Pin To Net: NetName=NetR16_2 Pin=TP22-1
+Added Pin To Net: NetName=UART_USB_TX Pin=U11-2
+Added Pin To Net: NetName=NetR16_2 Pin=U11-6
+Added Pin To Net: NetName=UART_USB_RX Pin=U11-8
+Added Pin To Net: NetName=NetTP21_1 Pin=TP21-1
+Added Pin To Net: NetName=NetTP21_1 Pin=U8-40
+Added Pin To Net: NetName=NetTP21_1 Pin=U11-4
+Added Net: Name=NetTP21_1
