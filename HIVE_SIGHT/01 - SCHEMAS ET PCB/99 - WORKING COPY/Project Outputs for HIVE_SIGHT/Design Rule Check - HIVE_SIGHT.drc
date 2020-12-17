@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : H:\Travaux\PMC\Altium\Electrical\HIVE_SIGHT\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_SIGHT.PcbDoc
-Date     : 2020-12-16
-Time     : 21:03:24
+Date     : 2020-12-17
+Time     : 16:51:00
 
 Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
 Rule Violations :0
@@ -56,10 +56,10 @@ Processing Rule : Hole Size Constraint (Min=0.3mm) (Max=6mm) (All)
    Violation between Hole Size Constraint: (0.254mm < 0.3mm) Via (45.156mm,87.044mm) from Top to Bottom Actual Hole Size = 0.254mm
 Rule Violations :32
 
-Processing Rule : Hole To Hole Clearance (Gap=0.4mm) (IsVia),(IsVia)
+Processing Rule : Hole To Hole Clearance (Gap=0.6mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Hole To Hole Clearance (Gap=0.6mm) (All),(All)
+Processing Rule : Hole To Hole Clearance (Gap=0.4mm) (IsVia),(IsVia)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
@@ -71,7 +71,6 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
    Violation between Minimum Solder Mask Sliver Constraint: (0.05mm < 0.1mm) Between Pad D18-3(25.732mm,54.226mm) on Top And Pad D18-4(25.732mm,53.726mm) on Top [Top Solder] Mask Sliver [0.05mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.05mm < 0.1mm) Between Pad D18-7(26.502mm,53.726mm) on Top And Pad D18-8(26.502mm,54.226mm) on Top [Top Solder] Mask Sliver [0.05mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.05mm < 0.1mm) Between Pad D18-8(26.502mm,54.226mm) on Top And Pad D18-9(26.502mm,54.726mm) on Top [Top Solder] Mask Sliver [0.05mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.092mm < 0.1mm) Between Pad U?-16(26.668mm,47.672mm) on Bottom And Via (25.205mm,47.697mm) from Top to Bottom [Bottom Solder] Mask Sliver [0.092mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.1mm) Between Pad U11-1(45.856mm,88.519mm) on Top And Pad U11-2(45.356mm,88.519mm) on Top [Top Solder] Mask Sliver [0.1mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.1mm) Between Pad U11-19(46.631mm,85.244mm) on Top And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.1mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.1mm) Between Pad U11-2(45.356mm,88.519mm) on Top And Pad U11-3(44.856mm,88.519mm) on Top [Top Solder] Mask Sliver [0.1mm]
@@ -106,34 +105,20 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
    Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.1mm) Between Region (0 hole(s)) Top Solder And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.1mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.1mm) Between Region (0 hole(s)) Top Solder And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.1mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.1mm) Between Region (0 hole(s)) Top Solder And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.1mm]
-Rule Violations :43
+Rule Violations :42
 
 Processing Rule : Silk To Solder Mask (Clearance=0.01mm) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.01mm) Between Pad TP12-1(37.473mm,65.657mm) on Multi-Layer And Text "Designed by:
-.Project_Designer1
-.Project_Designer2
-.Project_Designer3" (39.724mm,64.149mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.01mm) Between Pad TP18-1(52.966mm,82.021mm) on Multi-Layer And Text "C7" (51.756mm,77.232mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.01mm) Between Pad TP3-1(33.094mm,79.43mm) on Multi-Layer And Text "NUCLEO
-F426ZI" (46.024mm,77.648mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.01mm) Between Pad U?-13(28.938mm,43.617mm) on Bottom And Text "R48" (28.888mm,43.036mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.01mm) Between Pad U?-14(27.668mm,43.617mm) on Bottom And Text "R48" (28.888mm,43.036mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-Rule Violations :5
+Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
-   Violation between Silk To Silk Clearance Constraint: (0.067mm < 0.1mm) Between Arc (37.473mm,65.657mm) on Top Overlay And Text "I2C TP" (33.299mm,62.93mm) on Top Overlay Silk Text to Silk Clearance [0.067mm]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Arc (43mm,70mm) on Top Overlay And Text "R27" (42.81mm,67.775mm) on Top Overlay Silk Text to Silk Clearance [0mm]
-   Violation between Silk To Silk Clearance Constraint: (0.061mm < 0.1mm) Between Text "C83" (11.384mm,9.633mm) on Top Overlay And Track (12.901mm,9.58mm)(12.901mm,10.43mm) on Top Overlay Silk Text to Silk Clearance [0.061mm]
-   Violation between Silk To Silk Clearance Constraint: (0.061mm < 0.1mm) Between Text "C84" (11.384mm,7.671mm) on Top Overlay And Track (12.901mm,7.52mm)(12.901mm,8.37mm) on Top Overlay Silk Text to Silk Clearance [0.061mm]
-   Violation between Silk To Silk Clearance Constraint: (0.081mm < 0.1mm) Between Text "C89" (10.2mm,17.891mm) on Top Overlay And Text "C90" (9.499mm,17.811mm) on Top Overlay Silk Text to Silk Clearance [0.081mm]
-   Violation between Silk To Silk Clearance Constraint: (0.025mm < 0.1mm) Between Text "C91" (13.579mm,10.752mm) on Top Overlay And Track (14.894mm,9.328mm)(14.894mm,11.028mm) on Top Overlay Silk Text to Silk Clearance [0.025mm]
-   Violation between Silk To Silk Clearance Constraint: (0.069mm < 0.1mm) Between Text "R47" (31.528mm,54.366mm) on Top Overlay And Track (33.053mm,53.482mm)(33.053mm,55.182mm) on Top Overlay Silk Text to Silk Clearance [0.069mm]
-   Violation between Silk To Silk Clearance Constraint: (0.088mm < 0.1mm) Between Text "R52" (26.272mm,44.687mm) on Bottom Overlay And Track (24.728mm,43.213mm)(24.728mm,44.913mm) on Bottom Overlay Silk Text to Silk Clearance [0.088mm]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "R52" (26.272mm,44.687mm) on Bottom Overlay And Track (26mm,42.944mm)(26mm,45.15mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]
-Rule Violations :9
+Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Outline Edge): (0.425mm < 0.5mm) Between Board Edge And Pad U13-0(10.913mm,105.825mm) on Multi-Layer 
+Rule Violations :1
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (InComponentClass('Fiducials'))
 Rule Violations :0
@@ -148,23 +133,7 @@ Processing Rule : Board Clearance Constraint (Gap=0mm) ((OnLayer('Bottom Overlay
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.1mm) Between Board Edge And Text "J21" (103.668mm,23.115mm) on Top Overlay 
 Rule Violations :4
 
-Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
-   Violation between Board Outline Clearance(Outline Edge): (0.425mm < 0.5mm) Between Board Edge And Pad U13-0(10.913mm,105.825mm) on Multi-Layer 
-Rule Violations :1
-
 Processing Rule : Matched Lengths(Tolerance=0.127mm) (InxSignalClass('xSignals_J1C_J2C'))
-Rule Violations :0
-
-Processing Rule : Matched Lengths(Tolerance=0.127mm) (InxSignalClass('xSignals_J1E_J2E'))
-Rule Violations :0
-
-Processing Rule : Matched Lengths(Tolerance=0.127mm) (InxSignalClass('xSignals_J1D_J2D'))
-Rule Violations :0
-
-Processing Rule : Matched Lengths(Tolerance=0.127mm) (InxSignalClass('xSignals_J1B_J2B'))
-Rule Violations :0
-
-Processing Rule : Matched Lengths(Tolerance=0.127mm) (InxSignalClass('xSignals_J1A_J2A'))
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Tolerance=0.025mm) (InDifferentialPairClass('All Differential Pairs'))
@@ -174,36 +143,25 @@ Processing Rule : Matched Lengths(Tolerance=0.025mm) (InDifferentialPairClass('A
    Violation between Matched Net Lengths: Between Net XTAL_N And Net XTAL_P Actual Difference against XTAL_P is: 0.231mm, Tolerance : 0.025mm. 
 Rule Violations :4
 
+Processing Rule : Matched Lengths(Tolerance=0.127mm) (InxSignalClass('xSignals_J1E_J2E'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.127mm) (InxSignalClass('xSignals_J1D_J2D'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.127mm) (InxSignalClass('xSignals_J1A_J2A'))
+Rule Violations :0
+
 Processing Rule : Matched Lengths(Tolerance=0.127mm) (InxSignalClass('xSignals_J1F_J2F'))
 Rule Violations :0
 
-Processing Rule : Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM'))
-   Violation between Room Definition: Between Component S3-435171014816 (36.363mm,55.72mm) on Top And Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) 
-   Violation between Room Definition: Between Component U?-ESP32-WROOM-32U (36.678mm,52.117mm) on Bottom And Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component C107-CL05A105MP5NNNC (33.206mm,56.499mm) on Top 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component C108-CL05A104KA5NNNC (33.214mm,57.519mm) on Top 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component C109-CC0402JRNPO9BN130 (33.647mm,46.251mm) on Top 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component C110-CC0402JRNPO9BN130 (35.6mm,46.246mm) on Top 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component C111-0805YD106KAT2A (44.172mm,48.529mm) on Top 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component C112-CL05A105KL5NRNC (43.555mm,47.067mm) on Top 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component C113-CL05A104KA5NNNC (43.536mm,46.063mm) on Top 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component D21-SML-D12P8WT86 (27.592mm,60.584mm) on Top 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component R45-RC0402FR-0710KL (34.147mm,58.513mm) on Top 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component R46-RC0402FR-071KL (38.989mm,57.106mm) on Top 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component R47-RC0402FR-07150RL (33.478mm,54.332mm) on Top 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component R48-PNM0402E1000BST1 (28.378mm,41.891mm) on Bottom 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component R49-PNM0402E1000BST1 (24.303mm,44.063mm) on Bottom 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component R51-PNM0402E1000BST1 (26.772mm,56.534mm) on Top 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component R52-RC0402FR-0710KL (25.322mm,43.13mm) on Bottom 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component R53-RC0402FR-07150RL (30.258mm,60.552mm) on Top 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component R54-RC0402FR-076R2L (34.615mm,45.227mm) on Top 
-   Violation between Room Definition: Between Room WROOM (Bounding Region = (631.706mm, 543.177mm, 752.662mm, 566.378mm) (InComponentClass('WROOM')) And SMT Small Component X3-CM7V-T1A-32KHZ (34.65mm,43.617mm) on Top 
-Rule Violations :20
+Processing Rule : Matched Lengths(Tolerance=0.127mm) (InxSignalClass('xSignals_J1B_J2B'))
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 118
+Violations Detected : 83
 Waived Violations : 0
 Time Elapsed        : 00:00:05
