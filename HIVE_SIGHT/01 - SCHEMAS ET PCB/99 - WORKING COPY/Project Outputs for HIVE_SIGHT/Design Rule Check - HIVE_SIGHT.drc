@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\HIVE_SIGHT\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_SIGHT.PcbDoc
-Date     : 2020-12-26
-Time     : 6:50:54 PM
+Date     : 2021-01-04
+Time     : 11:42:35 AM
 
 Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
 Rule Violations :0
@@ -30,24 +30,14 @@ Rule Violations :0
 Processing Rule : Hole To Hole Clearance (Gap=18mil) (IsVia),(IsVia)
 Rule Violations :0
 
-Processing Rule : Hole To Hole Clearance (Gap=8mil) (InAnyComponent),(InAnyComponent)
-Rule Violations :0
-
 Processing Rule : Hole To Hole Clearance (Gap=18mil) (All),(All)
 Rule Violations :0
 
+Processing Rule : Hole To Hole Clearance (Gap=8mil) (InAnyComponent),(InAnyComponent)
+Rule Violations :0
+
 Processing Rule : Minimum Solder Mask Sliver (Gap=3.936mil) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (1.969mil < 3.936mil) Between Pad U8-1(1642.041mil,2581.271mil) on Top And Pad U8-2(1642.041mil,2561.586mil) on Top [Top Solder] Mask Sliver [1.969mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (1.969mil < 3.936mil) Between Pad U8-10(1733.582mil,2561.592mil) on Top And Pad U8-11(1733.582mil,2581.277mil) on Top [Top Solder] Mask Sliver [1.969mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (1.969mil < 3.936mil) Between Pad U8-10(1733.582mil,2561.592mil) on Top And Pad U8-9(1733.582mil,2541.907mil) on Top [Top Solder] Mask Sliver [1.969mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (1.969mil < 3.936mil) Between Pad U8-12(1707.5mil,2587.675mil) on Top And Pad U8-13(1687.815mil,2587.675mil) on Top [Top Solder] Mask Sliver [1.969mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (1.969mil < 3.936mil) Between Pad U8-13(1687.815mil,2587.675mil) on Top And Pad U8-14(1668.13mil,2587.675mil) on Top [Top Solder] Mask Sliver [1.969mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (1.969mil < 3.936mil) Between Pad U8-2(1642.041mil,2561.586mil) on Top And Pad U8-3(1642.041mil,2541.901mil) on Top [Top Solder] Mask Sliver [1.969mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (1.969mil < 3.936mil) Between Pad U8-3(1642.041mil,2541.901mil) on Top And Pad U8-4(1642.041mil,2522.216mil) on Top [Top Solder] Mask Sliver [1.969mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (1.969mil < 3.936mil) Between Pad U8-5(1668.123mil,2515.818mil) on Top And Pad U8-6(1687.808mil,2515.818mil) on Top [Top Solder] Mask Sliver [1.969mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (1.969mil < 3.936mil) Between Pad U8-6(1687.808mil,2515.818mil) on Top And Pad U8-7(1707.493mil,2515.818mil) on Top [Top Solder] Mask Sliver [1.969mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (1.969mil < 3.936mil) Between Pad U8-8(1733.582mil,2522.222mil) on Top And Pad U8-9(1733.582mil,2541.907mil) on Top [Top Solder] Mask Sliver [1.969mil]
-Rule Violations :10
+Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=0.394mil) (IsPad),(All)
 Rule Violations :0
@@ -58,10 +48,13 @@ Rule Violations :0
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
-Processing Rule : Board Clearance Constraint (Gap=0mil) (HasFootprint('MOD_NUCLEO-F429ZI'))
+Processing Rule : Board Clearance Constraint (Gap=0mil) (InComponentClass('Fiducials'))
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (InComponentClass('MouseBites'))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (HasFootprint('MOD_NUCLEO-F429ZI'))
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) ((OnLayer('Bottom Overlay')) OR (OnLayer('Top Overlay')))
@@ -70,38 +63,19 @@ Rule Violations :0
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
 Rule Violations :0
 
-Processing Rule : Board Clearance Constraint (Gap=0mil) (InComponentClass('Fiducials'))
+Processing Rule : Matched Lengths(Tolerance=9.842mil) (InDifferentialPair('32K_X'))
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Tolerance=5mil) (InxSignalClass('xSignals_J1E_J2E'))
+Processing Rule : Matched Lengths(Tolerance=1mil) (Not InDifferentialPair('32K_X'))
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Tolerance=5mil) (InxSignalClass('xSignals_J1A_J2A'))
-Rule Violations :0
-
-Processing Rule : Matched Lengths(Tolerance=1mil) (InDifferentialPairClass('All Differential Pairs'))
-   Violation between Matched Net Lengths: Between Net 32K_X_N And Net 32K_X_P Actual Difference against 32K_X_P is: 13.614mil, Tolerance : 1mil. 
-   Violation between Matched Net Lengths: Between Net RFA_N And Net RFA_P Actual Difference against RFA_P is: 1.265mil, Tolerance : 1mil. 
-   Violation between Matched Net Lengths: Between Net USB_D_N And Net USB_D_P Actual Difference against USB_D_P is: 1.109mil, Tolerance : 1mil. 
-   Violation between Matched Net Lengths: Between Net XTAL_N And Net XTAL_P Actual Difference against XTAL_P is: 9.107mil, Tolerance : 1mil. 
-Rule Violations :4
-
-Processing Rule : Matched Lengths(Tolerance=5mil) (InxSignalClass('xSignals_J1B_J2B'))
-Rule Violations :0
-
-Processing Rule : Matched Lengths(Tolerance=5mil) (InxSignalClass('xSignals_J1F_J2F'))
-Rule Violations :0
-
-Processing Rule : Matched Lengths(Tolerance=5mil) (InxSignalClass('xSignals_J1D_J2D'))
-Rule Violations :0
-
-Processing Rule : Matched Lengths(Tolerance=5mil) (InxSignalClass('xSignals_J1C_J2C'))
+Processing Rule : Matched Lengths(Tolerance=0.984mil) (InNetClass('CLK_DW'))
 Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 14
+Violations Detected : 0
 Waived Violations : 0
 Time Elapsed        : 00:00:04
