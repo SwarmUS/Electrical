@@ -297,6 +297,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PRXWIFLB
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for HIVE_SIGHT\Design Rule Check - HIVE_SIGHT _PANEL.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Project_Stencil_Top_Thickness
 Value=0.1 MM
