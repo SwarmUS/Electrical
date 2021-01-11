@@ -1,0 +1,27 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 8:19:44 AM On 2021-01-11
+
+Output: SOURCE
+Type  : Copy Files
+From  : Project [HIVE_SIGHT.PrjPcb]
+   Generated File[HIVE_SIGHT_POWER.SchDoc]
+   Generated File[HIVE_SIGHT_TITLE.SchDoc]
+   Generated File[HIVE_SIGHT_DECAWAVE_A.SchDoc]
+   Generated File[HIVE_SIGHT_DECAWAVE_B.SchDoc]
+   Generated File[HIVE_SIGHT_WROOM.SchDoc]
+   Generated File[HIVE_SIGHT_MISC.SchDoc]
+   Generated File[HIVE_SIGHT_TOP.SchDoc]
+   Generated File[HIVE_SIGHT_WIRELESS.SchDoc]
+   Generated File[HIVE_SIGHT_USB.SchDoc]
+   Generated File[HIVE_SIGHT_NUCLEO.SchDoc]
+   Generated File[HIVE_SIGHT.PcbDoc]
+   Generated File[HIVE_SIGHT.OutJob]
+   Generated File[HIVE_SIGHT _PANEL.PcbDoc]
+   Generated File[HIVE_SIGHT.PrjPcb]
+
+
+Files Generated   : 14
+Documents Printed : 0
+
+Finished Output Generation At 8:19:44 AM On 2021-01-11
