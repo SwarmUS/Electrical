@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for HIVE_SIGHT
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -37,41 +37,12 @@ IncludeDesignInRelease=0
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
+[Release]
+ReleaseTarget=1
+ReleaseFolderPath=[OutputPath]
+ReleaseZipPath=[OutputPath][ProjectName].zip
+
 [Document1]
-DocumentPath=HIVE_SIGHT.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=GNYTCPOA
-
-[Document2]
-DocumentPath=HIVE_SIGHT_PANNEL.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document3]
 DocumentPath=HIVE_SIGHT_POWER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +59,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JESWFUAM
 
-[Document4]
+[Document2]
 DocumentPath=HIVE_SIGHT_TITLE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +76,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FAPMBNMV
 
-[Document5]
+[Document3]
 DocumentPath=HIVE_SIGHT_DECAWAVE_A.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +93,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IMNVUFYO
 
-[Document6]
+[Document4]
 DocumentPath=HIVE_SIGHT_DECAWAVE_B.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +110,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GTUTUFJY
 
-[Document7]
+[Document5]
 DocumentPath=HIVE_SIGHT_WROOM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +127,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UPSOCASF
 
-[Document8]
+[Document6]
 DocumentPath=HIVE_SIGHT_MISC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +144,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FJOBTPAP
 
-[Document9]
+[Document7]
 DocumentPath=HIVE_SIGHT_TOP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +161,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IBHTQUAN
 
-[Document10]
+[Document8]
 DocumentPath=HIVE_SIGHT_WIRELESS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +178,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ARLGXQEF
 
-[Document11]
+[Document9]
 DocumentPath=HIVE_SIGHT_USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +195,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QKIMTOQX
 
-[Document12]
+[Document10]
 DocumentPath=HIVE_SIGHT_NUCLEO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +212,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BICJWYDB
 
-[Document13]
+[Document11]
 DocumentPath=..\..\..\SWARMUS_LIB\SWARMUS_LIB.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +229,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PDMISADS
 
-[Document14]
+[Document12]
 DocumentPath=..\..\..\SWARMUS_LIB\SWARMUS_LIB.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,57 +246,104 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LYYAFKUB
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for HIVE_SIGHT\Design Rule Check - HIVE_SIGHT.html
+[Document13]
+DocumentPath=HIVE_SIGHT.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GNYTCPOA
+
+[Document14]
+DocumentPath=HIVE_SIGHT.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document15]
+DocumentPath=HIVE_SIGHT _PANEL.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PRXWIFLB
 
 [Parameter1]
-Name=Project_Stencil_Top_Thickness
-Value=0.1 MM
+Name=Project_Date
+Value=2020-07-13
 
 [Parameter2]
-Name=Project_Stencil_Bot_Thickness
-Value=0.1 MM
-
-[Parameter3]
-Name=Project_Revision
-Value=1.000
-
-[Parameter4]
-Name=Project_Name
-Value=HiveSight
-
-[Parameter5]
-Name=Project_Group
-Value=SwarmUS
-
-[Parameter6]
-Name=Project_Global
-Value=PMC
-
-[Parameter7]
-Name=Project_Designer4
-Value=
-
-[Parameter8]
-Name=Project_Designer3
-Value=Louis-Daniel Gaulin
-
-[Parameter9]
-Name=Project_Designer2
-Value=Hubert Dube
-
-[Parameter10]
-Name=Project_Designer1
-Value=Philippe Arsenault
-
-[Parameter11]
 Name=Project_DateCode
 Value=
 
+[Parameter3]
+Name=Project_Designer1
+Value=Philippe Arsenault
+
+[Parameter4]
+Name=Project_Designer2
+Value=Hubert Dube
+
+[Parameter5]
+Name=Project_Designer3
+Value=Louis-Daniel Gaulin
+
+[Parameter6]
+Name=Project_Designer4
+Value=
+
+[Parameter7]
+Name=Project_Global
+Value=PMC
+
+[Parameter8]
+Name=Project_Group
+Value=SwarmUS
+
+[Parameter9]
+Name=Project_Name
+Value=HiveSight
+
+[Parameter10]
+Name=Project_Revision
+Value=1.000
+
+[Parameter11]
+Name=Project_Stencil_Bot_Thickness
+Value=0.1 MM
+
 [Parameter12]
-Name=Project_Date
-Value=2020-07-13
+Name=Project_Stencil_Top_Thickness
+Value=0.1 MM
 
 [Configuration1]
 Name=Sources
@@ -333,9 +351,35 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
 Variant=[No Variations]
-OutputJobsCount=0
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=HIVE_SIGHT.OutJob
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Configuration2]
+Name=Fabrication
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=HIVE_SIGHT.OutJob
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration3]
+Name=Assembly
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=HIVE_SIGHT.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
 
 [Generic_SignalIntegrityPanelSetup]
 TerminationName0=No Termination
@@ -480,7 +524,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for HIVE_SIGHT
 
 [OutputGroup1]
 Name=Netlist Outputs
