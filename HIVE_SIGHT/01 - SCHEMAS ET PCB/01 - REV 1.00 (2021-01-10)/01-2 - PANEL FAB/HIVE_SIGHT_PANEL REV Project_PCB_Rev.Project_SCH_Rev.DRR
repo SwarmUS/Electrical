@@ -1,0 +1,26 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: HIVE_SIGHT _PANEL.PcbDoc   2021-01-10  9:54:38 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top to Bottom
+ASCII RoundHoles File : HIVE_SIGHT_PANEL REV Project_PCB_Rev.Project_SCH_Rev-RoundHoles.TXT
+ASCII SlotHoles File : HIVE_SIGHT_PANEL REV Project_PCB_Rev.Project_SCH_Rev-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      10mil (0.254mm)                                           Round             70        PTH        0.00inch (0.00mm)
+T2      12mil (0.3mm)                                             Round             728       PTH        0.00inch (0.00mm)
+T3      20mil (0.5mm)           +/-2mil (0.05mm)                  Slot              4         PTH        0.00inch (0.00mm)
+T4      22mil (0.551mm)         +/-2mil (0.05mm)                  Slot              4         PTH        0.00inch (0.00mm)
+T5      39mil (1.001mm)                                           Round             488       PTH        0.00inch (0.00mm)
+T6      40mil (1.016mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T7      40mil (1.021mm)                                           Round             12        PTH        0.00inch (0.00mm)
+T8      43mil (1.09mm)                                            Round             24        PTH        0.00inch (0.00mm)
+T9      51mil (1.3mm)                                             Round             4         PTH        0.00inch (0.00mm)
+T10     63mil (1.6mm)                                             Round             16        PTH        0.00inch (0.00mm)
+T11     71mil (1.801mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T12     126mil (3.2mm)                                            Round             10        NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1368
+
+Total Processing Time (hh:mm:ss) : 00:00:01
