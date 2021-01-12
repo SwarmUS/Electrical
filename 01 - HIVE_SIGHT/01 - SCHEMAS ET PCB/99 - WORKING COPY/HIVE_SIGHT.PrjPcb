@@ -117,7 +117,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=9
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -213,40 +213,6 @@ GenerateClassCluster=0
 DocumentUniqueId=BICJWYDB
 
 [Document11]
-DocumentPath=..\..\..\SWARMUS_LIB\SWARMUS_LIB.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PDMISADS
-
-[Document12]
-DocumentPath=..\..\..\SWARMUS_LIB\SWARMUS_LIB.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LYYAFKUB
-
-[Document13]
 DocumentPath=HIVE_SIGHT.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -263,7 +229,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GNYTCPOA
 
-[Document14]
+[Document12]
 DocumentPath=HIVE_SIGHT.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -280,7 +246,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document13]
 DocumentPath=HIVE_SIGHT _PANEL.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -297,53 +263,57 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PRXWIFLB
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for HIVE_SIGHT\Design Rule Check - HIVE_SIGHT.html
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Project_Date
-Value=2020-07-13
+Name=Project_Stencil_Top_Thickness
+Value=0.1 MM
 
 [Parameter2]
-Name=Project_DateCode
-Value=
-
-[Parameter3]
-Name=Project_Designer1
-Value=Philippe Arsenault
-
-[Parameter4]
-Name=Project_Designer2
-Value=Hubert Dube
-
-[Parameter5]
-Name=Project_Designer3
-Value=Louis-Daniel Gaulin
-
-[Parameter6]
-Name=Project_Designer4
-Value=
-
-[Parameter7]
-Name=Project_Global
-Value=PMC
-
-[Parameter8]
-Name=Project_Group
-Value=SwarmUS
-
-[Parameter9]
-Name=Project_Name
-Value=HiveSight
-
-[Parameter10]
-Name=Project_Revision
-Value=1.000
-
-[Parameter11]
 Name=Project_Stencil_Bot_Thickness
 Value=0.1 MM
 
+[Parameter3]
+Name=Project_Revision
+Value=1.000
+
+[Parameter4]
+Name=Project_Name
+Value=HiveSight
+
+[Parameter5]
+Name=Project_Group
+Value=SwarmUS
+
+[Parameter6]
+Name=Project_Global
+Value=PMC
+
+[Parameter7]
+Name=Project_Designer4
+Value=
+
+[Parameter8]
+Name=Project_Designer3
+Value=Louis-Daniel Gaulin
+
+[Parameter9]
+Name=Project_Designer2
+Value=Hubert Dube
+
+[Parameter10]
+Name=Project_Designer1
+Value=Philippe Arsenault
+
+[Parameter11]
+Name=Project_DateCode
+Value=
+
 [Parameter12]
-Name=Project_Stencil_Top_Thickness
-Value=0.1 MM
+Name=Project_Date
+Value=2020-07-13
 
 [Configuration1]
 Name=Sources
@@ -525,6 +495,13 @@ SaveSettingsToOutJob=-1
 
 [Generic_EDE]
 OutputDir=
+
+[Generic_SimulationProfiles]
+ActiveProfile=KSPNABLV
+ProfileId0=KSPNABLV
+ProfileName0=Mixed Sim
+OutputType0=AdvSimNetlist
+ConfigParameters0=
 
 [OutputGroup1]
 Name=Netlist Outputs

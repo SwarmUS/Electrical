@@ -1,0 +1,26 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 15:42:33 On 22/01/2019
+
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [TAG_V2.PcbDoc]
+   Generated File[TAG_V2-RoundHoles-Plated.TXT]
+   Generated File[TAG_V2-SlotHoles-Plated.TXT]
+   Generated File[TAG_V2.DRL]
+   Generated File[TAG_V2-RoundHoles-Plated.TX1]
+   Generated File[TAG_V2.DR1]
+   Generated File[TAG_V2-RoundHoles-Plated.TX2]
+   Generated File[TAG_V2.DR2]
+   Generated File[TAG_V2-RoundHoles-Plated.TX3]
+   Generated File[TAG_V2.DR3]
+   Generated File[TAG_V2-RoundHoles-Plated.TX4]
+   Generated File[TAG_V2.DR4]
+   Generated File[TAG_V2.LDP]
+   Generated File[TAG_V2.DRR]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 15:42:34 On 22/01/2019

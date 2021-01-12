@@ -1,0 +1,136 @@
+*************************************************************
+FileName = TAG_V2.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\matrix\matrix
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\profile
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\stephdr
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\top_overlay\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\top_overlay\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\l4\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\l4\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\l5\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\l5\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\l3\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\l3\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\l2\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\l2\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\bottom_overlay\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\bottom_overlay\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\bottom_paste\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\bottom_paste\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\bottom_solder\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\bottom_solder\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\top_paste\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\top_paste\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\l6\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\l6\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\m8_comment\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\m8_comment\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\mechanical_10\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\mechanical_10\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\top_solder\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\top_solder\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\mechanical_28\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\mechanical_28\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\m16_component_outline\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\m16_component_outline\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\m29_top_desig\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\m29_top_desig\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\l1\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\l1\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\drill1\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\drill1\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\drill1\tools
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\drill3\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\drill3\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\drill3\tools
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\drill\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\drill\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\drill\tools
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\drill4\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\drill4\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\drill4\tools
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\drill2\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\drill2\attrlist
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\drill2\tools
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\comp_+_bot\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\layers\comp_+_bot\components
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\steps\pcb\eda\data
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\symbols\rect31.4961x55.1181_270_offset0x-15.748\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\symbols\rect31.4961x55.1181_90_offset0x-15.748\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\symbols\rect31.4961x55.1181_270_offset0x-15.748\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\symbols\rect31.4961x55.1181_90_offset0x-15.748\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\symbols\rect33.8583x57.4803_270_offset0x-15.748\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\symbols\rect33.8583x57.4803_90_offset0x-15.748\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\symbols\rect31.4961x55.1181_270_offset0x-15.748\features
+
+Generated File : C:\Users\avishniakov\Documents\workspace\PDoA\HW\Tag_DWM1003\Final PCB database\..\ODB Output\odb\symbols\rect31.4961x55.1181_90_offset0x-15.748\features
+

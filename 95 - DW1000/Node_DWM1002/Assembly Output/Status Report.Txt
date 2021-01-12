@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [NODE_V2.PcbDoc]
+   Generated File[Pick Place for NODE_V2.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 2:42:21 PM On 7/9/2018

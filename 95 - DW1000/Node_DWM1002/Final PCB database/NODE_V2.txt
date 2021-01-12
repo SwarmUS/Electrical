@@ -1,0 +1,27 @@
+Field=Designator~String~Designator~329|Field=Comment~String~Comment~104|Field=Description~String~Description~198|Field=Quantity~Integer~Quantity~68|Field=Manufacturer~String~Manufacturer~179|Field=Manufacturer Part Number~String~Manufacturer Part Number~160|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~NODE_V2.PrjPcb|ReportField=ProjectFullPath~D:\Victory Concept\Decawave\AOA\Cost down\V2\AOA_NODE_V2\Altium\Final PCB database\NODE_V2.PrjPcb|ReportField=Title~Bill of Materials For Project [NODE_V2.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~64|ReportField=ReportTime~11:40:53 AM|ReportField=ReportDate~6/8/2018|ReportField=ReportDateTime~6/8/2018 11:40:53 AM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~Adelaide Chambers,|ReportField=Address2~Peter Street,|ReportField=Address3~Dublin 8,|ReportField=Address4~Ireland.|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~6/8/2018|ReportField=CurrentTime~11:28:45 AM|ReportField=Date~07/12/16|ReportField=DocumentFullPathAndName~D:\Victory Concept\Decawave\AOA\Cost down\V2\AOA_NODE_V2\Altium\Final Schematics\NODE_DW1000_A_V2.SchDoc|ReportField=DocumentName~NODE_DW1000_A_V2.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~6/8/2018|ReportField=Organization~Decawave Ltd.|ReportField=ProjectName~NODE_V2.PrjPcb|ReportField=Revision~2v2|ReportField=Rule~|ReportField=SheetFunction~DW1002 A|ReportField=SheetNumber~2|ReportField=SheetTotal~6|ReportField=Time~|ReportField=Title~AOA Kit Node|ReportField=DataSourceFileName~NODE_V2.PrjPcb|ReportField=DataSourceFullPath~D:\Victory Concept\Decawave\AOA\Cost down\V2\AOA_NODE_V2\Altium\Final PCB database\NODE_V2.PrjPcb
+ANT1|ant_uwb|CHIP ANT|1||
+C1, C2, C3, C4, C5, C6, C7, C9, C10, C12, C13, C22, C26, C28, C30|100nF|100nF_0201_10%|15|Murata Electronics North America|GRM033C81E104KE14D
+C8, C11|DNF|4.7uF_0402_10%|2|TDK|C1005X5R0J475K050BC
+C14|100pF|100pF_0402_10%|1|Murata Electronics North America|GRM1555C1H101JA01D
+C15|1.2pF|1.2pF_0201_10%|1|Murata Electronics North America|GRM0335C1E1R2CA01D
+C16, C21|10nF|10nF_0201_10%|2|Murata Electronics North America|GRM033R61E103KA12D
+C17|27pF|27pF_0201_2%|1|Murata Electronics North America|GRM0335C1E270JA01D
+C18|820pF|820pF_0201_2%|1|Murata Electronics North America|GRM033R71E821KA01D
+C19|18pF|18pF_0201_1%|1|Murata Electronics North America|GRM0335C1H180JA01D
+C20, C24, C27, C29|12pF|12pF_0201_1%|4|Murata Electronics North America|GRM0335C1E120JA01D
+C23, C31|22uF|22uF_0603_10%|2|Murata Electronics North America|GRM188R60J226MEA0D
+C25|330pF|330pF_0201_10%|1|SamSung|CL03B331KA3NNNC
+C32, C33|10uF|CAP CER 10UF 6.3V X5R 0603|2|Murata Electronics North America|GRM188R60J106ME47D
+C79|22pF|CAP CER 10PF 25V NP0 0201|1|Murata Electronics North America|GRM0335C1E220JA01D
+J1.48, J1.49, J1.50, J1.51|EDGE_PIN|PCB Edge pin|4||
+J5|coswitch|COAX JACK STR 50 OHM SMD|1|Hirose|MS-156C
+L1, L2, L3, L4, L7, L8|BLM15HG601SN1D|FERRITE BEAD, 0.7OHM, 300MA, 0402|6|Murata Electronics North America|BLM15HG601SN1D
+L10|CKP20162R2M-T|FIXED IND 2.2UH 1.2A 110 MOHM|1|Taiyo Yuden|CKP20162R2M-T
+R1|11K|11K_0201_1%|1|Yageo|RC0201FR-0711KL
+R2|16K|16K_0201_1%|1|Yageo|RC0201FR-0716KL
+R3|270R|270R_0201_1%|1|Yageo|RC0201FR-07270RL
+SH1|BMI-S-101|RF Shield 13.66x12.1mm|1|Laird|BMI-S-101
+T1|HHM1595A1|SMT UWB Balun 3-8Ghz|1|TDK|HHM1595A1
+TP1, TP2, TP3, TP5, TP9, TP11, TP12, TP13, TP14, TP_VDIG1|TP|test point|10||
+U1|DW1000 IC|UMB Transceiver|1|Decawave|DW1000
+U2|XC9258B18CER-G||1|Torex|XC9258B18CER-G

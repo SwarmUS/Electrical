@@ -1,0 +1,58 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: TAG_V2.PcbDoc   22/01/2019  15:42:34
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : L1 to L6
+ASCII Plated RoundHoles File : TAG_V2-RoundHoles-Plated.TXT
+ASCII Plated SlotHoles File : TAG_V2-SlotHoles-Plated.TXT
+EIA File   : TAG_V2.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T3      8mil (0.201mm)                                            Round             116       PTH        0.00inch (0.00mm)
+T4      11mil (0.269mm)                                           Round             3         PTH        0.00inch (0.00mm)
+T5      20mil (0.5mm)                                             Round             34        PTH        0.00inch (0.00mm)
+T6      24mil (0.599mm)                                           Slot              2         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              155
+Layer Pair : L1 to L2
+ASCII Plated RoundHoles File : TAG_V2-RoundHoles-Plated.TX1
+EIA File   : TAG_V2.DR1
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      4mil (0.099mm)                                            Round             45        PTH        0.00inch (0.00mm)
+T2      6mil (0.15mm)                                             Round             236       PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              281
+Layer Pair : L1 to L3
+ASCII Plated RoundHoles File : TAG_V2-RoundHoles-Plated.TX2
+EIA File   : TAG_V2.DR2
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T2      6mil (0.15mm)                                             Round             4         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              4
+Layer Pair : L2 to L3
+ASCII Plated RoundHoles File : TAG_V2-RoundHoles-Plated.TX3
+EIA File   : TAG_V2.DR3
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T2      6mil (0.15mm)                                             Round             97        PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              97
+Layer Pair : L4 to L6
+ASCII Plated RoundHoles File : TAG_V2-RoundHoles-Plated.TX4
+EIA File   : TAG_V2.DR4
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T2      6mil (0.15mm)                                             Round             51        PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              51
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              588
+
+Total Processing Time (hh:mm:ss) : 00:00:00

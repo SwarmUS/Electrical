@@ -1,0 +1,81 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\01 - HIVE_SIGHT\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_SIGHT.PcbDoc
+Date     : 2021-01-12
+Time     : 2:10:44 PM
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mil) (IsVia and (NOT InAnyComponent)),(IsSMTPin Or IsThruPin  or IsVia)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=8mil) (Max=1000mil) (Preferred=8mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=9.842mil) (Max=236.22mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=18mil) (IsVia),(IsVia)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=18mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=8mil) (InAnyComponent),(InAnyComponent)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=3.936mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.394mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=3.937mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (InComponentClass('Fiducials'))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (InComponentClass('MouseBites'))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (HasFootprint('MOD_NUCLEO-F429ZI'))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) ((OnLayer('Bottom Overlay')) OR (OnLayer('Top Overlay')))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=9.842mil) (InDifferentialPair('32K_X'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1mil) (Not InDifferentialPair('32K_X'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.984mil) (InNetClass('CLK_DW'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 0
+Waived Violations : 0
+Time Elapsed        : 00:00:04

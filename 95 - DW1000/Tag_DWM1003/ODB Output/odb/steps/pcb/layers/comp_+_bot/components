@@ -1,0 +1,10 @@
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 22 0.4724409 0.0846457 0 N T1 TestPAD ;0=1,1=0.0000
+TOP 0 0.4724409 0.0846457 180 N 29 0 T1-1
+#
