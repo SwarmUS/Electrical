@@ -71,10 +71,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JYLTBQSX
 
-[GeneratedDocument1]
-DocumentPath=a_Valider_HD.cmp
-DItemRevisionGUID=
-
 [Generic_IntLibOptions]
 OldFormat=False
 
