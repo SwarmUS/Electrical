@@ -1,20 +1,8 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=..\SWARMUS_LIB\LIBRAIRE_A_VALIDER\a_Valider_PA.LibPkg
-[Project2]
-ProjectPath=..\SWARMUS_LIB\LIBRAIRE_A_VALIDER\a_Valider_HD.LibPkg
-[Project3]
-ProjectPath=..\SWARMUS_LIB\LIBRAIRE_A_VALIDER\a_Valider_LDG.LibPkg
-[Project4]
-ProjectPath=..\SWARMUS_LIB\SWARMUS_LIB.LibPkg
-[Project5]
 ProjectPath=..\..\LOCAL\GRAMS_MASTER_LIB\GRAMS_MASTER_LIB.LibPkg
-[Project6]
+[Project2]
 ProjectPath=..\..\..\TEMP_FILES\VALID_LIB\VALID_NOW_LD.LibPkg
-[Project7]
-ProjectPath=..\NUCLEO_144_TEMPLATE\ALTIUM\NUCLEO_144.PrjPCB
-[Project8]
-ProjectPath=..\HIVE_SIGHT\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_SIGHT.PrjPcb
-[Project9]
-ProjectPath=..\..\..\..\USherbrooke\SwarmUs - Documents\Electrique\Documentation_Generale\STEP\AltiumDesigner\2020-11-03_03-09-40\UL_Import.PrjScr
+[Project3]
+ProjectPath=..\01 - HIVE_SIGHT\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_SIGHT.PrjPcb
