@@ -44,7 +44,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -61,7 +61,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -103,55 +103,55 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=VRBRDNAT
 
 [Parameter1]
-Name=Project_Stencil_Top_Thickness
-Value=0.1 MM
+Name=Project_Date
+Value=2021-02-22
 
 [Parameter2]
-Name=Project_Stencil_Bot_Thickness
-Value=0.1 MM
-
-[Parameter3]
-Name=Project_Revision
-Value=1.000
-
-[Parameter4]
-Name=Project_Name
-Value=UVLO Module
-
-[Parameter5]
-Name=Project_Group
-Value=SwarmUS
-
-[Parameter6]
-Name=Project_Global
-Value=PMC
-
-[Parameter7]
-Name=Project_Designer4
-Value=
-
-[Parameter8]
-Name=Project_Designer3
-Value=
-
-[Parameter9]
-Name=Project_Designer2
-Value=Étienne Villemure
-
-[Parameter10]
-Name=Project_Designer1
-Value=Louis-Daniel Gaulin
-
-[Parameter11]
 Name=Project_DateCode
 Value=
 
+[Parameter3]
+Name=Project_Designer1
+Value=Louis-Daniel Gaulin
+
+[Parameter4]
+Name=Project_Designer2
+Value=Étienne Villemure
+
+[Parameter5]
+Name=Project_Designer3
+Value=
+
+[Parameter6]
+Name=Project_Designer4
+Value=
+
+[Parameter7]
+Name=Project_Global
+Value=PMC
+
+[Parameter8]
+Name=Project_Group
+Value=SwarmUS
+
+[Parameter9]
+Name=Project_Name
+Value=UVLO Module
+
+[Parameter10]
+Name=Project_Revision
+Value=1.000
+
+[Parameter11]
+Name=Project_Stencil_Bot_Thickness
+Value=0.1 MM
+
 [Parameter12]
-Name=Project_Date
-Value=2021-02-22
+Name=Project_Stencil_Top_Thickness
+Value=0.1 MM
 
 [Configuration1]
 Name=Sources
@@ -1335,130 +1335,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID0=CAP_CER_C0402C104K8PACTU
-ComponentSymbolReference0=CAP_CER_C0402C104K8PACTU
+ComponentLibraryIdentifier0=a_Valider_LDG.IntLib
+ComponentDesignItemID0=CAP_CER_CC0603KRX7R9BB104
+ComponentSymbolReference0=CAP_CER_CC0603KRX7R9BB104
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID1=CAP_CER_C0805C472KDRACTU
-ComponentSymbolReference1=CAP_CER_C0805C472KDRACTU
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID2=CAP_CER_CL05B103KB5NFNC
-ComponentSymbolReference2=CAP_CER_CL05B103KB5NFNC
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID3=CAP_CER_CL05B104KO5NNNC
-ComponentSymbolReference3=CAP_CER_CL05B104KO5NNNC
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID4=CAP_CER_GRM155R70J105KA12J
-ComponentSymbolReference4=CAP_CER_GRM155R70J105KA12J
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID5=CAP_CER_HV_CGA6M1X7T2J154K200AC
-ComponentSymbolReference5=CAP_CER_HV_CGA6M1X7T2J154K200AC
-ComponentUpdate5=1
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID6=CON_HDR_ERF5-030-01-L-D-RA-TR
-ComponentSymbolReference6=CON_HDR_ERF5-030-01-L-D-RA-TR
-ComponentUpdate6=1
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID7=CON_LSHM-130-01-L-DH-A-N-K-TR
-ComponentSymbolReference7=CON_LSHM-130-01-L-DH-A-N-K-TR
-ComponentUpdate7=1
-ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID8=FER_BLM15HB121SN1D
-ComponentSymbolReference8=FER_BLM15HB121SN1D
-ComponentUpdate8=1
-ComponentIsDeviceSheet8=0
-ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID9=FID_CIRCLE_1MM
-ComponentSymbolReference9=FID_CIRCLE_1MM
-ComponentUpdate9=1
-ComponentIsDeviceSheet9=0
-ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID10=MEC_SPACER_9774010243R
-ComponentSymbolReference10=MEC_SPACER_9774010243R
-ComponentUpdate10=1
-ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID11=MTH_M2
-ComponentSymbolReference11=MTH_M2
-ComponentUpdate11=1
-ComponentIsDeviceSheet11=0
-ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID12=PNL_MOUSEBITES_100MIL_5-HOLES-10MIL-OFSSET
-ComponentSymbolReference12=PNL_MOUSEBITES_100MIL_5-HOLES-10MIL-OFSSET
-ComponentUpdate12=1
-ComponentIsDeviceSheet12=0
-ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID13=REG_LDO_MIC5303-1.8YMT-TR
-ComponentSymbolReference13=REG_LDO_MIC5303-1.8YMT-TR
-ComponentUpdate13=1
-ComponentIsDeviceSheet13=0
-ComponentLibIdentifierKind14=Library Name And Type
-ComponentLibraryIdentifier14=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID14=RES_HVC0805H1006KB
-ComponentSymbolReference14=RES_HVC0805H1006KB
-ComponentUpdate14=1
-ComponentIsDeviceSheet14=0
-ComponentLibIdentifierKind15=Library Name And Type
-ComponentLibraryIdentifier15=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID15=RES_HVC0805H8004FB
-ComponentSymbolReference15=RES_HVC0805H8004FB
-ComponentUpdate15=1
-ComponentIsDeviceSheet15=0
-ComponentLibIdentifierKind16=Library Name And Type
-ComponentLibraryIdentifier16=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID16=RES_RMCF0402FT680R
-ComponentSymbolReference16=RES_RMCF0402FT680R
-ComponentUpdate16=1
-ComponentIsDeviceSheet16=0
-ComponentLibIdentifierKind17=Library Name And Type
-ComponentLibraryIdentifier17=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID17=TRX_BJT_PNP_FMMT560TA
-ComponentSymbolReference17=TRX_BJT_PNP_FMMT560TA
-ComponentUpdate17=1
-ComponentIsDeviceSheet17=0
-ComponentLibIdentifierKind18=Library Name And Type
-ComponentLibraryIdentifier18=GRAMS_MASTER_LIB.IntLib
-ComponentDesignItemID18=UND_DS28E16Q+U
-ComponentSymbolReference18=UND_DS28E16Q+U
-ComponentUpdate18=1
-ComponentIsDeviceSheet18=0
-ComponentLibIdentifierKind19=Library Name And Type
-ComponentLibraryIdentifier19=UHR_AB.IntLib
-ComponentDesignItemID19=MEC_PEM_SMTRAM3-7-5ET_UHR_AB
-ComponentSymbolReference19=MEC_PEM_SMTRAM3-7-5ET_UHR_AB
-ComponentUpdate19=1
-ComponentIsDeviceSheet19=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1482,35 +1368,35 @@ ParameterName3=Component Kind
 ParameterUpdate3=1
 ParameterName4=CreatedBy/Date
 ParameterUpdate4=1
-ParameterName5=Current Rating
+ParameterName5=Cryo
 ParameterUpdate5=1
-ParameterName6=Description
+ParameterName6=Current Rating
 ParameterUpdate6=1
-ParameterName7=GRAMS Lib Spec
+ParameterName7=Description
 ParameterUpdate7=1
-ParameterName8=HelpURL
+ParameterName8=GRAMS Lib Spec
 ParameterUpdate8=1
-ParameterName9=Library Reference
+ParameterName9=HelpURL
 ParameterUpdate9=1
-ParameterName10=Magnetic Material
+ParameterName10=Library Reference
 ParameterUpdate10=1
-ParameterName11=Manufacturer #1
+ParameterName11=Magnetic Material
 ParameterUpdate11=1
-ParameterName12=Manufacturer #2
+ParameterName12=Manufacturer #1
 ParameterUpdate12=1
-ParameterName13=Note
+ParameterName13=Manufacturer #2
 ParameterUpdate13=1
-ParameterName14=Package
+ParameterName14=Note
 ParameterUpdate14=1
-ParameterName15=Part Number #1
+ParameterName15=Package
 ParameterUpdate15=1
-ParameterName16=Part Number #2
+ParameterName16=Part Number #1
 ParameterUpdate16=1
-ParameterName17=Polarized
+ParameterName17=Part Number #2
 ParameterUpdate17=1
-ParameterName18=Power Max
+ParameterName18=Polarized
 ParameterUpdate18=1
-ParameterName19=Rule
+ParameterName19=Power Max
 ParameterUpdate19=1
 ParameterName20=Supplier 1
 ParameterUpdate20=1
@@ -1529,53 +1415,8 @@ ParameterUpdate26=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=CAP_CER_0402
+ModelName0=CAP_CER_0603
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=CAP_CER_0805
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=CAP_CER_1210
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=CON_HDR_ERF5-030-01-X-D-RA
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=CON_LSHM-130-X1-X-DH-A-N-X-TR
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=FER_0402
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=FID_CIRCLE_1MM
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=MEC_PEM_SMTRAM3-7-5ET_UHR_AB
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=MEC_SPACER_9774010243R
-ModelUpdate8=1
-ModelType9=PCBLIB
-ModelName9=MTH_M2
-ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=PNL_MOUSEBITES_100MIL_5-HOLES-10MIL-OFFSET
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=REG_LDO_MIC5303-1.8YMT-TR
-ModelUpdate11=1
-ModelType12=PCBLIB
-ModelName12=RES_0402
-ModelUpdate12=1
-ModelType13=PCBLIB
-ModelName13=RES_0805_HV
-ModelUpdate13=1
-ModelType14=PCBLIB
-ModelName14=TRX_BJT_PNP_FMMT560TA
-ModelUpdate14=1
-ModelType15=PCBLIB
-ModelName15=UND_DS28E16Q+U
-ModelUpdate15=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
