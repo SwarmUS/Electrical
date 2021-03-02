@@ -1,0 +1,383 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 { 
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body { 
+			font-family : segoe ui;
+		}
+
+		td, th {  
+			padding: 0.5em;
+			text-align : left;
+		}
+		th { 
+			background-color : #EEEEEE;
+		
+		}
+		th.column1, td.column1 { 
+			width : 50%; 
+		}
+
+        th.column2, td.column2 {
+            width : 25%;
+        }
+
+		table { 
+			width : 100%; 
+            font-size: 0.9em;
+		}
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 5em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error { 
+			color : red;
+			font-weight : bold;
+		}	
+		tr.onmouseout_odd { 
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+			
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);		
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {	
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}	
+	</script><title>Move Component(s) Origin to Grid</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD20\Templates\AD_logo.png
+		"><a href="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports" class="customize"><acronym title="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports">customize</acronym></a><h1>Move Component(s) Origin to Grid</h1>
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2021-03-02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12:56:29 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc" class="file"><acronym title="C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc">C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc</acronym></a></td>
+</tr>
+</table><a name="IDZQ4UBQDCHDXSNNMFPVCUJ22G5MIHHWLWNP5V0OPFNR0SJEAUFE3J"><h2>Components Origin</h2></a><a name="IDS22Y0MRZWD3WFZYUTGFBKHB02EVCGYNG0VYVWMCXDB4RD1HAMNPM"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="warning"></th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22979.078mil|Location2.X=23127.191mil|Location1.Y=21721.414mil|Location2.Y=21932.656mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22979.078mil|Location2.X=23127.191mil|Location1.Y=21721.414mil|Location2.Y=21932.656mil|Absolute=True">SMT Small Component Q4-SI2310-TP (25.02mm,11.951mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23273.2mil|Location2.X=23469.972mil|Location1.Y=21721.112mil|Location2.Y=21871.88mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23273.2mil|Location2.X=23469.972mil|Location1.Y=21721.112mil|Location2.Y=21871.88mil|Absolute=True">SMT Small Component Q1-SI2369DS-T1-GE3 (32.404mm,11.768mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23150.151mil|Location2.X=23825.777mil|Location1.Y=21364.448mil|Location2.Y=21683.012mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23150.151mil|Location2.X=23825.777mil|Location1.Y=21364.448mil|Location2.Y=21683.012mil|Absolute=True">DIP Component K1-EC2-12NU (35.204mm,5mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24057.082mil|Location2.X=24227.436mil|Location1.Y=21939.796mil|Location2.Y=22141.038mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24057.082mil|Location2.X=24227.436mil|Location1.Y=21939.796mil|Location2.Y=22141.038mil|Absolute=True">SMT Small Component D4-STZU6.2NT146 (52.72mm,18.484mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24753.789mil|Location2.X=24888.71mil|Location1.Y=21601.267mil|Location2.Y=21741.158mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24753.789mil|Location2.X=24888.71mil|Location1.Y=21601.267mil|Location2.Y=21741.158mil|Absolute=True">SMT Small Component C5-LMK212BJ106KG-T (69.966mm,7.938mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24568.789mil|Location2.X=24703.71mil|Location1.Y=21601.267mil|Location2.Y=21741.158mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24568.789mil|Location2.X=24703.71mil|Location1.Y=21601.267mil|Location2.Y=21741.158mil|Absolute=True">SMT Small Component C4-LMK212BJ106KG-T (65.267mm,7.938mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23387mil|Location2.X=23505.384mil|Location1.Y=23003.49mil|Location2.Y=23111.99mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23387mil|Location2.X=23505.384mil|Location1.Y=23003.49mil|Location2.Y=23111.99mil|Absolute=True">SMT Small Component D2-SML-D12P8WT86 (35.083mm,43.154mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22947.483mil|Location2.X=23173.323mil|Location1.Y=23056.141mil|Location2.Y=23147.756mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22947.483mil|Location2.X=23173.323mil|Location1.Y=23056.141mil|Location2.Y=23147.756mil|Absolute=True">SMT Small Component C2-CL31A226KAHNNNE (25.795mm,45.041mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24638.322mil|Location2.X=24723.298mil|Location1.Y=22974.366mil|Location2.Y=23166.666mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24638.322mil|Location2.X=24723.298mil|Location1.Y=22974.366mil|Location2.Y=23166.666mil|Absolute=True">SMT Small Component R15-RC0603FR-07402RL (66.448mm,43.264mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22574.314mil|Location2.X=22881.214mil|Location1.Y=21364.071mil|Location2.Y=21786.394mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22574.314mil|Location2.X=22881.214mil|Location1.Y=21364.071mil|Location2.Y=21786.394mil|Absolute=True">Small Component FH2-FC-201-22 (16.841mm,6.263mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22578.214mil|Location2.X=22881.214mil|Location1.Y=22007.787mil|Location2.Y=22430.11mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22578.214mil|Location2.X=22881.214mil|Location1.Y=22007.787mil|Location2.Y=22430.11mil|Absolute=True">Small Component FH1-FC-201-22 (16.841mm,22.613mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22574.17mil|Location2.X=22882.719mil|Location1.Y=21394mil|Location2.Y=22400.181mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22574.17mil|Location2.X=22882.719mil|Location1.Y=21394mil|Location2.Y=22400.181mil|Absolute=True">SMT Small Component F1-5MF 500-R (577.317mm,556.184mm) on Top</acronym></a> - Origin changed from [577.335mm:556.186mm] to [1137.81mm:1097.932mm]</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22114.493mil|Location2.X=22451.941mil|Location1.Y=22712.819mil|Location2.Y=22918.266mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22114.493mil|Location2.X=22451.941mil|Location1.Y=22712.819mil|Location2.Y=22918.266mil|Absolute=True">Small Component J6-1217861-1 (5.5mm,37mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22114.493mil|Location2.X=22451.941mil|Location1.Y=23126.205mil|Location2.Y=23331.321mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22114.493mil|Location2.X=22451.941mil|Location1.Y=23126.205mil|Location2.Y=23331.321mil|Absolute=True">Small Component J5-1217861-1 (5.5mm,47.5mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24043.626mil|Location2.X=24381.074mil|Location1.Y=22712.819mil|Location2.Y=22917.62mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24043.626mil|Location2.X=24381.074mil|Location1.Y=22712.819mil|Location2.Y=22917.62mil|Absolute=True">Small Component J3-1217861-1 (54.5mm,37mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22114.493mil|Location2.X=22451.941mil|Location1.Y=21748.252mil|Location2.Y=21953.36mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22114.493mil|Location2.X=22451.941mil|Location1.Y=21748.252mil|Location2.Y=21953.36mil|Absolute=True">Small Component J4-1217861-1 (5.5mm,12.5mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22114.493mil|Location2.X=22451.941mil|Location1.Y=22161.638mil|Location2.Y=22366.415mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22114.493mil|Location2.X=22451.941mil|Location1.Y=22161.638mil|Location2.Y=22366.415mil|Absolute=True">Small Component J2-1217861-1 (5.5mm,23mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24043.626mil|Location2.X=24381.074mil|Location1.Y=23126.205mil|Location2.Y=23331.62mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24043.626mil|Location2.X=24381.074mil|Location1.Y=23126.205mil|Location2.Y=23331.62mil|Absolute=True">Small Component J1-1217861-1 (54.5mm,47.5mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23571.455mil|Location2.X=23740.939mil|Location1.Y=24082.211mil|Location2.Y=24294.966mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23571.455mil|Location2.X=23740.939mil|Location1.Y=24082.211mil|Location2.Y=24294.966mil|Absolute=True">SOIC Component U2-TPS3700DDCR (40.376mm,71.765mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23926.698mil|Location2.X=24151.081mil|Location1.Y=21493.414mil|Location2.Y=21685.876mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23926.698mil|Location2.X=24151.081mil|Location1.Y=21493.414mil|Location2.Y=21685.876mil|Absolute=True">Component U3-MCP3021A5T-E/OT (49.294mm,6.51mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22965.76mil|Location2.X=23533.63mil|Location1.Y=22011.356mil|Location2.Y=22667.388mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22965.76mil|Location2.X=23533.63mil|Location1.Y=22011.356mil|Location2.Y=22667.388mil|Absolute=True">Component U1-K7805JT-500R3 (30.107mm,24.89mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23886.969mil|Location2.X=24032.02mil|Location1.Y=22323.223mil|Location2.Y=22528.138mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23886.969mil|Location2.X=24032.02mil|Location1.Y=22323.223mil|Location2.Y=22528.138mil|Absolute=True">Small Component TP2-5011 (48.078mm,27.104mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24202.521mil|Location2.X=24348.011mil|Location1.Y=22457.55mil|Location2.Y=22662.161mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24202.521mil|Location2.X=24348.011mil|Location1.Y=22457.55mil|Location2.Y=22662.161mil|Absolute=True">Small Component TP1-5011 (56.104mm,30.516mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23698.321mil|Location2.X=23980.934mil|Location1.Y=23777.763mil|Location2.Y=24134.966mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23698.321mil|Location2.X=23980.934mil|Location1.Y=23777.763mil|Location2.Y=24134.966mil|Absolute=True">Small Component R12-3362P-1-103LF (45.033mm,66.024mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23380.455mil|Location2.X=23663.459mil|Location1.Y=23777.763mil|Location2.Y=24134.966mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23380.455mil|Location2.X=23663.459mil|Location1.Y=23777.763mil|Location2.Y=24134.966mil|Absolute=True">Small Component R11-3362P-1-103LF (36.969mm,66.024mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22471mil|Location2.X=22972.313mil|Location1.Y=23329.056mil|Location2.Y=23917.99mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22471mil|Location2.X=22972.313mil|Location1.Y=23329.056mil|Location2.Y=23917.99mil|Absolute=True">Small Component LS1-CMI-1295-0585T (16.64mm,57.174mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23759.815mil|Location2.X=23988.358mil|Location1.Y=21867.453mil|Location2.Y=22211.457mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23759.815mil|Location2.X=23988.358mil|Location1.Y=21867.453mil|Location2.Y=22211.457mil|Absolute=True">SOIC Component ISO1-SI8602AC-B-IS (45.806mm,17.435mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23847.866mil|Location2.X=24057.123mil|Location1.Y=21370.407mil|Location2.Y=21426.588mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23847.866mil|Location2.X=24057.123mil|Location1.Y=21370.407mil|Location2.Y=21426.588mil|Absolute=True">SMT Small Component R21-RC0603FR-073KL (49.094mm,1.774mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23841.911mil|Location2.X=24056.167mil|Location1.Y=21432.381mil|Location2.Y=21488.562mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23841.911mil|Location2.X=24056.167mil|Location1.Y=21432.381mil|Location2.Y=21488.562mil|Absolute=True">SMT Small Component R20-RC0603FR-0710KL (49.069mm,3.348mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23863.998mil|Location2.X=23979.234mil|Location1.Y=21756.536mil|Location2.Y=21856.763mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23863.998mil|Location2.X=23979.234mil|Location1.Y=21756.536mil|Location2.Y=21856.763mil|Absolute=True">SMT Small Component R19-RC0603FR-073KL (47.115mm,12.7mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23742.648mil|Location2.X=23857.884mil|Location1.Y=21756.536mil|Location2.Y=21856.763mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23742.648mil|Location2.X=23857.884mil|Location1.Y=21756.536mil|Location2.Y=21856.763mil|Absolute=True">SMT Small Component R18-RC0603FR-073KL (44.033mm,12.7mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23757.49mil|Location2.X=23873.089mil|Location1.Y=22171.466mil|Location2.Y=22273.914mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23757.49mil|Location2.X=23873.089mil|Location1.Y=22171.466mil|Location2.Y=22273.914mil|Absolute=True">SMT Small Component R17-RC0603FR-073KL (44.419mm,23.296mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23889.046mil|Location2.X=24004.282mil|Location1.Y=22217.732mil|Location2.Y=22315.818mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23889.046mil|Location2.X=24004.282mil|Location1.Y=22217.732mil|Location2.Y=22315.818mil|Absolute=True">SMT Small Component R16-RC0603FR-073KL (47.752mm,23.296mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24752.322mil|Location2.X=24956.925mil|Location1.Y=22469.674mil|Location2.Y=22529.571mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24752.322mil|Location2.X=24956.925mil|Location1.Y=22469.674mil|Location2.Y=22529.571mil|Absolute=True">SMT Small Component R10-RC0603JR-070RL (71.949mm,29.79mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23446.078mil|Location2.X=23561.937mil|Location1.Y=23678.413mil|Location2.Y=23775.955mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23446.078mil|Location2.X=23561.937mil|Location1.Y=23678.413mil|Location2.Y=23775.955mil|Absolute=True">SMT Small Component R14-RC0603FR-0710KL (36.516mm,60.397mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23583.546mil|Location2.X=23698.782mil|Location1.Y=23678.413mil|Location2.Y=23775.955mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23583.546mil|Location2.X=23698.782mil|Location1.Y=23678.413mil|Location2.Y=23775.955mil|Absolute=True">SMT Small Component R13-RC0603FR-0710KL (39.992mm,60.397mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24847.026mil|Location2.X=25058.096mil|Location1.Y=22596.589mil|Location2.Y=22652.77mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24847.026mil|Location2.X=25058.096mil|Location1.Y=22596.589mil|Location2.Y=22652.77mil|Absolute=True">SMT Small Component R7-RC0603FR-07100KL (72.084mm,32.919mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24856.274mil|Location2.X=24971.51mil|Location1.Y=22781.117mil|Location2.Y=22897.304mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24856.274mil|Location2.X=24971.51mil|Location1.Y=22781.117mil|Location2.Y=22897.304mil|Absolute=True">SMT Small Component R6-RC0603FR-07100KL (72.319mm,37.606mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23446.689mil|Location2.X=23561.926mil|Location1.Y=23572.089mil|Location2.Y=23672.748mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23446.689mil|Location2.X=23561.926mil|Location1.Y=23572.089mil|Location2.Y=23672.748mil|Absolute=True">SMT Small Component R9-RC0603FR-07100KL (36.516mm,58.826mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23581.651mil|Location2.X=23696.887mil|Location1.Y=23572.089mil|Location2.Y=23672.748mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23581.651mil|Location2.X=23696.887mil|Location1.Y=23572.089mil|Location2.Y=23672.748mil|Absolute=True">SMT Small Component R8-RC0603FR-07100KL (39.944mm,58.826mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24345.362mil|Location2.X=24526.228mil|Location1.Y=22585.2mil|Location2.Y=22641.381mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24345.362mil|Location2.X=24526.228mil|Location1.Y=22585.2mil|Location2.Y=22641.381mil|Absolute=True">SMT Small Component R5-RC0603FR-073KL (61.009mm,32.63mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22926.534mil|Location2.X=23173.323mil|Location1.Y=23156.015mil|Location2.Y=23247.629mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22926.534mil|Location2.X=23173.323mil|Location1.Y=23156.015mil|Location2.Y=23247.629mil|Absolute=True">SMT Small Component R3-RC1206FR-07330RL (25.795mm,47.578mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23135.842mil|Location2.X=23195.826mil|Location1.Y=21730.726mil|Location2.Y=21892.028mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23135.842mil|Location2.X=23195.826mil|Location1.Y=21730.726mil|Location2.Y=21892.028mil|Absolute=True">SMT Small Component R2-RC0603FR-0710KL (27.919mm,11.676mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23200.283mil|Location2.X=23259.789mil|Location1.Y=21729.769mil|Location2.Y=21890.867mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23200.283mil|Location2.X=23259.789mil|Location1.Y=21729.769mil|Location2.Y=21890.867mil|Absolute=True">SMT Small Component R1-RC0603FR-0710KL (29.507mm,11.652mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24783.475mil|Location2.X=24987.927mil|Location1.Y=22309.906mil|Location2.Y=22456.232mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24783.475mil|Location2.X=24987.927mil|Location1.Y=22309.906mil|Location2.Y=22456.232mil|Absolute=True">SMT Small Component Q5-SI2310-TP (72.225mm,26.84mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23664.419mil|Location2.X=23810.745mil|Location1.Y=22583.447mil|Location2.Y=22798.576mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23664.419mil|Location2.X=23810.745mil|Location1.Y=22583.447mil|Location2.Y=22798.576mil|Absolute=True">SMT Small Component Q3-SI2310-TP (42.499mm,33.847mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23817.283mil|Location2.X=23963.609mil|Location1.Y=22583.447mil|Location2.Y=22798.576mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23817.283mil|Location2.X=23963.609mil|Location1.Y=22583.447mil|Location2.Y=22798.576mil|Absolute=True">SMT Small Component Q2-SI2310-TP (46.382mm,33.847mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24095.677mil|Location2.X=24402.414mil|Location1.Y=21362.144mil|Location2.Y=21661.87mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24095.677mil|Location2.X=24402.414mil|Location1.Y=21362.144mil|Location2.Y=21661.87mil|Absolute=True">Small Component MTH4-M3 (55mm,5mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22127.173mil|Location2.X=22486.001mil|Location1.Y=21354.064mil|Location2.Y=21661.87mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22127.173mil|Location2.X=22486.001mil|Location1.Y=21354.064mil|Location2.Y=21661.87mil|Absolute=True">Small Component MTH3-M3 (5mm,5mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24095.677mil|Location2.X=24368.394mil|Location1.Y=23357.657mil|Location2.Y=23689.99mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24095.677mil|Location2.X=24368.394mil|Location1.Y=23357.657mil|Location2.Y=23689.99mil|Absolute=True">Small Component MTH2-M3 (55mm,55mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22127mil|Location2.X=22399.89mil|Location1.Y=23357.657mil|Location2.Y=23689.99mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22127mil|Location2.X=22399.89mil|Location1.Y=23357.657mil|Location2.Y=23689.99mil|Absolute=True">Small Component MTH1-M3 (5mm,55mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24225.454mil|Location2.X=24385.194mil|Location1.Y=21872.189mil|Location2.Y=22343.59mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24225.454mil|Location2.X=24385.194mil|Location1.Y=21872.189mil|Location2.Y=22343.59mil|Absolute=True">SIP Component J7-CON_HDR_1X4 (56.865mm,15.429mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24045.405mil|Location2.X=24263.021mil|Location1.Y=22141.48mil|Location2.Y=22429.945mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24045.405mil|Location2.X=24263.021mil|Location1.Y=22141.48mil|Location2.Y=22429.945mil|Absolute=True">SMT Small Component D3-SMBJ5.0CA (52.473mm,24.309mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22935.589mil|Location2.X=23114.722mil|Location1.Y=21369.173mil|Location2.Y=21663.957mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22935.589mil|Location2.X=23114.722mil|Location1.Y=21369.173mil|Location2.Y=21663.957mil|Absolute=True">SMT Small Component D1-SMBJ12D-M3/H (24.345mm,4.104mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23786.939mil|Location2.X=23866.742mil|Location1.Y=21507.775mil|Location2.Y=21684.647mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23786.939mil|Location2.X=23866.742mil|Location1.Y=21507.775mil|Location2.Y=21684.647mil|Absolute=True">SMT Small Component C9-LMK212BJ106KG-T (44.708mm,6.263mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23869.773mil|Location2.X=23925.954mil|Location1.Y=21509.633mil|Location2.Y=21685.854mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23869.773mil|Location2.X=23925.954mil|Location1.Y=21509.633mil|Location2.Y=21685.854mil|Absolute=True">SMT Small Component C8-CC0603KRX7R9BB104 (46.512mm,6.06mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23985.609mil|Location2.X=24091.716mil|Location1.Y=21868.672mil|Location2.Y=21983.908mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23985.609mil|Location2.X=24091.716mil|Location1.Y=21868.672mil|Location2.Y=21983.908mil|Absolute=True">SMT Small Component C7-CC0603KRX7R9BB104 (49.454mm,15.18mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23985.613mil|Location2.X=24041.794mil|Location1.Y=21989.787mil|Location2.Y=22162.574mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23985.613mil|Location2.X=24041.794mil|Location1.Y=21989.787mil|Location2.Y=22162.574mil|Absolute=True">SMT Small Component C6-CC0603KRX7R9BB104 (49.454mm,19.718mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23273.064mil|Location2.X=23510.204mil|Location1.Y=21913.983mil|Location2.Y=22005.598mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23273.064mil|Location2.X=23510.204mil|Location1.Y=21913.983mil|Location2.Y=22005.598mil|Absolute=True">SMT Small Component C1-GRT31CR61H106KE01L (34.352mm,16.031mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24596.579mil|Location2.X=24656.563mil|Location1.Y=22973.409mil|Location2.Y=23148.962mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\04 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24596.579mil|Location2.X=24656.563mil|Location1.Y=22973.409mil|Location2.Y=23148.962mil|Absolute=True">SMT Small Component C3-CC0603KRX7R9BB104 (64.979mm,43.24mm) on Top</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
