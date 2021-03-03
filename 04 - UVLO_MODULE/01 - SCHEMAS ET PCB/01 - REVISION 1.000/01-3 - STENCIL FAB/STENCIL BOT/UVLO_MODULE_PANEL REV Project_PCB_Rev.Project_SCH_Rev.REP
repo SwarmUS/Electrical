@@ -1,0 +1,19 @@
+*************************************************************
+FileName = UVLO_MODULE_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Paste
+      File : UVLO_MODULE_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+*************************************************************
+
