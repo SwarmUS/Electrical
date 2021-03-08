@@ -1,0 +1,18 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 11:54:27 AM On 2021-03-04
+
+Output: SOURCE
+Type  : Copy Files
+From  : Project [UVLO_MODULE.PrjPcb]
+   Generated File[UVLO_MODULE_TITLE.SchDoc]
+   Generated File[UVLO_MODULE_TOP.SchDoc]
+   Generated File[UVLO_MODULE.PcbDoc]
+   Generated File[UVLO_MODULE.OutJob]
+   Generated File[UVLO_MODULE.PrjPcb]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 11:54:27 AM On 2021-03-04
