@@ -72,7 +72,7 @@ GenerateClassCluster=0
 DocumentUniqueId=IBHTQUAN
 
 [Document3]
-DocumentPath=BEE_BOARD_DECAWAVE.SchDoc
+DocumentPath=BEE_BOARD_MISC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -86,10 +86,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=FJOBTPAP
 
 [Document4]
-DocumentPath=BEE_BOARD_MISC.SchDoc
+DocumentPath=BEE_BOARD_DECAWAVE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
