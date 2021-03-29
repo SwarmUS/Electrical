@@ -157,13 +157,13 @@ GenerateClassCluster=0
 DocumentUniqueId=VRBRDNAT
 
 [Document8]
-DocumentPath=HIVE_BOARD_MISC.SchDoc
+DocumentPath=HIVE_BOARD_CLOCK_GEN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=5
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -174,6 +174,23 @@ GenerateClassCluster=0
 DocumentUniqueId=FJOBTPAP
 
 [Document9]
+DocumentPath=HIVE_BOARD_CHANNEL_HW.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LCTJVNQR
+
+[Document10]
 DocumentPath=HIVE_BOARD_USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QKIMTOQX
 
-[Document10]
+[Document11]
 DocumentPath=HIVE_BOARD_ETHERNET.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SXSGQGAW
 
-[Document11]
+[Document12]
 DocumentPath=HIVE_BOARD_DEBUG.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CHAHMWZK
 
-[Document12]
+[Document13]
 DocumentPath=HIVE_BOARD_WIRELESS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -240,6 +257,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ARLGXQEF
+
+[Document14]
+DocumentPath=HIVE_BOARD_MISC.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FJOBTPAP
 
 [Parameter1]
 Name=Project_Date
@@ -1560,11 +1594,12 @@ PartTypes=0
 Net1=NetName=1V8|NetColor=$00FF6E6E
 Net2=NetName=3V3|NetColor=$00068CF4
 Net3=NetName=3V3_PHY|NetColor=clYellow
-Net4=NetName=5V_CONN|NetColor=$00FF99FF
-Net5=NetName=5V_IN|NetColor=$005050FF
-Net6=NetName=5V_PROT|NetColor=clRed
-Net7=NetName=5V_USB|NetColor=$00FF39BC
-Net8=NetName=GND|NetColor=$006EFF6E
+Net4=NetName=5V|NetColor=$006E6EFF
+Net5=NetName=5V_CONN|NetColor=$00FF99FF
+Net6=NetName=5V_IN|NetColor=$009999FF
+Net7=NetName=5V_PROT|NetColor=clRed
+Net8=NetName=5V_USB|NetColor=$00FF39BC
+Net9=NetName=GND|NetColor=$006EFF6E
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
