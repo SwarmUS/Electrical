@@ -48,28 +48,28 @@ AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EKSQLWLT
 
 [Document2]
-DocumentPath=HIVE_BOARD_MCU.SchDoc
+DocumentPath=HIVE_BOARD_BLOCK_DIAG.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=10
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=LOBTFKVV
+DocumentUniqueId=IBHTQUAN
 
 [Document3]
 DocumentPath=HIVE_BOARD_POWER.SchDoc
@@ -82,13 +82,30 @@ AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JESWFUAM
 
 [Document4]
+DocumentPath=HIVE_BOARD_MCU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LOBTFKVV
+
+[Document5]
 DocumentPath=HIVE_BOARD_TITLE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,28 +116,11 @@ AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EVSUIFOH
-
-[Document5]
-DocumentPath=HIVE_BOARD_BLOCK_DIAG.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=10
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IBHTQUAN
 
 [Document6]
 DocumentPath=HIVE_BOARD.PcbDoc
@@ -167,7 +167,7 @@ AnnotateOrder=11
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -201,7 +201,7 @@ AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -218,7 +218,7 @@ AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -235,7 +235,7 @@ AnnotateOrder=9
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -252,7 +252,7 @@ AnnotateOrder=8
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -269,59 +269,76 @@ AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FJOBTPAP
 
+[Document15]
+DocumentPath=HIVE_BOARD.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [Parameter1]
-Name=Project_Date
-Value=2020-06-01
+Name=Project_Stencil_Top_Thickness
+Value=0.1 MM
 
 [Parameter2]
-Name=Project_DateCode
-Value=
-
-[Parameter3]
-Name=Project_Designer1
-Value=Philippe Arsenault
-
-[Parameter4]
-Name=Project_Designer2
-Value=Hubert Dube
-
-[Parameter5]
-Name=Project_Designer3
-Value=Louis-Daniel Gaulin
-
-[Parameter6]
-Name=Project_Designer4
-Value=
-
-[Parameter7]
-Name=Project_Global
-Value=PMC
-
-[Parameter8]
-Name=Project_Group
-Value=SwarmUS
-
-[Parameter9]
-Name=Project_Name
-Value=HiveBoard
-
-[Parameter10]
-Name=Project_Revision
-Value=1.000
-
-[Parameter11]
 Name=Project_Stencil_Bot_Thickness
 Value=0.1 MM
 
+[Parameter3]
+Name=Project_Revision
+Value=1.000
+
+[Parameter4]
+Name=Project_Name
+Value=HiveBoard
+
+[Parameter5]
+Name=Project_Group
+Value=SwarmUS
+
+[Parameter6]
+Name=Project_Global
+Value=PMC
+
+[Parameter7]
+Name=Project_Designer4
+Value=
+
+[Parameter8]
+Name=Project_Designer3
+Value=Louis-Daniel Gaulin
+
+[Parameter9]
+Name=Project_Designer2
+Value=Hubert Dube
+
+[Parameter10]
+Name=Project_Designer1
+Value=Philippe Arsenault
+
+[Parameter11]
+Name=Project_DateCode
+Value=
+
 [Parameter12]
-Name=Project_Stencil_Top_Thickness
-Value=0.1 MM
+Name=Project_Date
+Value=2020-06-01
 
 [Configuration1]
 Name=Sources
@@ -332,9 +349,6 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
-
-[Generic_EDE]
-OutputDir=
 
 [Generic_SignalIntegrityPanelSetup]
 TerminationName0=No Termination
@@ -441,6 +455,9 @@ TerminationMinC7=0
 TerminationMaxC7=0
 TerminationPrefC7=0
 TerminationVCC7=5
+
+[Generic_EDE]
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
