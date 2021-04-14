@@ -293,52 +293,52 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=Project_Stencil_Top_Thickness
-Value=0.1 MM
+Name=Project_Date
+Value=2020-06-01
 
 [Parameter2]
-Name=Project_Stencil_Bot_Thickness
-Value=0.1 MM
-
-[Parameter3]
-Name=Project_Revision
-Value=1.000
-
-[Parameter4]
-Name=Project_Name
-Value=HiveBoard
-
-[Parameter5]
-Name=Project_Group
-Value=SwarmUS
-
-[Parameter6]
-Name=Project_Global
-Value=PMC
-
-[Parameter7]
-Name=Project_Designer4
-Value=
-
-[Parameter8]
-Name=Project_Designer3
-Value=Louis-Daniel Gaulin
-
-[Parameter9]
-Name=Project_Designer2
-Value=Hubert Dube
-
-[Parameter10]
-Name=Project_Designer1
-Value=Philippe Arsenault
-
-[Parameter11]
 Name=Project_DateCode
 Value=
 
+[Parameter3]
+Name=Project_Designer1
+Value=Philippe Arsenault
+
+[Parameter4]
+Name=Project_Designer2
+Value=Hubert Dube
+
+[Parameter5]
+Name=Project_Designer3
+Value=Louis-Daniel Gaulin
+
+[Parameter6]
+Name=Project_Designer4
+Value=
+
+[Parameter7]
+Name=Project_Global
+Value=PMC
+
+[Parameter8]
+Name=Project_Group
+Value=SwarmUS
+
+[Parameter9]
+Name=Project_Name
+Value=HiveBoard
+
+[Parameter10]
+Name=Project_Revision
+Value=1.000
+
+[Parameter11]
+Name=Project_Stencil_Bot_Thickness
+Value=0.1 MM
+
 [Parameter12]
-Name=Project_Date
-Value=2020-06-01
+Name=Project_Stencil_Top_Thickness
+Value=0.1 MM
 
 [Configuration1]
 Name=Sources
