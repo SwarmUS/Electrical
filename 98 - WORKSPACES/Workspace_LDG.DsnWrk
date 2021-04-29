@@ -1,8 +1,28 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=..\..\LOCAL\GRAMS_MASTER_LIB\GRAMS_MASTER_LIB.LibPkg
+ProjectPath=..\02 - HIVE_BOARD\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_BOARD.PrjPcb
 [Project2]
-ProjectPath=..\..\..\TEMP_FILES\VALID_LIB\VALID_NOW_LD.LibPkg
+ProjectPath=..\04 - BEE_BOARD\01 - SCHEMAS ET PCB\99 - WORKING COPY\BEE_BOARD.PrjPcb
 [Project3]
+ProjectPath=..\03 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PrjPcb
+[Project4]
+ProjectPath=..\99 - SWARMUS_LIB\SWARMUS_LIB.LibPkg
+[Project5]
+ProjectPath=..\99 - SWARMUS_LIB\LIBRAIRE_A_VALIDER\a_Valider_LDG.LibPkg
+[Project6]
+ProjectPath=..\99 - SWARMUS_LIB\LIBRAIRE_A_VALIDER\a_Valider_PA.LibPkg
+[Project7]
+ProjectPath=..\..\LOCAL\GRAMS_MASTER_LIB\GRAMS_MASTER_LIB.LibPkg
+[Project8]
+ProjectPath=..\99 - SWARMUS_LIB\LIBRAIRE_A_VALIDER\a_Valider_TEMP.LibPkg
+[Project9]
+ProjectPath=..\..\..\GRAMS\GRAMS-PCB\LabPETII\Scanner Commercial\Scanner Cerveau\07 - UHR CONVERTER BOARD\01 - SCHEMAS ET PCB\05 - REV 1.01 (2020-12-10)\04 - SOURCE\UHR_CONVERTER_BOARD.PrjPcb
+[Project10]
+ProjectPath=..\..\..\GRAMS\GRAMS-PCB\LabPETII\Scanner Commercial\Scanner Cerveau\05 - UHR DISTRIBUTION UNIT BOARD\01 - SCHEMAS ET PCB\99 - WORKING COPY\UHR_DUB.PrjPcb
+[Project11]
 ProjectPath=..\01 - HIVE_SIGHT\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_SIGHT.PrjPcb
+[Project12]
+ProjectPath=..\97 - NUCLEO_144_TEMPLATE\ALTIUM\NUCLEO_144.PrjPCB
+[Project13]
+ProjectPath=..\94 - NUCLEO_H743\MB1364-C01\MB1364.PrjPcb
