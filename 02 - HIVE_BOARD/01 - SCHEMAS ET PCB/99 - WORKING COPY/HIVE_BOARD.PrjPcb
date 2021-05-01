@@ -310,52 +310,52 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=Project_Stencil_Top_Thickness
-Value=0.1 MM
+Name=Project_Date
+Value=2020-06-01
 
 [Parameter2]
-Name=Project_Stencil_Bot_Thickness
-Value=0.1 MM
-
-[Parameter3]
-Name=Project_Revision
-Value=1.000
-
-[Parameter4]
-Name=Project_Name
-Value=HiveBoard
-
-[Parameter5]
-Name=Project_Group
-Value=SwarmUS
-
-[Parameter6]
-Name=Project_Global
-Value=PMC
-
-[Parameter7]
-Name=Project_Designer4
-Value=
-
-[Parameter8]
-Name=Project_Designer3
-Value=Louis-Daniel Gaulin
-
-[Parameter9]
-Name=Project_Designer2
-Value=Hubert Dube
-
-[Parameter10]
-Name=Project_Designer1
-Value=Philippe Arsenault
-
-[Parameter11]
 Name=Project_DateCode
 Value=
 
+[Parameter3]
+Name=Project_Designer1
+Value=Philippe Arsenault
+
+[Parameter4]
+Name=Project_Designer2
+Value=Hubert Dube
+
+[Parameter5]
+Name=Project_Designer3
+Value=Louis-Daniel Gaulin
+
+[Parameter6]
+Name=Project_Designer4
+Value=
+
+[Parameter7]
+Name=Project_Global
+Value=PMC
+
+[Parameter8]
+Name=Project_Group
+Value=SwarmUS
+
+[Parameter9]
+Name=Project_Name
+Value=HiveBoard
+
+[Parameter10]
+Name=Project_Revision
+Value=1.000
+
+[Parameter11]
+Name=Project_Stencil_Bot_Thickness
+Value=0.1 MM
+
 [Parameter12]
-Name=Project_Date
-Value=2020-06-01
+Name=Project_Stencil_Top_Thickness
+Value=0.1 MM
 
 [Configuration1]
 Name=Sources
@@ -2403,13 +2403,19 @@ PartTypes=0
 [NetInfos]
 Net1=NetName=1V8|NetColor=$00FF6E6E
 Net2=NetName=3V3|NetColor=$00068CF4
-Net3=NetName=3V3_PHY|NetColor=clYellow
-Net4=NetName=5V|NetColor=$006E6EFF
-Net5=NetName=5V_CONN|NetColor=$00FF99FF
-Net6=NetName=5V_IN|NetColor=$009999FF
-Net7=NetName=5V_PROT|NetColor=clRed
-Net8=NetName=5V_USB|NetColor=$00FF39BC
-Net9=NetName=GND|NetColor=$006EFF6E
+Net3=NetName=3V3_C|NetColor=$0000D9FF
+Net4=NetName=3V3_CA|NetColor=$0000D9FF
+Net5=NetName=3V3_CB|NetColor=clYellow
+Net6=NetName=3V3_CC|NetColor=$0000D9FF
+Net7=NetName=3V3_CH|NetColor=$001AC5FF
+Net8=NetName=3V3_CL|NetColor=$005D85FF
+Net9=NetName=3V3_PHY|NetColor=clYellow
+Net10=NetName=5V|NetColor=$006E6EFF
+Net11=NetName=5V_CONN|NetColor=$00FF99FF
+Net12=NetName=5V_IN|NetColor=$009999FF
+Net13=NetName=5V_PROT|NetColor=clRed
+Net14=NetName=5V_USB|NetColor=$00FF39BC
+Net15=NetName=GND|NetColor=$006EFF6E
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
