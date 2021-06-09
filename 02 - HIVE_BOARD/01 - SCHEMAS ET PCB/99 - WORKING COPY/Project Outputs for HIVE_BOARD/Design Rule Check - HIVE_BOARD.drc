@@ -1,0 +1,200 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\02 - HIVE_BOARD\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_BOARD.PcbDoc
+Date     : 2021-06-08
+Time     : 9:17:10 PM
+
+Processing Rule : Clearance Constraint (Gap=12.2mil) (IsVia AND (InAnyComponent)),(IsVia AND (InAnyComponent))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mil) (IsVia and (NOT InAnyComponent)),(IsSMTPin Or IsThruPin  or IsVia)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=4mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=5.2mil) (IsVia and (NOT InAnyComponent)),(IsVia and (NOT InAnyComponent))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=4mil) (IsKeepOut),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=6mil) (Max=12mil) (Preferred=12mil) (InNetClass('SE_50'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=4mil) (Max=100mil) (Preferred=12mil) (All)
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=7.874mil) (MaxHoleWidth=255.905mil) (PreferredHoleWidth=7.874mil) (MinWidth=19.685mil) (MaxWidth=295.276mil) (PreferedWidth=21.654mil) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=5mil) (Max=5.5mil) (Prefered=5.5mil)  and Width Constraints (Min=5mil) (Max=8.5mil) (Prefered=8.5mil) (InDifferentialPairClass('DIFF_85'))
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=5mil) (Max=7mil) (Prefered=7mil)  and Width Constraints (Min=5mil) (Max=7.5mil) (Prefered=7.5mil) (InDifferentialPairClass('DIFF_90'))
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=5mil) (Max=8mil) (Prefered=8mil)  and Width Constraints (Min=4mil) (Max=5mil) (Prefered=5mil) (InDifferentialPairClass('DIFF_100'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=39.37mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (InNet('5V_CONN') OR InNet('ETH_GND'))
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=5.906mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=7.874mil) (Max=255.905mil) (All)
+Rule Violations :0
+
+Processing Rule : Pads and Vias to follow the Drill pairs settings
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=8mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=3.937mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=1mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (InComponentClass('MouseBites'))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) ((OnLayer('Bottom Overlay')) OR (OnLayer('Top Overlay')))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (InComponentClass('Fiducials'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1mil) (InNetClass('CLK_FAN'))
+   Violation between Matched Net Lengths: Between Net CLK_0A_N And Net CLK_0B_N Length:1954.186mil is not within 1mil tolerance of Length:3559.921mil (1604.735mil short) 
+   Violation between Matched Net Lengths: Between Net CLK_0A_N And Net CLK_0B_P Length:1931.875mil is not within 1mil tolerance of Length:3559.921mil (1627.046mil short) 
+   Violation between Matched Net Lengths: Between Net CLK_0A_N And Net CLK_0C_N Length:1912.9mil is not within 1mil tolerance of Length:3559.921mil (1646.021mil short) 
+   Violation between Matched Net Lengths: Between Net CLK_0A_N And Net CLK_0C_P Length:1869.05mil is not within 1mil tolerance of Length:3559.921mil (1689.871mil short) 
+   Violation between Matched Net Lengths: Between Net CLK_0A_N And Net CLK_1A_N Length:2955.449mil is not within 1mil tolerance of Length:3559.921mil (603.472mil short) 
+   Violation between Matched Net Lengths: Between Net CLK_0A_N And Net CLK_1A_P Length:2914.913mil is not within 1mil tolerance of Length:3559.921mil (644.008mil short) 
+   Violation between Matched Net Lengths: Between Net CLK_0A_N And Net CLK_1B_N Length:3266.861mil is not within 1mil tolerance of Length:3559.921mil (292.06mil short) 
+   Violation between Matched Net Lengths: Between Net CLK_0A_N And Net CLK_1B_P Length:3204.785mil is not within 1mil tolerance of Length:3559.921mil (354.136mil short) 
+   Violation between Matched Net Lengths: Between Net CLK_0A_N And Net CLK_1C_N Length:2753.156mil is not within 1mil tolerance of Length:3559.921mil (805.765mil short) 
+   Violation between Matched Net Lengths: Between Net CLK_0A_N And Net CLK_1C_P Length:2691.08mil is not within 1mil tolerance of Length:3559.921mil (867.841mil short) 
+   Violation between Matched Net Lengths: Between Net CLK_0A_P And Net CLK_1B_N Length:3266.861mil is not within 1mil tolerance of Length:3537.61mil (269.749mil short) 
+Rule Violations :11
+
+Processing Rule : Matched Lengths(Tolerance=1mil) (InNetClass('SYNC_FAN'))
+   Violation between Matched Net Lengths: Between Net SYNC_0A_N And Net SYNC_1C_N Length:4015.859mil is not within 1mil tolerance of Length:4284.759mil (267.9mil short) 
+   Violation between Matched Net Lengths: Between Net SYNC_0A_N And Net SYNC_1C_P Length:4015.859mil is not within 1mil tolerance of Length:4262.391mil (245.532mil short) 
+   Violation between Matched Net Lengths: Between Net SYNC_0A_P And Net SYNC_1C_N Length:3953.727mil is not within 1mil tolerance of Length:4284.759mil (330.032mil short) 
+   Violation between Matched Net Lengths: Between Net SYNC_0B_N And Net SYNC_1C_N Length:2382.915mil is not within 1mil tolerance of Length:4284.759mil (1900.844mil short) 
+   Violation between Matched Net Lengths: Between Net SYNC_0B_P And Net SYNC_1C_N Length:2390.371mil is not within 1mil tolerance of Length:4284.759mil (1893.388mil short) 
+   Violation between Matched Net Lengths: Between Net SYNC_0C_N And Net SYNC_1C_N Length:2554.68mil is not within 1mil tolerance of Length:4284.759mil (1729.079mil short) 
+   Violation between Matched Net Lengths: Between Net SYNC_0C_P And Net SYNC_1C_N Length:2547.148mil is not within 1mil tolerance of Length:4284.759mil (1736.611mil short) 
+   Violation between Matched Net Lengths: Between Net SYNC_1A_N And Net SYNC_1C_N Length:3482.193mil is not within 1mil tolerance of Length:4284.759mil (801.566mil short) 
+   Violation between Matched Net Lengths: Between Net SYNC_1A_P And Net SYNC_1C_N Length:3395.919mil is not within 1mil tolerance of Length:4284.759mil (887.84mil short) 
+   Violation between Matched Net Lengths: Between Net SYNC_1B_N And Net SYNC_1C_N Length:2367.126mil is not within 1mil tolerance of Length:4284.759mil (1916.633mil short) 
+   Violation between Matched Net Lengths: Between Net SYNC_1B_P And Net SYNC_1C_N Length:2265.229mil is not within 1mil tolerance of Length:4284.759mil (2018.53mil short) 
+Rule Violations :11
+
+Processing Rule : Matched Lengths(Tolerance=1mil) (InNetClass('CLK_CHAN'))
+   Violation between Matched Net Lengths: Between Net BB_CLK_0A_N And Net BB_CLK_0B_N Length:305.856mil is not within 1mil tolerance of Length:431.838mil (124.981mil short) 
+   Violation between Matched Net Lengths: Between Net BB_CLK_0A_N And Net BB_CLK_0B_P Length:305.803mil is not within 1mil tolerance of Length:431.838mil (125.034mil short) 
+   Violation between Matched Net Lengths: Between Net BB_CLK_0A_N And Net BB_CLK_0C_N Length:222.837mil is not within 1mil tolerance of Length:431.838mil (208.001mil short) 
+   Violation between Matched Net Lengths: Between Net BB_CLK_0A_N And Net BB_CLK_0C_P Length:221.78mil is not within 1mil tolerance of Length:431.838mil (209.057mil short) 
+   Violation between Matched Net Lengths: Between Net BB_CLK_0A_N And Net BB_CLK_1A_N Length:375.212mil is not within 1mil tolerance of Length:431.838mil (55.625mil short) 
+   Violation between Matched Net Lengths: Between Net BB_CLK_0A_N And Net BB_CLK_1A_P Length:375.516mil is not within 1mil tolerance of Length:431.838mil (55.322mil short) 
+   Violation between Matched Net Lengths: Between Net BB_CLK_0A_N And Net BB_CLK_1B_N Length:242.543mil is not within 1mil tolerance of Length:431.838mil (188.295mil short) 
+   Violation between Matched Net Lengths: Between Net BB_CLK_0A_N And Net BB_CLK_1B_P Length:242.36mil is not within 1mil tolerance of Length:431.838mil (188.478mil short) 
+   Violation between Matched Net Lengths: Between Net BB_CLK_0A_N And Net BB_CLK_1C_N Length:269.096mil is not within 1mil tolerance of Length:431.838mil (161.742mil short) 
+   Violation between Matched Net Lengths: Between Net BB_CLK_0A_N And Net BB_CLK_1C_P Length:268.913mil is not within 1mil tolerance of Length:431.838mil (161.925mil short) 
+   Violation between Matched Net Lengths: Between Net BB_CLK_0A_P And Net BB_CLK_1A_P Length:375.516mil is not within 1mil tolerance of Length:431.784mil (55.269mil short) 
+Rule Violations :11
+
+Processing Rule : Matched Lengths(Tolerance=1mil) (InDifferentialPairClass('All Differential Pairs'))
+   Violation between Matched Net Lengths: Between Net 12M_X_N And Net 12M_X_P Actual Difference against 12M_X_P is: 28.103mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_CLK_0C_N And Net BB_CLK_0C_P Actual Difference against BB_CLK_0C_P is: 1.056mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_CLK_0A_N And Net BB_SPI_CLK_0A_P Actual Difference against BB_SPI_CLK_0A_P is: 45.177mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_CLK_0B_N And Net BB_SPI_CLK_0B_P Actual Difference against BB_SPI_CLK_0B_P is: 45.177mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_CLK_0C_N And Net BB_SPI_CLK_0C_P Actual Difference against BB_SPI_CLK_0C_P is: 45.177mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_CLK_1A_N And Net BB_SPI_CLK_1A_P Actual Difference against BB_SPI_CLK_1A_P is: 45.177mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_CLK_1B_N And Net BB_SPI_CLK_1B_P Actual Difference against BB_SPI_CLK_1B_P is: 45.177mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_CLK_1C_N And Net BB_SPI_CLK_1C_P Actual Difference against BB_SPI_CLK_1C_P is: 45.177mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_MISO_0A_N And Net BB_SPI_MISO_0A_P Actual Difference against BB_SPI_MISO_0A_P is: 34.558mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_MISO_0B_N And Net BB_SPI_MISO_0B_P Actual Difference against BB_SPI_MISO_0B_P is: 34.557mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_MISO_0C_N And Net BB_SPI_MISO_0C_P Actual Difference against BB_SPI_MISO_0C_P is: 34.558mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_MISO_1A_N And Net BB_SPI_MISO_1A_P Actual Difference against BB_SPI_MISO_1A_P is: 6.892mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_MISO_1B_N And Net BB_SPI_MISO_1B_P Actual Difference against BB_SPI_MISO_1B_P is: 6.892mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_MISO_1C_N And Net BB_SPI_MISO_1C_P Actual Difference against BB_SPI_MISO_1C_P is: 6.892mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_MOSI_0A_N And Net BB_SPI_MOSI_0A_P Actual Difference against BB_SPI_MOSI_0A_P is: 44.735mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_MOSI_0B_N And Net BB_SPI_MOSI_0B_P Actual Difference against BB_SPI_MOSI_0B_P is: 44.735mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_MOSI_0C_N And Net BB_SPI_MOSI_0C_P Actual Difference against BB_SPI_MOSI_0C_P is: 44.735mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_MOSI_1A_N And Net BB_SPI_MOSI_1A_P Actual Difference against BB_SPI_MOSI_1A_P is: 37.733mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_MOSI_1B_N And Net BB_SPI_MOSI_1B_P Actual Difference against BB_SPI_MOSI_1B_P is: 37.733mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net BB_SPI_MOSI_1C_N And Net BB_SPI_MOSI_1C_P Actual Difference against BB_SPI_MOSI_1C_P is: 37.733mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net CLK_0A_N And Net CLK_0A_P Actual Difference against CLK_0A_P is: 22.311mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net CLK_0B_N And Net CLK_0B_P Actual Difference against CLK_0B_P is: 22.311mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net CLK_0C_N And Net CLK_0C_P Actual Difference against CLK_0C_P is: 43.85mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net CLK_1A_N And Net CLK_1A_P Actual Difference against CLK_1A_P is: 40.536mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net CLK_1B_N And Net CLK_1B_P Actual Difference against CLK_1B_P is: 62.076mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net CLK_1C_N And Net CLK_1C_P Actual Difference against CLK_1C_P is: 62.076mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net ETH_RX_N And Net ETH_RX_P Actual Difference against ETH_RX_P is: 33.138mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net ETH_TX_N And Net ETH_TX_P Actual Difference against ETH_TX_P is: 34.983mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net MEZ_ADC1_N And Net MEZ_ADC1_P Actual Difference against MEZ_ADC1_P is: 2.487mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net SYNC_0A_N And Net SYNC_0A_P Actual Difference against SYNC_0A_P is: 62.132mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net SYNC_0B_N And Net SYNC_0B_P Actual Difference against SYNC_0B_P is: 7.456mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net SYNC_0C_N And Net SYNC_0C_P Actual Difference against SYNC_0C_P is: 7.533mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net SYNC_1A_N And Net SYNC_1A_P Actual Difference against SYNC_1A_P is: 86.274mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net SYNC_1B_N And Net SYNC_1B_P Actual Difference against SYNC_1B_P is: 101.896mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net SYNC_1C_N And Net SYNC_1C_P Actual Difference against SYNC_1C_P is: 22.368mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net USB_D_N And Net USB_D_P Actual Difference against USB_D_P is: 2.79mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net USB_DEBUG_N And Net USB_DEBUG_P Actual Difference against USB_DEBUG_P is: 39.764mil, Tolerance : 1mil. 
+   Violation between Matched Net Lengths: Between Net USB_STM_D_N And Net USB_STM_D_P Actual Difference against USB_STM_D_P is: 10.66mil, Tolerance : 1mil. 
+Rule Violations :38
+
+Processing Rule : Room CHAN_C (Bounding Region = (24940.697mil, 24107.146mil, 26358.02mil, 25142.373mil) ((InComponentClass('CHAN 0C + 1C')) AND NOT (HasFootprint('TVS_PWR_SMBJ5.0CA') OR HasFootprint('CON_USB_3.2_TypeC_12401598E4#2A')OR HasFootprint('TVS_DATA_DT1140-04LP-7')))
+Rule Violations :0
+
+Processing Rule : Room CHAN_A (Bounding Region = (22106.051mil, 24107.146mil, 23523.374mil, 25142.373mil) ((InComponentClass('CHAN 0A + 1A')) AND NOT (HasFootprint('TVS_PWR_SMBJ5.0CA') OR HasFootprint('CON_USB_3.2_TypeC_12401598E4#2A')OR HasFootprint('TVS_DATA_DT1140-04LP-7')))
+Rule Violations :0
+
+Processing Rule : Room CHAN_B (Bounding Region = (23523.374mil, 24107.146mil, 24940.697mil, 25142.373mil) ((InComponentClass('CHAN 0B + 1B')) AND NOT (HasFootprint('TVS_PWR_SMBJ5.0CA') OR HasFootprint('CON_USB_3.2_TypeC_12401598E4#2A')OR HasFootprint('TVS_DATA_DT1140-04LP-7')))
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mil, Vertical Gap = 0mil ) (HasFootprint('CON_JMP_SNT-100-BK-T-H')),(All) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 4mil, Vertical Gap = 4mil ) (All),(All) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 1mil, Vertical Gap = 1mil ) (IsKeepOut),(All) 
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 71
+Waived Violations : 0
+Time Elapsed        : 00:00:06
