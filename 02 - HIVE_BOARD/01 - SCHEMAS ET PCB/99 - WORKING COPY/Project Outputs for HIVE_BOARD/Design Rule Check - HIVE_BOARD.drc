@@ -1,10 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\02 - HIVE_BOARD\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_BOARD.PcbDoc
-Date     : 2021-06-10
-Time     : 10:37:16 PM
-
-Processing Rule : Clearance Constraint (Gap=12.2mil) (IsVia AND (InAnyComponent)),(IsVia AND (InAnyComponent))
-Rule Violations :0
+Date     : 2021-06-23
+Time     : 9:57:34 PM
 
 Processing Rule : Clearance Constraint (Gap=0mil) (IsVia and (NOT InAnyComponent)),(IsSMTPin Or IsThruPin  or IsVia)
 Rule Violations :0
@@ -12,10 +9,13 @@ Rule Violations :0
 Processing Rule : Clearance Constraint (Gap=4mil) (All),(All)
 Rule Violations :0
 
+Processing Rule : Clearance Constraint (Gap=4mil) (IsKeepOut),(All)
+Rule Violations :0
+
 Processing Rule : Clearance Constraint (Gap=5.2mil) (IsVia and (NOT InAnyComponent)),(IsVia and (NOT InAnyComponent))
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=4mil) (IsKeepOut),(All)
+Processing Rule : Clearance Constraint (Gap=12.2mil) (IsVia AND (InAnyComponent)),(IsVia AND (InAnyComponent))
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -39,19 +39,19 @@ Rule Violations :0
 Processing Rule : Routing Via (MinHoleWidth=7.874mil) (MaxHoleWidth=255.905mil) (PreferredHoleWidth=7.874mil) (MinWidth=19.685mil) (MaxWidth=295.276mil) (PreferedWidth=21.654mil) (All)
 Rule Violations :0
 
-Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=5mil) (Max=5.5mil) (Prefered=5.5mil)  and Width Constraints (Min=5mil) (Max=8.5mil) (Prefered=8.5mil) (InDifferentialPairClass('DIFF_85'))
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=5mil) (Max=8mil) (Prefered=8mil)  and Width Constraints (Min=4mil) (Max=5mil) (Prefered=5mil) (InDifferentialPairClass('DIFF_100'))
 Rule Violations :0
 
 Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=5mil) (Max=7mil) (Prefered=7mil)  and Width Constraints (Min=5mil) (Max=7.5mil) (Prefered=7.5mil) (InDifferentialPairClass('DIFF_90'))
 Rule Violations :0
 
-Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=5mil) (Max=8mil) (Prefered=8mil)  and Width Constraints (Min=4mil) (Max=5mil) (Prefered=5mil) (InDifferentialPairClass('DIFF_100'))
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=5mil) (Max=5.5mil) (Prefered=5.5mil)  and Width Constraints (Min=5mil) (Max=8.5mil) (Prefered=8.5mil) (InDifferentialPairClass('DIFF_85'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (InNet('ETH_GND'))
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=39.37mil) (Air Gap=10mil) (Entries=4) (All)
-Rule Violations :0
-
-Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (InNet('5V_CONN') OR InNet('ETH_GND'))
 Rule Violations :0
 
 Processing Rule : Minimum Annular Ring (Minimum=5.906mil) (All)
