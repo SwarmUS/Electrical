@@ -140,23 +140,6 @@ GenerateClassCluster=0
 DocumentUniqueId=GNYTCPOA
 
 [Document7]
-DocumentPath=HIVE_BOARD_PANNEL.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VRBRDNAT
-
-[Document8]
 DocumentPath=HIVE_BOARD_CLOCK_GEN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HRRAHQXP
 
-[Document9]
+[Document8]
 DocumentPath=HIVE_BOARD_CHANNEL_HW.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LCTJVNQR
 
-[Document10]
+[Document9]
 DocumentPath=HIVE_BOARD_USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QKIMTOQX
 
-[Document11]
+[Document10]
 DocumentPath=HIVE_BOARD_ETHERNET.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SXSGQGAW
 
-[Document12]
+[Document11]
 DocumentPath=HIVE_BOARD_DEBUG.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CHAHMWZK
 
-[Document13]
+[Document12]
 DocumentPath=HIVE_BOARD_WIRELESS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ARLGXQEF
 
-[Document14]
+[Document13]
 DocumentPath=HIVE_BOARD_MISC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FJOBTPAP
 
-[Document15]
+[Document14]
 DocumentPath=HIVE_BOARD.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -291,6 +274,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document15]
+DocumentPath=HIVE_BOARD_PANEL.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VRBRDNAT
 
 [Document16]
 DocumentPath=HIVE_BOARD.BomDoc
