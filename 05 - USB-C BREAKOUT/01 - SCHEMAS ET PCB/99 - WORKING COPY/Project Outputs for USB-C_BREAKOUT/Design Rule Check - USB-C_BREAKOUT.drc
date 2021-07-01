@@ -1,0 +1,81 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\arsp2701\Documents\Travaux\Electrical\05 - USB-C BREAKOUT\01 - SCHEMAS ET PCB\99 - WORKING COPY\USB-C_BREAKOUT.PcbDoc
+Date     : 2021-07-01
+Time     : 01:44:57
+
+Processing Rule : Clearance Constraint (Gap=12.2mil) (IsVia AND (InAnyComponent)),(IsVia AND (InAnyComponent))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=4mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mil) (IsVia and (NOT InAnyComponent)),(IsSMTPin Or IsThruPin  or IsVia)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=5.2mil) (IsVia and (NOT InAnyComponent)),(IsVia and (NOT InAnyComponent))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=6mil) (Max=12mil) (Preferred=12mil) (InNetClass('SE_50OHM'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=4mil) (Max=100mil) (Preferred=12mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=3.937mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=7.874mil) (Max=255.905mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=8mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=3.937mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=1mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (InComponentClass('Fiducials'))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (InComponentClass('MouseBites'))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) ((OnLayer('Bottom Overlay')) OR (OnLayer('Top Overlay')))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1mil) (InNetClass('TX'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1mil) (InDifferentialPairClass('All Differential Pairs'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 0
+Waived Violations : 0
+Time Elapsed        : 00:00:02

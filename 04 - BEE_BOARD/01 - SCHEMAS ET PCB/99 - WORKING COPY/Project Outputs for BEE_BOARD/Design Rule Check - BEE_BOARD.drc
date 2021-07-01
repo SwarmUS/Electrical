@@ -1,18 +1,18 @@
 Protel Design System Design Rule Check
-PCB File : D:\Travaux\PMC\Altium\Electrical\04 - BEE_BOARD\01 - SCHEMAS ET PCB\99 - WORKING COPY\BEE_BOARD.PcbDoc
-Date     : 2021-05-24
-Time     : 16:09:55
-
-Processing Rule : Clearance Constraint (Gap=0mm) (IsVia and (NOT InAnyComponent)),(IsSMTPin Or IsThruPin  or IsVia)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.132mm) (IsVia and (NOT InAnyComponent)),(IsVia and (NOT InAnyComponent))
-Rule Violations :0
+PCB File : C:\Users\arsp2701\Documents\Travaux\Electrical\04 - BEE_BOARD\01 - SCHEMAS ET PCB\99 - WORKING COPY\BEE_BOARD.PcbDoc
+Date     : 2021-07-01
+Time     : 01:15:30
 
 Processing Rule : Clearance Constraint (Gap=0.31mm) (IsVia AND (InAnyComponent)),(IsVia AND (InAnyComponent))
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (IsVia and (NOT InAnyComponent)),(IsSMTPin Or IsThruPin  or IsVia)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.132mm) (IsVia and (NOT InAnyComponent)),(IsVia and (NOT InAnyComponent))
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -34,12 +34,9 @@ Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (
 Rule Violations :0
 
 Processing Rule : Minimum Annular Ring (Minimum=0.1mm) (All)
-   Violation between Minimum Annular Ring: (0.073mm < 0.1mm) Pad U3-9(-20.517mm,12.011mm) on Multi-Layer (Annular Ring=0.073mm) On (Top Layer)
-   Violation between Minimum Annular Ring: (0.073mm < 0.1mm) Pad U3-9(-20.792mm,11.535mm) on Multi-Layer (Annular Ring=0.073mm) On (Top Layer)
-   Violation between Minimum Annular Ring: (0.073mm < 0.1mm) Pad U3-9(-21.067mm,11.059mm) on Multi-Layer (Annular Ring=0.073mm) On (Top Layer)
-Rule Violations :3
+Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=0.25mm) (Max=6.5mm) (All)
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=6.5mm) (All)
 Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=0.203mm) (All),(All)
@@ -57,10 +54,10 @@ Rule Violations :0
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
-Processing Rule : Board Clearance Constraint (Gap=0mm) ((OnLayer('Bottom Overlay')) OR (OnLayer('Top Overlay')))
+Processing Rule : Board Clearance Constraint (Gap=0mm) (InComponentClass('Fiducials'))
 Rule Violations :0
 
-Processing Rule : Board Clearance Constraint (Gap=0mm) (InComponentClass('Fiducials'))
+Processing Rule : Board Clearance Constraint (Gap=0mm) (InComponentClass('MouseBites'))
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
@@ -71,7 +68,7 @@ Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
    Violation between Board Outline Clearance(Outline Edge): (0.013mm < 0.305mm) Between Board Edge And Pad J3-5(-11.416mm,23.518mm) on Bottom 
 Rule Violations :5
 
-Processing Rule : Board Clearance Constraint (Gap=0mm) (InComponentClass('MouseBites'))
+Processing Rule : Board Clearance Constraint (Gap=0mm) ((OnLayer('Bottom Overlay')) OR (OnLayer('Top Overlay')))
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Tolerance=0.025mm) (InNetClass('TX'))
@@ -80,22 +77,10 @@ Rule Violations :0
 Processing Rule : Matched Lengths(Tolerance=0.025mm) (InDifferentialPairClass('All Differential Pairs'))
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Tolerance=0.025mm) (InNetClass('CLK_FAN'))
-Rule Violations :0
-
-Processing Rule : Room CHAN_C (Bounding Region = (626.99mm, 605.202mm, 659.983mm, 629.216mm) ((InComponentClass('CHAN 0C + 1C')) AND NOT (HasFootprint('TVS_PWR_SMBJ5.0CA') OR HasFootprint('CON_USB_3.2_TypeC_12401598E4#2A')OR HasFootprint('TVS_DATA_DT1140-04LP-7')))
-Rule Violations :0
-
-Processing Rule : Room CHAN_B (Bounding Region = (593.997mm, 605.202mm, 626.99mm, 629.216mm) ((InComponentClass('CHAN 0B + 1B')) AND NOT (HasFootprint('TVS_PWR_SMBJ5.0CA') OR HasFootprint('CON_USB_3.2_TypeC_12401598E4#2A')OR HasFootprint('TVS_DATA_DT1140-04LP-7')))
-Rule Violations :0
-
-Processing Rule : Room CHAN_A (Bounding Region = (561.004mm, 605.189mm, 593.997mm, 629.216mm) ((InComponentClass('CHAN 0A + 1A')) AND NOT (HasFootprint('TVS_PWR_SMBJ5.0CA') OR HasFootprint('CON_USB_3.2_TypeC_12401598E4#2A')OR HasFootprint('TVS_DATA_DT1140-04LP-7')))
-Rule Violations :0
-
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 8
+Violations Detected : 5
 Waived Violations : 0
 Time Elapsed        : 00:00:02
