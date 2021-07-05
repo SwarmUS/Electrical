@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\02 - HIVE_BOARD\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_BOARD.PcbDoc
-Date     : 2021-06-29
-Time     : 9:37:01 PM
+Date     : 2021-07-04
+Time     : 2:52:02 PM
 
 Processing Rule : Clearance Constraint (Gap=0mm) (IsVia and (NOT InAnyComponent)),(IsSMTPin Or IsThruPin  or IsVia)
 Rule Violations :0
@@ -126,4 +126,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:07
+Time Elapsed        : 00:00:08
