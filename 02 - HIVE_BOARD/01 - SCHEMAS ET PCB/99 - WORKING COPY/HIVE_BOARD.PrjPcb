@@ -37,6 +37,11 @@ IncludeDesignInRelease=0
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
+[Release]
+ReleaseTarget=1
+ReleaseFolderPath=C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\02 - HIVE_BOARD\01 - SCHEMAS ET PCB\01 - REV. 0.000
+ReleaseZipPath=[OutputPath][ProjectName].zip
+
 [Document1]
 DocumentPath=HIVE_BOARD_TOP.SchDoc
 AnnotationEnabled=1
@@ -309,10 +314,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for HIVE_BOARD\Design Rule Check - HIVE_BOARD.html
-DItemRevisionGUID=
-
 [Parameter1]
 Name=Project_Date
 Value=2020-06-01
@@ -367,9 +368,31 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
 Variant=[No Variations]
-OutputJobsCount=0
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=HIVE_BOARD.OutJob
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Configuration2]
+Name=Fabrication
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration3]
+Name=Assembly
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
 
 [Generic_SignalIntegrityPanelSetup]
 TerminationName0=No Termination
@@ -477,15 +500,15 @@ TerminationMaxC7=0
 TerminationPrefC7=0
 TerminationVCC7=5
 
-[Generic_EDE]
-OutputDir=
-
 [Generic_SimulationProfiles]
 ActiveProfile=BJBNYVYO
 ProfileId0=BJBNYVYO
 ProfileName0=Mixed Sim
 OutputType0=AdvSimNetlist
 ConfigParameters0=
+
+[Generic_EDE]
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs

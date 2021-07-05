@@ -15,12 +15,12 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=HIVE_BOARD.OutJob
+Name=
 Description=
-TargetOutputMedium=PDF
+TargetOutputMedium=Assembly PDF
 VariantName=[No Variations]
-VariantScope=1
-CurrentConfigurationName=Sources
+VariantScope=2
+CurrentConfigurationName=Custom - 1
 TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=PDF
@@ -54,7 +54,7 @@ OutputName1=SCH
 OutputCategory1=Documentation
 OutputDocumentPath1=[Project Physical Documents]
 OutputVariantName1=
-OutputEnabled1=1
+OutputEnabled1=0
 OutputEnabled1_OutputMedium1=1
 OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=0
@@ -77,7 +77,7 @@ OutputName2=PCB
 OutputCategory2=Documentation
 OutputDocumentPath2=HIVE_BOARD.PcbDoc
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=2
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=0
@@ -230,7 +230,7 @@ OutputDocumentPath4=HIVE_BOARD.PcbDoc
 OutputVariantName4=
 OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
-OutputEnabled4_OutputMedium2=1
+OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=0
 OutputEnabled4_OutputMedium4=0
 OutputEnabled4_OutputMedium5=0
@@ -429,9 +429,9 @@ Configuration9_Item1=xportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=0|
 OutputType10=Composite
 OutputName10=PANEL
 OutputCategory10=Documentation
-OutputDocumentPath10=HIVE_BOARD_PANNEL.PcbDoc
+OutputDocumentPath10=HIVE_BOARD_PANEL.PcbDoc
 OutputVariantName10=
-OutputEnabled10=1
+OutputEnabled10=0
 OutputEnabled10_OutputMedium1=5
 OutputEnabled10_OutputMedium2=0
 OutputEnabled10_OutputMedium3=0
@@ -551,7 +551,7 @@ OutputName11=3D PDF
 OutputCategory11=Documentation
 OutputDocumentPath11=HIVE_BOARD.PcbDoc
 OutputVariantName11=
-OutputEnabled11=1
+OutputEnabled11=0
 OutputEnabled11_OutputMedium1=3
 OutputEnabled11_OutputMedium2=0
 OutputEnabled11_OutputMedium3=0
@@ -576,7 +576,7 @@ OutputDocumentPath12=HIVE_BOARD.PcbDoc
 OutputVariantName12=
 OutputEnabled12=0
 OutputEnabled12_OutputMedium1=0
-OutputEnabled12_OutputMedium2=2
+OutputEnabled12_OutputMedium2=0
 OutputEnabled12_OutputMedium3=0
 OutputEnabled12_OutputMedium4=0
 OutputEnabled12_OutputMedium5=0
@@ -638,7 +638,7 @@ Configuration14_Item1=Format=PCB ASCII File (*.PcbDoc)|Record=UniExporterView
 OutputType15=Pick Place
 OutputName15=PANEL PNP XY
 OutputCategory15=Assembly
-OutputDocumentPath15=HIVE_BOARD_PANNEL.PcbDoc
+OutputDocumentPath15=HIVE_BOARD_PANEL.PcbDoc
 OutputVariantName15=
 OutputEnabled15=0
 OutputEnabled15_OutputMedium1=0
@@ -660,7 +660,7 @@ Configuration15_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=True
 OutputType16=Assembly
 OutputName16=PANEL ASSEMBLY
 OutputCategory16=Assembly
-OutputDocumentPath16=HIVE_BOARD_PANNEL.PcbDoc
+OutputDocumentPath16=HIVE_BOARD_PANEL.PcbDoc
 OutputVariantName16=
 OutputEnabled16=1
 OutputEnabled16_OutputMedium1=6
@@ -754,11 +754,11 @@ PcbPrintPreferences16=
 OutputType17=Gerber
 OutputName17=PANEL Gerber
 OutputCategory17=Fabrication
-OutputDocumentPath17=HIVE_BOARD_PANNEL.PcbDoc
+OutputDocumentPath17=HIVE_BOARD_PANEL.PcbDoc
 OutputVariantName17=
 OutputEnabled17=0
 OutputEnabled17_OutputMedium1=0
-OutputEnabled17_OutputMedium2=0
+OutputEnabled17_OutputMedium2=1
 OutputEnabled17_OutputMedium3=0
 OutputEnabled17_OutputMedium4=0
 OutputEnabled17_OutputMedium5=0
@@ -776,11 +776,11 @@ Configuration17_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLaye
 OutputType18=NC Drill
 OutputName18=PANEL NC Drill
 OutputCategory18=Fabrication
-OutputDocumentPath18=HIVE_BOARD_PANNEL.PcbDoc
+OutputDocumentPath18=HIVE_BOARD_PANEL.PcbDoc
 OutputVariantName18=
 OutputEnabled18=0
 OutputEnabled18_OutputMedium1=0
-OutputEnabled18_OutputMedium2=0
+OutputEnabled18_OutputMedium2=2
 OutputEnabled18_OutputMedium3=0
 OutputEnabled18_OutputMedium4=0
 OutputEnabled18_OutputMedium5=0
@@ -798,7 +798,7 @@ Configuration18_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|G
 OutputType19=Save As/Export PCB
 OutputName19=PANEL ASCII
 OutputCategory19=Export
-OutputDocumentPath19=HIVE_BOARD_PANNEL.PcbDoc
+OutputDocumentPath19=HIVE_BOARD_PANEL.PcbDoc
 OutputVariantName19=
 OutputEnabled19=0
 OutputEnabled19_OutputMedium1=0
@@ -817,33 +817,32 @@ OutputEnabled19_OutputMedium13=0
 OutputDefault19=0
 Configuration19_Name1=OutputConfigurationParameter1
 Configuration19_Item1=Format=PCB ASCII File (*.PcbDoc)|Record=UniExporterView
-OutputType20=Design Rules Check
-OutputName20=PANEL DRC
-OutputCategory20=Validation
-OutputDocumentPath20=HIVE_BOARD_PANNEL.PcbDoc
+OutputType20=Gerber
+OutputName20=STENCIL TOP Gerber
+OutputCategory20=Fabrication
+OutputDocumentPath20=HIVE_BOARD_PANEL.PcbDoc
 OutputVariantName20=
 OutputEnabled20=0
 OutputEnabled20_OutputMedium1=0
 OutputEnabled20_OutputMedium2=0
 OutputEnabled20_OutputMedium3=0
 OutputEnabled20_OutputMedium4=0
-OutputEnabled20_OutputMedium5=2
+OutputEnabled20_OutputMedium5=0
 OutputEnabled20_OutputMedium6=0
 OutputEnabled20_OutputMedium7=0
 OutputEnabled20_OutputMedium8=0
 OutputEnabled20_OutputMedium9=0
 OutputEnabled20_OutputMedium10=0
-OutputEnabled20_OutputMedium11=0
+OutputEnabled20_OutputMedium11=1
 OutputEnabled20_OutputMedium12=0
 OutputEnabled20_OutputMedium13=0
 OutputDefault20=0
-PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration20_Name1=OutputConfigurationParameter1
-Configuration20_Item1=xportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=0|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=9|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9
-OutputType21=Gerber
-OutputName21=STENCIL TOP Gerber
-OutputCategory21=Fabrication
-OutputDocumentPath21=HIVE_BOARD_PANNEL.PcbDoc
+Configuration20_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973832~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+OutputType21=PCB Print
+OutputName21=STENCIL
+OutputCategory21=Documentation
+OutputDocumentPath21=HIVE_BOARD_PANEL.PcbDoc
 OutputVariantName21=
 OutputEnabled21=0
 OutputEnabled21_OutputMedium1=0
@@ -855,17 +854,27 @@ OutputEnabled21_OutputMedium6=0
 OutputEnabled21_OutputMedium7=0
 OutputEnabled21_OutputMedium8=0
 OutputEnabled21_OutputMedium9=0
-OutputEnabled21_OutputMedium10=0
-OutputEnabled21_OutputMedium11=1
+OutputEnabled21_OutputMedium10=1
+OutputEnabled21_OutputMedium11=0
 OutputEnabled21_OutputMedium12=0
 OutputEnabled21_OutputMedium13=0
 OutputDefault21=0
+PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.78|XCorrection=0.00|YCorrection=0.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration21_Name1=OutputConfigurationParameter1
-Configuration21_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973832~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
-OutputType22=PCB Print
-OutputName22=STENCIL
-OutputCategory22=Documentation
-OutputDocumentPath22=HIVE_BOARD_PANNEL.PcbDoc
+Configuration21_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration21_Name2=OutputConfigurationParameter2
+Configuration21_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Stencil TOP Printout|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration21_Name3=OutputConfigurationParameter3
+Configuration21_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopPaste|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration21_Name4=OutputConfigurationParameter4
+Configuration21_Item4=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=True|Name=Stencil BOT Printout|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration21_Name5=OutputConfigurationParameter5
+Configuration21_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomPaste|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+PcbPrintPreferences21=
+OutputType22=Gerber
+OutputName22=STENCIL BOT Gerber
+OutputCategory22=Fabrication
+OutputDocumentPath22=HIVE_BOARD_PANEL.PcbDoc
 OutputVariantName22=
 OutputEnabled22=0
 OutputEnabled22_OutputMedium1=0
@@ -876,28 +885,18 @@ OutputEnabled22_OutputMedium5=0
 OutputEnabled22_OutputMedium6=0
 OutputEnabled22_OutputMedium7=0
 OutputEnabled22_OutputMedium8=0
-OutputEnabled22_OutputMedium9=0
-OutputEnabled22_OutputMedium10=1
+OutputEnabled22_OutputMedium9=1
+OutputEnabled22_OutputMedium10=0
 OutputEnabled22_OutputMedium11=0
 OutputEnabled22_OutputMedium12=0
 OutputEnabled22_OutputMedium13=0
 OutputDefault22=0
-PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.78|XCorrection=0.00|YCorrection=0.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration22_Name1=OutputConfigurationParameter1
-Configuration22_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
-Configuration22_Name2=OutputConfigurationParameter2
-Configuration22_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Stencil TOP Printout|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration22_Name3=OutputConfigurationParameter3
-Configuration22_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopPaste|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration22_Name4=OutputConfigurationParameter4
-Configuration22_Item4=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=True|Name=Stencil BOT Printout|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration22_Name5=OutputConfigurationParameter5
-Configuration22_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomPaste|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
-PcbPrintPreferences22=
-OutputType23=Gerber
-OutputName23=STENCIL BOT Gerber
+Configuration22_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973833~1|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973833~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+OutputType23=Test Points
+OutputName23=PCB IPC-356
 OutputCategory23=Fabrication
-OutputDocumentPath23=HIVE_BOARD_PANNEL.PcbDoc
+OutputDocumentPath23=HIVE_BOARD.PcbDoc
 OutputVariantName23=
 OutputEnabled23=0
 OutputEnabled23_OutputMedium1=0
@@ -908,18 +907,18 @@ OutputEnabled23_OutputMedium5=0
 OutputEnabled23_OutputMedium6=0
 OutputEnabled23_OutputMedium7=0
 OutputEnabled23_OutputMedium8=0
-OutputEnabled23_OutputMedium9=1
+OutputEnabled23_OutputMedium9=0
 OutputEnabled23_OutputMedium10=0
 OutputEnabled23_OutputMedium11=0
-OutputEnabled23_OutputMedium12=0
-OutputEnabled23_OutputMedium13=0
+OutputEnabled23_OutputMedium12=1
+OutputEnabled23_OutputMedium13=1
 OutputDefault23=0
 Configuration23_Name1=OutputConfigurationParameter1
-Configuration23_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973833~1|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973833~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration23_Item1=AdjacencyDistance=250000|GenerateCSVFormat=False|GenerateIPCFormat=True|GenerateSpreadSheetFormat=False|GenerateTextFormat=False|MergeNetTieNets=True|OriginPosition=Relative|OutlineLayer=61|OutputAdjancencies=False|OutputBoardOutline=True|OutputTraces=False|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=True|Units=Imperial
 OutputType24=Test Points
-OutputName24=PCB IPC-356
+OutputName24=PANEL IPC-356
 OutputCategory24=Fabrication
-OutputDocumentPath24=HIVE_BOARD.PcbDoc
+OutputDocumentPath24=HIVE_BOARD_PANEL.PcbDoc
 OutputVariantName24=
 OutputEnabled24=0
 OutputEnabled24_OutputMedium1=0
@@ -933,33 +932,11 @@ OutputEnabled24_OutputMedium8=0
 OutputEnabled24_OutputMedium9=0
 OutputEnabled24_OutputMedium10=0
 OutputEnabled24_OutputMedium11=0
-OutputEnabled24_OutputMedium12=1
-OutputEnabled24_OutputMedium13=1
+OutputEnabled24_OutputMedium12=0
+OutputEnabled24_OutputMedium13=2
 OutputDefault24=0
 Configuration24_Name1=OutputConfigurationParameter1
-Configuration24_Item1=AdjacencyDistance=250000|GenerateCSVFormat=False|GenerateIPCFormat=True|GenerateSpreadSheetFormat=False|GenerateTextFormat=False|MergeNetTieNets=True|OriginPosition=Relative|OutlineLayer=61|OutputAdjancencies=False|OutputBoardOutline=True|OutputTraces=False|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=True|Units=Imperial
-OutputType25=Test Points
-OutputName25=PANEL IPC-356
-OutputCategory25=Fabrication
-OutputDocumentPath25=HIVE_BOARD_PANNEL.PcbDoc
-OutputVariantName25=
-OutputEnabled25=0
-OutputEnabled25_OutputMedium1=0
-OutputEnabled25_OutputMedium2=0
-OutputEnabled25_OutputMedium3=0
-OutputEnabled25_OutputMedium4=0
-OutputEnabled25_OutputMedium5=0
-OutputEnabled25_OutputMedium6=0
-OutputEnabled25_OutputMedium7=0
-OutputEnabled25_OutputMedium8=0
-OutputEnabled25_OutputMedium9=0
-OutputEnabled25_OutputMedium10=0
-OutputEnabled25_OutputMedium11=0
-OutputEnabled25_OutputMedium12=0
-OutputEnabled25_OutputMedium13=2
-OutputDefault25=0
-Configuration25_Name1=OutputConfigurationParameter1
-Configuration25_Item1=AdjacencyDistance=250000|GenerateCSVFormat=False|GenerateIPCFormat=True|GenerateSpreadSheetFormat=False|GenerateTextFormat=False|MergeNetTieNets=True|OriginPosition=Relative|OutlineLayer=62|OutputAdjancencies=False|OutputBoardOutline=True|OutputTraces=False|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=True|Units=Imperial
+Configuration24_Item1=AdjacencyDistance=250000|GenerateCSVFormat=False|GenerateIPCFormat=True|GenerateSpreadSheetFormat=False|GenerateTextFormat=False|MergeNetTieNets=True|OriginPosition=Relative|OutlineLayer=62|OutputAdjancencies=False|OutputBoardOutline=True|OutputTraces=False|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=True|Units=Imperial
 
 [PublishSettings]
 OutputFilePath1=Project Outputs for Free Documents\REV Project_PCB_Rev.Project_SCH_Rev (2020-09-23)\
@@ -991,7 +968,7 @@ PDFACompliance1=Disabled
 PDFVersion1=Default
 OutputFilePath2=Project Outputs for Free Documents\REV Project_PCB_Rev.Project_SCH_Rev (2020-09-23)\
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for HIVE_BOARD
+OutputBasePath2=
 OutputPathMedia2==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathMediaValue2==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathOutputer2=[Output Custom]
@@ -1004,7 +981,7 @@ OutputFileNameSpecial2=
 OpenOutput2=0
 OutputFilePath3=Project Outputs for Free Documents\REV Project_PCB_Rev.Project_SCH_Rev (2020-09-23)\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for HIVE_BOARD
+OutputBasePath3=
 OutputPathMedia3==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathMediaValue3==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathOutputer3=[Output Custom]
@@ -1017,7 +994,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 OutputFilePath4=Project Outputs for Free Documents\REV Project_PCB_Rev.Project_SCH_Rev (2020-09-23)\
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for HIVE_BOARD
+OutputBasePath4=
 OutputPathMedia4==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathMediaValue4==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathOutputer4=[Output Custom]
@@ -1030,7 +1007,7 @@ OutputFileNameSpecial4=
 OpenOutput4=0
 OutputFilePath5=Project Outputs for Free Documents\REV Project_PCB_Rev.Project_SCH_Rev (2020-09-23)\
 ReleaseManaged5=1
-OutputBasePath5=Project Outputs for HIVE_BOARD
+OutputBasePath5=
 OutputPathMedia5==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathMediaValue5==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathOutputer5=[Output Custom]
@@ -1043,7 +1020,7 @@ OutputFileNameSpecial5=
 OpenOutput5=0
 OutputFilePath6=Project Outputs for Free Documents\REV Project_PCB_Rev.Project_SCH_Rev (2020-09-23)\
 ReleaseManaged6=1
-OutputBasePath6=Project Outputs for HIVE_BOARD
+OutputBasePath6=
 OutputPathMedia6==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathMediaValue6==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathOutputer6=[Output Custom]
@@ -1056,7 +1033,7 @@ OutputFileNameSpecial6=
 OpenOutput6=0
 OutputFilePath7=Project Outputs for Free Documents\REV Project_PCB_Rev.Project_SCH_Rev (2020-09-23)\
 ReleaseManaged7=1
-OutputBasePath7=Project Outputs for HIVE_BOARD
+OutputBasePath7=
 OutputPathMedia7==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathMediaValue7==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathOutputer7=[Output Custom]
@@ -1083,7 +1060,7 @@ PDFACompliance7=Disabled
 PDFVersion7=Default
 OutputFilePath8=Project Outputs for Free Documents\REV Project_PCB_Rev.Project_SCH_Rev (2020-09-23)\
 ReleaseManaged8=1
-OutputBasePath8=Project Outputs for HIVE_BOARD
+OutputBasePath8=
 OutputPathMedia8==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathMediaValue8==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathOutputer8=[Output Custom]
@@ -1096,7 +1073,7 @@ OutputFileNameSpecial8=
 OpenOutput8=0
 OutputFilePath9=Project Outputs for Free Documents\REV Project_PCB_Rev.Project_SCH_Rev (2020-09-24)\
 ReleaseManaged9=1
-OutputBasePath9=Project Outputs for HIVE_BOARD
+OutputBasePath9=
 OutputPathMedia9==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathMediaValue9==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathOutputer9=[Output Custom]
@@ -1109,7 +1086,7 @@ OutputFileNameSpecial9=
 OpenOutput9=0
 OutputFilePath10=Project Outputs for Free Documents\REV Project_PCB_Rev.Project_SCH_Rev (2020-09-23)\
 ReleaseManaged10=1
-OutputBasePath10=Project Outputs for HIVE_BOARD
+OutputBasePath10=
 OutputPathMedia10==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathMediaValue10==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathOutputer10=[Output Custom]
@@ -1136,7 +1113,7 @@ PDFACompliance10=Disabled
 PDFVersion10=Default
 OutputFilePath11=Project Outputs for Free Documents\REV Project_PCB_Rev.Project_SCH_Rev (2020-09-24)\
 ReleaseManaged11=1
-OutputBasePath11=Project Outputs for HIVE_BOARD
+OutputBasePath11=
 OutputPathMedia11==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathMediaValue11==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathOutputer11=[Output Custom]
@@ -1149,7 +1126,7 @@ OutputFileNameSpecial11=
 OpenOutput11=0
 OutputFilePath12=Project Outputs for Free Documents\REV Project_PCB_Rev.Project_SCH_Rev (2020-09-23)\
 ReleaseManaged12=1
-OutputBasePath12=Project Outputs for HIVE_BOARD
+OutputBasePath12=
 OutputPathMedia12==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathMediaValue12==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathOutputer12=[Output Custom]
@@ -1162,7 +1139,7 @@ OutputFileNameSpecial12=
 OpenOutput12=0
 OutputFilePath13=Project Outputs for Free Documents\REV Project_PCB_Rev.Project_SCH_Rev (2020-09-23)\
 ReleaseManaged13=1
-OutputBasePath13=Project Outputs for HIVE_BOARD
+OutputBasePath13=
 OutputPathMedia13==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathMediaValue13==REV+' '+Project_PCB_Rev+'.'+Project_SCH_Rev+' ('+CurrentDate+')'
 OutputPathOutputer13=[Output Custom]
