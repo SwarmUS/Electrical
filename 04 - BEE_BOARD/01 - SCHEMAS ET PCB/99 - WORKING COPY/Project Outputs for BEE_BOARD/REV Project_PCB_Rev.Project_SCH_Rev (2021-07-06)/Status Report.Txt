@@ -1,0 +1,25 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 8:22:21 PM On 2021-07-06
+
+Output: SOURCE
+Type  : Copy Files
+From  : Project [BEE_BOARD.PrjPcb]
+   Generated File[BEE_BOARD_TITLE.SchDoc]
+   Generated File[BEE_BOARD_BLOCK_DIAG.SchDoc]
+   Generated File[BEE_BOARD_TOP.SchDoc]
+   Generated File[BEE_BOARD_POWER.SchDoc]
+   Generated File[BEE_BOARD_RECEIVE.SchDoc]
+   Generated File[BEE_BOARD_USB_C_POLARITY.SchDoc]
+   Generated File[BEE_BOARD_DECAWAVE.SchDoc]
+   Generated File[BEE_BOARD.PcbDoc]
+   Generated File[BEE_BOARD_PANNEL.PcbDoc]
+   Generated File[BEE_BOARD.OutJob]
+   Generated File[BEE_BOARD.BomDoc]
+   Generated File[BEE_BOARD.PrjPcb]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 8:22:21 PM On 2021-07-06

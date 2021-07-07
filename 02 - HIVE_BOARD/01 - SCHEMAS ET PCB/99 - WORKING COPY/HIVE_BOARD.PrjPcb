@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=PO
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -508,7 +508,7 @@ OutputType0=AdvSimNetlist
 ConfigParameters0=
 
 [Generic_EDE]
-OutputDir=
+OutputDir=PO
 
 [OutputGroup1]
 Name=Netlist Outputs

@@ -1,0 +1,12 @@
+DRC Rules Export File for PCB: C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\02 - HIVE_BOARD\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_BOARD_PANEL.PcbDoc
+RuleKind=Clearance|RuleName=DiffPair_Same|Scope=Board|Minimum=12.00
+RuleKind=Clearance|RuleName=DiffPair|Scope=Board|Minimum=12.00
+RuleKind=Clearance|RuleName=HV-Internal|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=250V-Internal|Scope=Board|Minimum=8.00
+RuleKind=Clearance|RuleName=HV-Header|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=250V-External|Scope=Board|Minimum=16.00
+RuleKind=Clearance|RuleName=HV-External|Scope=Board|Minimum=32.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
