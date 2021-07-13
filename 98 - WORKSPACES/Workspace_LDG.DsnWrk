@@ -3,20 +3,14 @@ Version=1.0
 [Project1]
 ProjectPath=..\99 - SWARMUS_LIB\SWARMUS_LIB.LibPkg
 [Project2]
-ProjectPath=..\99 - SWARMUS_LIB\LIBRAIRE_A_VALIDER\a_Valider_LDG.LibPkg
-[Project3]
-ProjectPath=..\99 - SWARMUS_LIB\LIBRAIRE_A_VALIDER\a_Valider_PA.LibPkg
-[Project4]
 ProjectPath=..\..\LOCAL\GRAMS_MASTER_LIB\GRAMS_MASTER_LIB.LibPkg
-[Project5]
-ProjectPath=..\99 - SWARMUS_LIB\LIBRAIRE_A_VALIDER\a_Valider_TEMP.LibPkg
-[Project6]
-ProjectPath=..\03 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PrjPcb
-[Project7]
-ProjectPath=..\01 - HIVE_SIGHT\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_SIGHT.PrjPcb
-[Project8]
-ProjectPath=..\05 - USB-C BREAKOUT\01 - SCHEMAS ET PCB\99 - WORKING COPY\USB-C_BREAKOUT.PrjPcb
-[Project9]
+[Project3]
 ProjectPath=..\02 - HIVE_BOARD\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_BOARD.PrjPcb
-[Project10]
+[Project4]
+ProjectPath=..\03 - UVLO_MODULE\01 - SCHEMAS ET PCB\99 - WORKING COPY\UVLO_MODULE.PrjPcb
+[Project5]
+ProjectPath=..\01 - HIVE_SIGHT\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_SIGHT.PrjPcb
+[Project6]
+ProjectPath=..\05 - USB-C BREAKOUT\01 - SCHEMAS ET PCB\99 - WORKING COPY\USB-C_BREAKOUT.PrjPcb
+[Project7]
 ProjectPath=..\04 - BEE_BOARD\01 - SCHEMAS ET PCB\99 - WORKING COPY\BEE_BOARD.PrjPcb
