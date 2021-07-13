@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: USB-C_BREAKOUT.PcbDoc   2021-07-13  8:12:06 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top to Bottom
+ASCII RoundHoles File : USB-C_BREAKOUT_PCB REV Project_PCB_Rev.Project_SCH_Rev-RoundHoles.TXT
+ASCII SlotHoles File : USB-C_BREAKOUT_PCB REV Project_PCB_Rev.Project_SCH_Rev-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.201mm)                                            Round             70        PTH        0.00inch (0.00mm)
+T2      20mil (0.5mm)                                             Slot              8         PTH        0.00inch (0.00mm)
+T3      26mil (0.65mm)                                            Slot              2         PTH        0.00inch (0.00mm)
+T4      31mil (0.787mm)                                           Round             10        PTH        0.00inch (0.00mm)
+T5      43mil (1.09mm)                                            Round             2         PTH        0.00inch (0.00mm)
+T6      26mil (0.65mm)                                            Round             2         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              94
+
+Total Processing Time (hh:mm:ss) : 00:00:00

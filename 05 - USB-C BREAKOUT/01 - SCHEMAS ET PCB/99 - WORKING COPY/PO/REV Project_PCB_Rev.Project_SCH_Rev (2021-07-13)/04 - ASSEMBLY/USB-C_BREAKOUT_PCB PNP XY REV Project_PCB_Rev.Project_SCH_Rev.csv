@@ -1,0 +1,31 @@
+Altium Designer Pick and Place Locations
+C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\05 - USB-C BREAKOUT\01 - SCHEMAS ET PCB\99 - WORKING COPY\PO\REV Project_PCB_Rev.Project_SCH_Rev (2021-07-13)\04 - ASSEMBLY\USB-C_BREAKOUT_PCB PNP XY REV Project_PCB_Rev.Project_SCH_Rev.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       13-07-21
+Time:       08:12
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+"Designator","Description","Package","Layer","Center-X(mil)","Center-Y(mil)","Rotation","Assembly Note","Assembly Type","Polarized","Manufacturer #1","Part Number #1","Supplier 1","Supplier Part Number 1","HelpURL"
+"RX1","CON - HDR 2 position 0.100" - TH","TH","TopLayer","1022,874","1227,585","90","","TH","No","Samtec Inc.","TS-102-G-A","Digi-Key","SAM1111-02-ND","http://suddendocs.samtec.com/prints/tx-1xx-x-x-mkt1.pdf"
+"TX1","CON - HDR 2 position 0.100" - TH","TH","TopLayer","1022,874","955,267","90","","TH","No","Samtec Inc.","TS-102-G-A","Digi-Key","SAM1111-02-ND","http://suddendocs.samtec.com/prints/tx-1xx-x-x-mkt1.pdf"
+"TX2","CON - HDR 2 position 0.100" - TH","TH","TopLayer","1022,874","138,315","270","","TH","No","Samtec Inc.","TS-102-G-A","Digi-Key","SAM1111-02-ND","http://suddendocs.samtec.com/prints/tx-1xx-x-x-mkt1.pdf"
+"D","CON - HDR 2 position 0.100" - TH","TH","TopLayer","1022,638","688,189","90","","TH","No","Samtec Inc.","TS-102-G-A","Digi-Key","SAM1111-02-ND","http://suddendocs.samtec.com/prints/tx-1xx-x-x-mkt1.pdf"
+"RX2","CON - HDR 2 position 0.100" - TH","TH","TopLayer","1022,874","410,632","270","","TH","No","Samtec Inc.","TS-102-G-A","Digi-Key","SAM1111-02-ND","http://suddendocs.samtec.com/prints/tx-1xx-x-x-mkt1.pdf"
+"R1","RES - 10K OHMS 1% 1/16W - 0402","0402","TopLayer","655,961","607,423","90","","SMD","NO","Yageo","RC0402FR-0710KL","Digi-Key","311-10.0KLRCT-ND","http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf"
+"R2","RES - 10K OHMS 1% 1/16W - 0402","0402","TopLayer","1161,400","782,526","90","","SMD","NO","Yageo","RC0402FR-0710KL","Digi-Key","311-10.0KLRCT-ND","http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf"
+"FID3","FID - FIDUCIAL 1MM CIRCLE DOUBLE-SIDED - 1MM","1MM CIRCLE","TopLayer","1881,716","1168,188","0","","NONE","","","","","","https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf"
+"FID2","FID - FIDUCIAL 1MM CIRCLE DOUBLE-SIDED - 1MM","1MM CIRCLE","TopLayer","1362,551","124,668","0","","NONE","","","","","","https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf"
+"FID1","FID - FIDUCIAL 1MM CIRCLE DOUBLE-SIDED - 1MM","1MM CIRCLE","TopLayer","378,053","1168,097","0","","NONE","","","","","","https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf"
+"CC2","TPO - PC TEST POINT MINI - SMD","SMD","TopLayer","1288,564","582,950","0","","SMD","No","Keystone Electronics","5019","Digi-Key","36-5019CT-ND","https://www.digikey.ca/product-detail/en/keystone-electronics/5019/36-5019CT-ND/3907344"
+"SBU1","TPO - PC TEST POINT MINI - SMD","SMD","TopLayer","786,749","582,950","0","","SMD","No","Keystone Electronics","5019","Digi-Key","36-5019CT-ND","https://www.digikey.ca/product-detail/en/keystone-electronics/5019/36-5019CT-ND/3907344"
+"SBU2","TPO - PC TEST POINT MINI - SMD","SMD","TopLayer","1288,564","809,125","0","","SMD","No","Keystone Electronics","5019","Digi-Key","36-5019CT-ND","https://www.digikey.ca/product-detail/en/keystone-electronics/5019/36-5019CT-ND/3907344"
+"CC1","TPO - PC TEST POINT MINI - SMD","SMD","TopLayer","786,749","839,125","0","","SMD","No","Keystone Electronics","5019","Digi-Key","36-5019CT-ND","https://www.digikey.ca/product-detail/en/keystone-electronics/5019/36-5019CT-ND/3907344"
+"J2","CON_USB - USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) 24 pos Receptacle - R/A","SMD + TH R/A","TopLayer","1796,535","688,976","90","","SMD + TH","Yes","Amphenol ICC (Commercial Products)","12401598E4#2A","Digi-Key","12401598E4#2ACT-ND","https://www.amphenol-icc.com/media/wysiwyg/files/drawing/12401598xxx2a.pdf"
+"J1","CON_USB - USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) 24 pos Receptacle - R/A","SMD + TH R/A","TopLayer","249,213","688,976","270","","SMD + TH","Yes","Amphenol ICC (Commercial Products)","12401598E4#2A","Digi-Key","12401598E4#2ACT-ND","https://www.amphenol-icc.com/media/wysiwyg/files/drawing/12401598xxx2a.pdf"
+"TP2","TPO - TEST POINT ROUND TH  - 100MIL","100 MIL round","TopLayer","553,436","1115,380","0","","NONE","","","","","",""
+"TP1","TPO - TEST POINT ROUND TH  - 100MIL","100 MIL round","TopLayer","1460,223","281,526","0","","NONE","","","","","",""

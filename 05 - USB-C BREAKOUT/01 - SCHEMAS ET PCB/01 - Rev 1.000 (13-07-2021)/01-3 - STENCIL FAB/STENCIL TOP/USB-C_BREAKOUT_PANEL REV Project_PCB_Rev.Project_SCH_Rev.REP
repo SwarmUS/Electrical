@@ -1,0 +1,19 @@
+*************************************************************
+FileName = USB-C_BREAKOUT_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Paste
+      File : USB-C_BREAKOUT_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+*************************************************************
+
