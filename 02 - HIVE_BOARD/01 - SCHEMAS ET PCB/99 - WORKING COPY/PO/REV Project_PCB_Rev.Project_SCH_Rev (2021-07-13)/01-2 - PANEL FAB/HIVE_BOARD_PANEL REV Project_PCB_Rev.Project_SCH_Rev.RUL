@@ -1,0 +1,12 @@
+DRC Rules Export File for PCB: C:\Users\ldgau\Desktop\SwarmUS_ALTIUM\Electrical\02 - HIVE_BOARD\01 - SCHEMAS ET PCB\99 - WORKING COPY\HIVE_BOARD_PANEL.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=5.91
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.76
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_VIA|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width_50_OHM|Scope=Board|Minimum=6.00
+RuleKind=Clearance|RuleName=Clearance_GEN|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Clearance_VIA|Scope=Board|Minimum=12.20
+RuleKind=Clearance|RuleName=Clearance_VIA_SAME|Scope=Board|Minimum=5.20
+RuleKind=Clearance|RuleName=Clearance_HOLE_2_PAD|Scope=Board|Minimum=0.00
+RuleKind=Clearance|RuleName=Clearance_KEEPOUT|Scope=Board|Minimum=4.00

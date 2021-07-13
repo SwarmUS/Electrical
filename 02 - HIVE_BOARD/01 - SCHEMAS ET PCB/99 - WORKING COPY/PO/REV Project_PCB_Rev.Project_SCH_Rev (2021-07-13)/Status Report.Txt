@@ -1,0 +1,13 @@
+Output: PANEL IPC-356
+Type  : Test Points
+From  : PCB Document [HIVE_BOARD_PANEL.PcbDoc]
+   Generated File[HIVE_BOARD-NETLIST-PANEL IPC-356 REV Project_PCB_Rev.Project_SCH_Rev]
+   Generated File[HIVE_BOARD-NETLIST-PANEL IPC-356 REV Project_PCB_Rev_1.Project_SCH_Rev]
+   Generated File[HIVE_BOARD-NETLIST-PANEL IPC-356 REV Project_PCB_Rev_1_2.Project_SCH_Rev]
+   Generated File[HIVE_BOARD-NETLIST-PANEL IPC-356 REV Project_PCB_Rev_1_2_3.Project_SCH_Rev]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 8:25:19 AM On 2021-07-13

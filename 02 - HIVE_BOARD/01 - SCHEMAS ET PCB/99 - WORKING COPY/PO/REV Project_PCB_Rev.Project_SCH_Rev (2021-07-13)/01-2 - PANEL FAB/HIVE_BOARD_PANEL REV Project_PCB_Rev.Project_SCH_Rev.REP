@@ -1,0 +1,1132 @@
+*************************************************************
+FileName = HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GBR
+AutoAperture = True
+*************************************************************
+Generating : GND_2
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GP2
+
+    Adding Layer      : GND_2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D91
+    D195
+    D197
+    D198
+    D199
+    D200
+    D202
+    D208
+    D209
+    D210
+    D211
+    D212
+    D213
+    D214
+    D215
+    D216
+    D217
+    D218
+    D219
+    D220
+    D221
+    D222
+    D223
+    D224
+    D225
+    D226
+    D227
+    D228
+    D229
+    D230
+    D231
+    D232
+    D233
+    D234
+    D235
+    D236
+    D237
+    D238
+    D239
+    D240
+    D241
+    D242
+    D243
+    D244
+    D245
+    D248
+    D249
+    D250
+    D251
+    D252
+    D253
+    D254
+*************************************************************
+
+*************************************************************
+Generating : PWR
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GP3
+
+    Adding Layer      : PWR
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D85
+    D91
+    D195
+    D197
+    D198
+    D199
+    D200
+    D202
+    D208
+    D209
+    D210
+    D211
+    D212
+    D213
+    D214
+    D216
+    D218
+    D220
+    D221
+    D223
+    D225
+    D229
+    D232
+    D233
+    D234
+    D235
+    D236
+    D239
+    D240
+    D241
+    D242
+    D243
+    D244
+    D250
+    D255
+    D256
+    D257
+    D258
+    D259
+    D260
+    D261
+    D262
+    D263
+    D264
+    D265
+    D266
+    D267
+    D268
+    D269
+    D270
+*************************************************************
+
+*************************************************************
+Generating : Signal_2
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.G2
+
+    Adding Layer      : Signal_2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D14
+    D15
+    D16
+    D17
+    D20
+    D22
+    D24
+    D89
+    D91
+    D161
+    D165
+    D172
+    D178
+    D182
+    D186
+    D192
+    D194
+    D271
+*************************************************************
+
+*************************************************************
+Generating : GND_3
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GP4
+
+    Adding Layer      : GND_3
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D91
+    D195
+    D197
+    D198
+    D199
+    D200
+    D202
+    D203
+    D204
+    D205
+    D206
+    D208
+    D209
+    D210
+    D211
+    D212
+    D213
+    D214
+    D215
+    D216
+    D217
+    D218
+    D219
+    D220
+    D221
+    D222
+    D223
+    D224
+    D225
+    D226
+    D227
+    D228
+    D229
+    D230
+    D231
+    D232
+    D233
+    D234
+    D235
+    D236
+    D237
+    D238
+    D239
+    D240
+    D241
+    D242
+    D243
+    D244
+    D245
+    D250
+    D272
+    D273
+*************************************************************
+
+*************************************************************
+Generating : Bottom
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GBL
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D22
+    D23
+    D28
+    D66
+    D68
+    D86
+    D91
+    D161
+    D162
+    D164
+    D165
+    D166
+    D167
+    D168
+    D169
+    D170
+    D171
+    D172
+    D173
+    D174
+    D175
+    D176
+    D177
+    D178
+    D179
+    D180
+    D181
+    D182
+    D183
+    D185
+    D186
+    D187
+    D188
+    D189
+    D190
+    D191
+    D192
+    D193
+    D194
+    D274
+    D275
+    D276
+*************************************************************
+
+*************************************************************
+Generating : Top
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GTL
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+    D123
+    D124
+    D125
+    D126
+    D127
+    D128
+    D129
+    D130
+    D131
+    D132
+    D133
+    D134
+    D135
+    D136
+    D137
+    D138
+    D139
+    D140
+    D141
+    D142
+    D143
+    D144
+    D145
+    D146
+    D147
+    D148
+    D149
+    D150
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D161
+    D162
+    D163
+    D164
+    D165
+    D166
+    D167
+    D168
+    D169
+    D170
+    D171
+    D172
+    D173
+    D174
+    D175
+    D176
+    D177
+    D178
+    D179
+    D180
+    D181
+    D182
+    D183
+    D184
+    D185
+    D186
+    D187
+    D188
+    D189
+    D190
+    D191
+    D192
+    D193
+    D194
+*************************************************************
+
+*************************************************************
+Generating : GND_1
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GP1
+
+    Adding Layer      : GND_1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D91
+    D195
+    D196
+    D197
+    D198
+    D199
+    D200
+    D201
+    D202
+    D203
+    D204
+    D205
+    D206
+    D207
+    D208
+    D209
+    D210
+    D211
+    D212
+    D213
+    D214
+    D215
+    D216
+    D217
+    D218
+    D219
+    D220
+    D221
+    D222
+    D223
+    D224
+    D225
+    D226
+    D227
+    D228
+    D229
+    D230
+    D231
+    D232
+    D233
+    D234
+    D235
+    D236
+    D237
+    D238
+    D239
+    D240
+    D241
+    D242
+    D243
+    D244
+    D245
+*************************************************************
+
+*************************************************************
+Generating : Signal_1
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.G1
+
+    Adding Layer      : Signal_1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D14
+    D15
+    D16
+    D17
+    D19
+    D20
+    D22
+    D89
+    D90
+    D91
+    D161
+    D170
+    D172
+    D178
+    D186
+    D187
+    D192
+    D194
+    D246
+    D247
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D11
+    D19
+    D20
+    D85
+    D89
+    D276
+    D277
+    D278
+    D279
+    D280
+    D281
+    D282
+    D283
+    D284
+    D285
+    D286
+    D287
+    D288
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D19
+    D20
+    D29
+    D31
+    D32
+    D33
+    D34
+    D39
+    D40
+    D46
+    D48
+    D51
+    D54
+    D58
+    D60
+    D61
+    D62
+    D63
+    D66
+    D68
+    D72
+    D74
+    D78
+    D89
+    D108
+    D109
+    D127
+    D128
+    D131
+    D132
+    D139
+    D140
+    D143
+    D150
+    D151
+    D152
+    D154
+    D155
+    D279
+    D284
+    D289
+    D290
+    D291
+    D292
+    D293
+    D294
+    D295
+    D296
+    D297
+    D298
+    D299
+    D300
+    D301
+    D302
+    D303
+    D304
+    D305
+    D306
+    D307
+    D308
+    D309
+    D310
+    D311
+    D312
+    D313
+    D314
+    D315
+    D316
+    D317
+    D318
+    D319
+    D320
+    D321
+    D322
+    D323
+    D324
+    D325
+    D326
+    D327
+    D328
+    D329
+    D330
+    D331
+    D332
+    D333
+    D334
+    D335
+    D336
+    D337
+    D338
+    D339
+    D340
+    D341
+    D342
+    D343
+    D344
+    D345
+    D346
+    D347
+    D348
+    D349
+    D350
+    D351
+    D352
+    D353
+    D354
+    D355
+    D356
+    D357
+    D358
+    D359
+    D360
+    D361
+    D362
+    D363
+    D364
+    D365
+    D366
+    D367
+    D368
+    D369
+    D370
+    D371
+    D372
+    D373
+    D374
+    D375
+    D376
+    D377
+    D378
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D56
+    D120
+    D126
+    D172
+    D183
+    D184
+    D379
+    D380
+    D381
+    D382
+    D383
+    D384
+    D385
+    D386
+    D387
+    D388
+    D389
+    D390
+    D391
+    D392
+    D393
+    D394
+    D395
+    D396
+    D397
+    D398
+    D399
+    D400
+    D401
+    D402
+    D403
+    D404
+    D405
+    D406
+    D407
+    D408
+    D409
+    D410
+    D411
+    D412
+    D413
+    D414
+    D415
+    D416
+    D417
+    D418
+    D419
+    D420
+    D421
+    D422
+    D423
+    D424
+    D425
+    D426
+    D427
+    D428
+    D429
+    D430
+    D431
+    D432
+    D433
+    D434
+    D435
+    D436
+    D437
+    D438
+    D439
+    D440
+    D441
+    D442
+    D443
+    D444
+    D445
+    D446
+    D447
+    D448
+    D449
+    D450
+    D451
+    D452
+    D453
+    D454
+    D455
+    D456
+    D457
+    D458
+    D459
+    D460
+    D461
+    D462
+    D463
+    D464
+    D465
+    D466
+    D467
+    D468
+    D469
+    D470
+    D471
+    D472
+    D473
+    D474
+    D475
+    D476
+    D477
+    D478
+    D479
+    D480
+    D481
+    D482
+    D483
+    D484
+    D485
+    D486
+    D487
+    D488
+    D489
+    D490
+    D491
+    D492
+    D493
+    D494
+    D495
+    D496
+    D497
+    D498
+    D499
+    D500
+    D501
+    D502
+    D503
+    D504
+    D505
+    D506
+    D507
+    D508
+    D509
+    D510
+    D511
+    D512
+    D513
+    D514
+    D515
+    D516
+    D517
+    D518
+    D519
+    D520
+    D521
+    D522
+    D523
+    D524
+    D525
+    D526
+    D527
+    D528
+    D529
+    D530
+    D531
+    D532
+    D533
+    D534
+    D535
+    D536
+    D537
+    D538
+    D539
+    D540
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D172
+    D183
+    D379
+    D382
+    D383
+    D386
+    D423
+    D425
+    D510
+    D511
+    D512
+    D513
+    D514
+    D515
+    D516
+    D517
+    D518
+    D519
+    D520
+    D521
+    D522
+    D523
+    D524
+    D525
+    D526
+    D527
+    D528
+    D529
+    D530
+    D531
+    D532
+    D533
+    D534
+    D535
+    D536
+    D537
+    D539
+    D540
+    D541
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D66
+    D68
+    D89
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D11
+    D20
+    D24
+    D89
+    D278
+    D280
+    D282
+    D284
+    D542
+    D543
+    D544
+    D545
+*************************************************************
+
+*************************************************************
+Generating : Manufacturing Notes
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GM9
+
+    Adding Layer      : Manufacturing Notes
+
+
+Used DCodes :
+    D11
+    D23
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Panel V-Grove
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GM8
+
+    Adding Layer      : Panel V-Grove
+
+
+Used DCodes :
+    D11
+    D89
+    D286
+*************************************************************
+
+*************************************************************
+Generating : Route Tool Path
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GM7
+
+    Adding Layer      : Route Tool Path
+
+
+Used DCodes :
+    D11
+    D286
+    D546
+*************************************************************
+
+*************************************************************
+Generating : Panel Outline
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GM6
+
+    Adding Layer      : Panel Outline
+
+
+Used DCodes :
+    D11
+    D547
+*************************************************************
+
+*************************************************************
+Generating : Board Outline
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GM5
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D11
+    D19
+    D548
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GD1
+
+    Adding Drill Pair : Top-Bottom
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D11
+    D19
+    D23
+    D86
+    D549
+    D550
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GG1
+
+    Adding Drill Pair : Top-Bottom
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D549
+*************************************************************
+
