@@ -122,6 +122,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=PO\Design Rule Check - USB-C_BREAKOUT.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Project_Date
 Value=2021-05-15
