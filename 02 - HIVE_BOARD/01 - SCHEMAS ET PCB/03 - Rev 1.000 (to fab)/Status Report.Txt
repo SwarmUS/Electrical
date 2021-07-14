@@ -1,0 +1,12 @@
+Source PCB Design HIVE_BOARD_PANEL.PcbDoc contains embedded board array. It is recomended to generate individual BOM for each embedded board PCB design.
+
+Output: Report Board Stack
+Type  : Report Board Stack
+From  : Project [HIVE_BOARD.PrjPcb]
+   Generated File[HIVE_BOARD_PANEL.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 22:14:09 On 2021-07-13
