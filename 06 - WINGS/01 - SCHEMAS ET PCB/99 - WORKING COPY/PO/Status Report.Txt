@@ -1,0 +1,24 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [WINGS.PrjPcb]
+   Generated File[WINGS.GTO]
+   Generated File[WINGS.GTP]
+   Generated File[WINGS.GTS]
+   Generated File[WINGS.GTL]
+   Generated File[WINGS.GP1]
+   Generated File[WINGS.GP2]
+   Generated File[WINGS.GBL]
+   Generated File[WINGS.GBS]
+   Generated File[WINGS.GBP]
+   Generated File[WINGS.GBO]
+   Generated File[WINGS.GM16]
+   Generated File[WINGS.GM15]
+   Generated File[WINGS.RUL]
+   Generated File[WINGS.EXTREP]
+   Generated File[WINGS.REP]
+
+
+Files Generated   : 15
+Documents Printed : 0
+
+Finished Output Generation At 14:48:00 On 2021-08-30
