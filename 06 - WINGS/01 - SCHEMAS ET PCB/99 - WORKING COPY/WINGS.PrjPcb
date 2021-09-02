@@ -92,7 +92,7 @@ GenerateClassCluster=0
 DocumentUniqueId=GNYTCPOA
 
 [Document4]
-DocumentPath=WINGS_Componenets.SchDoc
+DocumentPath=WINGS_Components.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
