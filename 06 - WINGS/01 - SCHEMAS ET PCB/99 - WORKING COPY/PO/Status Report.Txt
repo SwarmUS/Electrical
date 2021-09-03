@@ -1,14 +1,10 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [WINGS.PrjPcb]
-   Generated File[WINGS-RoundHoles.TXT]
-   Generated File[WINGS-SlotHoles.TXT]
-   Generated File[WINGS.DRL]
-   Generated File[WINGS.LDP]
-   Generated File[WINGS.DRR]
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [WINGS.PrjPcb]
+   Generated File[Pick Place for WINGS.txt]
 
 
-Files Generated   : 5
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 16:36:31 On 2021-09-03
+Finished Output Generation At 16:47:45 On 2021-09-03

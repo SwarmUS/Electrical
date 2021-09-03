@@ -5,7 +5,7 @@ C:\Users\arsp2701\Documents\Travaux\Electrical\06 - WINGS\01 - SCHEMAS ET PCB\99
 File Design Information:
 
 Date:       03-09-21
-Time:       13:48
+Time:       16:47
 Revision:   Not in VersionControl
 Variant:    No variations
 Units used: mil

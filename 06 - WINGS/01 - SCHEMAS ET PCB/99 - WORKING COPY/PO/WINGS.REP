@@ -2,47 +2,96 @@
 FileName = WINGS.GBR
 AutoAperture = True
 *************************************************************
-Generating : GND_2
-      File : WINGS.GP2
+Generating : Top Solder
+      File : WINGS.GTS
 
-    Adding Layer      : GND_2
+    Adding Layer      : Top Solder
 
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-*************************************************************
-
-*************************************************************
-Generating : GND_1
-      File : WINGS.GP1
-
-    Adding Layer      : GND_1
+    Adding Layer      : Top
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
     D13
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : WINGS.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : WINGS.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : WINGS.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : WINGS.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D11
+    D13
+    D51
 *************************************************************
 
 *************************************************************
@@ -70,6 +119,62 @@ Used DCodes :
     D36
     D37
     D38
+*************************************************************
+
+*************************************************************
+Generating : GND_1
+      File : WINGS.GP1
+
+    Adding Layer      : GND_1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : GND_2
+      File : WINGS.GP2
+
+    Adding Layer      : GND_2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : WINGS.GM16
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D11
+    D13
 *************************************************************
 
 *************************************************************
@@ -123,111 +228,7 @@ Used DCodes :
     D12
     D13
     D49
-*************************************************************
-
-*************************************************************
-Generating : Bottom Courtyard
-      File : WINGS.GM16
-
-    Adding Layer      : Bottom Courtyard
-
-
-Used DCodes :
-    D11
-    D13
-*************************************************************
-
-*************************************************************
-Generating : Top Courtyard
-      File : WINGS.GM15
-
-    Adding Layer      : Top Courtyard
-
-
-Used DCodes :
-    D11
-    D13
     D50
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : WINGS.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D14
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : WINGS.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : WINGS.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : WINGS.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
 *************************************************************
 
 *************************************************************
@@ -241,8 +242,8 @@ Generating : Drill Drawing
 
 Used DCodes :
     D13
-    D51
     D52
+    D53
 *************************************************************
 
 *************************************************************
@@ -255,6 +256,6 @@ Generating : Drill Guide
 
 
 Used DCodes :
-    D51
+    D52
 *************************************************************
 

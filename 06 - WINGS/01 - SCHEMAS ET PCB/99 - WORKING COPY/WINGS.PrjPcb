@@ -623,11 +623,12 @@ Name=Assembly Outputs
 Description=
 TargetPrinter=HP88F1D5 (HP OfficeJet Pro 8710)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Test Points For Assembly
-OutputName1=Test Point Report
+OutputType1=Assembly
+OutputName1=Assembly Drawings
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType2=Pick Place
 OutputName2=Generates pick and place files
 OutputDocumentPath2=
@@ -637,12 +638,11 @@ Configuration2_Name1=ForceUpdateSettings
 Configuration2_Item1=False
 Configuration2_Name2=OutputConfigurationParameter1
 Configuration2_Item2=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Assembly Note,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#18=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#19=Name:Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#20=Name:Solder Paste Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#21=Name:Stencil Thickness (Recommended),Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#22=Name:HelpURL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#23=Name:Part Number #1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#24=Name:Manufacturer #1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#25=Name:Manufacturer #2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#26=Name:Power Max,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#27=Name:Polarized,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#28=Name:Current Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#29=Name:Magnetic Material,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#30=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#31=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#32=Name:Part Number #2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#33=Name:VerifiedBy,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#34=Name:Cryo,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#35=Name:Voltage Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#36=Name:GRAMS Lib Spec,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#37=Name:CreatedBy/Date,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#38=Name:Note,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#39=Name:Assembly Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#40=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#41=Name:Supplier 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34|DocumentPath=C:\Users\arsp2701\Documents\Travaux\Electrical\06 - WINGS\01 - SCHEMAS ET PCB\99 - WORKING COPY\WINGS.PcbDoc
-OutputType3=Assembly
-OutputName3=Assembly Drawings
+OutputType3=Test Points For Assembly
+OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup5]
 Name=Fabrication Outputs
