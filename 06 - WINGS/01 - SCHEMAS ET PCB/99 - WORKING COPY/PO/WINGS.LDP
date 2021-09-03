@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\arsp2701\Documents\Travaux\Electrical\06 - WINGS\01 - SCHEMAS ET PCB\99 - WORKING COPY\WINGS.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=wings-roundholes.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=wings-slotholes.txt|DrillLayers=gtl,gp1,gp2,gbl

@@ -1,0 +1,18 @@
+Altium Designer Pick and Place Locations
+C:\Users\arsp2701\Documents\Travaux\Electrical\06 - WINGS\01 - SCHEMAS ET PCB\99 - WORKING COPY\PO\Pick Place for WINGS.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       03-09-21
+Time:       13:48
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment       Layer    Footprint                       Center-X(mil) Center-Y(mil) Rotation Description                                                                                                                           
+J1         USB4151-GF-C  TopLayer CON_USB-C_USB4151-GF-C          248.937       288.583       90       "CON - USB-C (USB TYPE-C) USB 3.2 Gen 1 (USB 3.1 Gen 1, Superspeed (USB 3.0)) Plug Connector 24 Position Surface Mount, Through Hole" 
+J2         12401598E4#2A TopLayer CON_USB_3.2_TypeC_12401598E4#2A 771.365       283.039       90       "CON_USB - USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) 24 pos Receptacle - R/A"                                             
+FID3       "FID 1MM"     TopLayer FID_CIRCLE_1MM                  91.776        87.847        0        "FID - FIDUCIAL 1MM CIRCLE DOUBLE-SIDED - 1MM"                                                                                        
+FID2       "FID 1MM"     TopLayer FID_CIRCLE_1MM                  438.295       462.367       0        "FID - FIDUCIAL 1MM CIRCLE DOUBLE-SIDED - 1MM"                                                                                        
+FID1       "FID 1MM"     TopLayer FID_CIRCLE_1MM                  84.888        483.318       0        "FID - FIDUCIAL 1MM CIRCLE DOUBLE-SIDED - 1MM"                                                                                        

@@ -2,26 +2,113 @@
 FileName = WINGS.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Courtyard
-      File : WINGS.GM15
+Generating : GND_2
+      File : WINGS.GP2
 
-    Adding Layer      : Top Courtyard
+    Adding Layer      : GND_2
 
-
-Used DCodes :
-    D11
-    D50
-*************************************************************
-
-*************************************************************
-Generating : Bottom Courtyard
-      File : WINGS.GM16
-
-    Adding Layer      : Bottom Courtyard
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D13
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : GND_1
+      File : WINGS.GP1
+
+    Adding Layer      : GND_1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : Top
+      File : WINGS.GTL
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D22
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Bottom
+      File : WINGS.GBL
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D22
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D48
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : WINGS.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
     D11
+    D12
+    D13
 *************************************************************
 
 *************************************************************
@@ -33,7 +120,51 @@ Generating : Bottom Overlay
 
 Used DCodes :
     D11
+    D12
     D13
+    D49
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : WINGS.GM16
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D11
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : WINGS.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D11
+    D13
+    D50
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : WINGS.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
 *************************************************************
 
 *************************************************************
@@ -48,6 +179,7 @@ Generating : Bottom Paste
 
 
 Used DCodes :
+    D13
 *************************************************************
 
 *************************************************************
@@ -62,6 +194,7 @@ Generating : Bottom Solder
 
 
 Used DCodes :
+    D13
     D18
     D19
     D20
@@ -84,6 +217,7 @@ Generating : Top Solder
 
 
 Used DCodes :
+    D13
     D16
     D17
     D18
@@ -97,125 +231,30 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : WINGS.GTP
+Generating : Drill Drawing
+      File : WINGS.GD1
 
-    Adding Layer      : Top Paste
+    Adding Drill Pair : Top-Bottom
 
-    Adding Layer      : Top
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Drill Drawing
 
 
 Used DCodes :
-    D14
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : WINGS.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
     D13
+    D51
+    D52
 *************************************************************
 
 *************************************************************
-Generating : Bottom
-      File : WINGS.GBL
+Generating : Drill Guide
+      File : WINGS.GG1
 
-    Adding Layer      : Bottom
+    Adding Drill Pair : Top-Bottom
 
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Drill Guide
 
 
 Used DCodes :
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D49
-*************************************************************
-
-*************************************************************
-Generating : GND_2
-      File : WINGS.GP2
-
-    Adding Layer      : GND_2
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-*************************************************************
-
-*************************************************************
-Generating : GND_1
-      File : WINGS.GP1
-
-    Adding Layer      : GND_1
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-*************************************************************
-
-*************************************************************
-Generating : Top
-      File : WINGS.GTL
-
-    Adding Layer      : Top
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
+    D51
 *************************************************************
 

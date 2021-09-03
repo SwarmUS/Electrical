@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: WINGS.GBR   2021-08-30  14:47:59
+Gerber File Extension Report For: WINGS.GBR   2021-09-03  16:36:15
 ------------------------------------------------------------------------------------------
 
 
@@ -18,4 +18,6 @@ Layer Extension     Layer Description
 .GBO                Bottom Overlay                          
 .GM16               Bottom Courtyard                        
 .GM15               Top Courtyard                           
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
 ------------------------------------------------------------------------------------------

@@ -1,24 +1,14 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [WINGS.PrjPcb]
-   Generated File[WINGS.GTO]
-   Generated File[WINGS.GTP]
-   Generated File[WINGS.GTS]
-   Generated File[WINGS.GTL]
-   Generated File[WINGS.GP1]
-   Generated File[WINGS.GP2]
-   Generated File[WINGS.GBL]
-   Generated File[WINGS.GBS]
-   Generated File[WINGS.GBP]
-   Generated File[WINGS.GBO]
-   Generated File[WINGS.GM16]
-   Generated File[WINGS.GM15]
-   Generated File[WINGS.RUL]
-   Generated File[WINGS.EXTREP]
-   Generated File[WINGS.REP]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [WINGS.PrjPcb]
+   Generated File[WINGS-RoundHoles.TXT]
+   Generated File[WINGS-SlotHoles.TXT]
+   Generated File[WINGS.DRL]
+   Generated File[WINGS.LDP]
+   Generated File[WINGS.DRR]
 
 
-Files Generated   : 15
+Files Generated   : 5
 Documents Printed : 0
 
-Finished Output Generation At 14:48:00 On 2021-08-30
+Finished Output Generation At 16:36:31 On 2021-09-03
