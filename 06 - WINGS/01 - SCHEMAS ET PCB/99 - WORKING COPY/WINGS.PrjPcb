@@ -178,50 +178,62 @@ DocumentPath=PO\WINGS.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=PO\WINGS.GM15
+DocumentPath=PO\WINGS.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=PO\WINGS.GM16
+DocumentPath=PO\WINGS.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=PO\WINGS.GP1
+DocumentPath=PO\WINGS.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=PO\WINGS.GP2
+DocumentPath=PO\WINGS.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=PO\WINGS.GTL
+DocumentPath=PO\WINGS.GM16
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=PO\WINGS.GTO
+DocumentPath=PO\WINGS.GP1
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=PO\WINGS.GTP
+DocumentPath=PO\WINGS.GP2
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=PO\WINGS.GTS
+DocumentPath=PO\WINGS.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=PO\WINGS.LDP
+DocumentPath=PO\WINGS.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=PO\WINGS.REP
+DocumentPath=PO\WINGS.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=PO\WINGS.RUL
+DocumentPath=PO\WINGS.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument25]
+DocumentPath=PO\WINGS.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=PO\WINGS.REP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=PO\WINGS.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument28]
 DocumentPath=PO\WINGS.xls
 DItemRevisionGUID=
 
@@ -782,7 +794,7 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842753~1,16842754~1,16842751~1,16973835~1,16973833~1,16973831~1,16908304~1,16908303~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\arsp2701\Documents\Travaux\Electrical\06 - WINGS\01 - SCHEMAS ET PCB\99 - WORKING COPY\WINGS.PcbDoc
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842753~1,16842754~1,16842751~1,16973835~1,16973833~1,16973831~1,16908304~1,16908303~1,16908293~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\arsp2701\Documents\Travaux\Electrical\06 - WINGS\01 - SCHEMAS ET PCB\99 - WORKING COPY\WINGS.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
@@ -846,6 +858,18 @@ OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=BOM_ReportCompare
+OutputName7=BOM Compare
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Export Comments
+OutputName8=Export Comments
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs

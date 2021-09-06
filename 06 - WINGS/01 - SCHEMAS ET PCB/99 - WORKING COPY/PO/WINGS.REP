@@ -2,6 +2,133 @@
 FileName = WINGS.GBR
 AutoAperture = True
 *************************************************************
+Generating : GND_1
+      File : WINGS.GP1
+
+    Adding Layer      : GND_1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : GND_2
+      File : WINGS.GP2
+
+    Adding Layer      : GND_2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : Bottom
+      File : WINGS.GBL
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D22
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D48
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : WINGS.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top
+      File : WINGS.GTL
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D22
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : WINGS.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+*************************************************************
+
+*************************************************************
 Generating : Top Solder
       File : WINGS.GTS
 
@@ -50,6 +177,18 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Board Outline
+      File : WINGS.GM5
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D12
+    D13
+*************************************************************
+
+*************************************************************
 Generating : Bottom Paste
       File : WINGS.GBP
 
@@ -61,158 +200,6 @@ Generating : Bottom Paste
 
 
 Used DCodes :
-    D13
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : WINGS.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D14
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Top Courtyard
-      File : WINGS.GM15
-
-    Adding Layer      : Top Courtyard
-
-
-Used DCodes :
-    D11
-    D13
-    D51
-*************************************************************
-
-*************************************************************
-Generating : Top
-      File : WINGS.GTL
-
-    Adding Layer      : Top
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D22
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-*************************************************************
-
-*************************************************************
-Generating : GND_1
-      File : WINGS.GP1
-
-    Adding Layer      : GND_1
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-*************************************************************
-
-*************************************************************
-Generating : GND_2
-      File : WINGS.GP2
-
-    Adding Layer      : GND_2
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-*************************************************************
-
-*************************************************************
-Generating : Bottom Courtyard
-      File : WINGS.GM16
-
-    Adding Layer      : Bottom Courtyard
-
-
-Used DCodes :
-    D11
-    D13
-*************************************************************
-
-*************************************************************
-Generating : Bottom
-      File : WINGS.GBL
-
-    Adding Layer      : Bottom
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D22
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D48
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : WINGS.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
     D13
 *************************************************************
 
@@ -229,6 +216,31 @@ Used DCodes :
     D13
     D49
     D50
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : WINGS.GM16
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D11
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : WINGS.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D11
+    D13
+    D51
 *************************************************************
 
 *************************************************************
