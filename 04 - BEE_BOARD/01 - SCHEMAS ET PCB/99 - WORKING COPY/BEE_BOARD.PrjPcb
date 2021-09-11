@@ -210,57 +210,74 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document11]
+DocumentPath=BEE_BOARD.Annotation
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for BEE_BOARD\Design Rule Check - BEE_BOARD.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Project_Date
-Value=2021-03-18
+Name=Project_Stencil_Top_Thickness
+Value=0.1 MM
 
 [Parameter2]
-Name=Project_DateCode
-Value=
-
-[Parameter3]
-Name=Project_Designer1
-Value=Philippe Arsenault
-
-[Parameter4]
-Name=Project_Designer2
-Value=Hubert Dube
-
-[Parameter5]
-Name=Project_Designer3
-Value=Louis-Daniel Gaulin
-
-[Parameter6]
-Name=Project_Designer4
-Value=
-
-[Parameter7]
-Name=Project_Global
-Value=PMC
-
-[Parameter8]
-Name=Project_Group
-Value=SwarmUS
-
-[Parameter9]
-Name=Project_Name
-Value=BeeBoard
-
-[Parameter10]
-Name=Project_Revision
-Value=1.000
-
-[Parameter11]
 Name=Project_Stencil_Bot_Thickness
 Value=0.1 MM
 
+[Parameter3]
+Name=Project_Revision
+Value=2.000
+
+[Parameter4]
+Name=Project_Name
+Value=BeeBoard
+
+[Parameter5]
+Name=Project_Group
+Value=SwarmUS
+
+[Parameter6]
+Name=Project_Global
+Value=PMC
+
+[Parameter7]
+Name=Project_Designer4
+Value=
+
+[Parameter8]
+Name=Project_Designer3
+Value=Louis-Daniel Gaulin
+
+[Parameter9]
+Name=Project_Designer2
+Value=Hubert Dube
+
+[Parameter10]
+Name=Project_Designer1
+Value=Philippe Arsenault
+
+[Parameter11]
+Name=Project_DateCode
+Value=
+
 [Parameter12]
-Name=Project_Stencil_Top_Thickness
-Value=0.1 MM
+Name=Project_Date
+Value=2021-03-18
 
 [Configuration1]
 Name=Sources
@@ -765,6 +782,18 @@ OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=BOM_ReportCompare
+OutputName7=BOM Compare
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Export Comments
+OutputName8=Export Comments
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
