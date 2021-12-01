@@ -1,0 +1,30 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: HIVE_BOARD_PANEL REV Project_PCB_Rev.Project_SCH_Rev.GBR   2021-12-01  12:22:18 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top                                     
+.GP1                GND_1                                   
+.G1                 Signal_1                                
+.GP2                GND_2                                   
+.GP3                PWR                                     
+.G2                 Signal_2                                
+.GP4                GND_3                                   
+.GBL                Bottom                                  
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM9                Manufacturing Notes                     
+.GM8                Panel V-Grove                           
+.GM7                Route Tool Path                         
+.GM6                Panel Outline                           
+.GM5                Board Outline                           
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
+------------------------------------------------------------------------------------------
